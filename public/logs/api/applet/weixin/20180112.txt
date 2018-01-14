@@ -1,0 +1,909 @@
+================anyIndex-strData=========2018-01-12 22:45:30==========
+QYDBmgm2/xel+bP9zQixtqtco9Wwv1dMZVCiugVQQ2mGoqkMjMM2G7A8/vmb960O
+================anyIndex-strData=========2018-01-12 22:45:30==========
+Oj4XRenMQrbydOrQlA7Tdg5qqFwha7uzP5zVOkuWue0AyGiwtD4ww+e7f4BsiKmIIpn8Rsc7L6QVhb2ir6Di8rcvjx2gyxhxT/eOsd0Jk5PFI9Gh+AICVfVPoWLcywrN9hjQ0Nr88fn8e4luLal5sfOcH4SXUWHyhpHl3/8OJ1zIzhP+J7lofthajXlmoEZCR8mgbm/4d37B4xWVi8FkKsx/twQpQqqWaAwcp6++/FtiPhq+Fpxzl5MoAMHb278R5OD0hqNxWAMq6DAmFZuL39zWChbJ3DHVlI/OPb4duvhLPfij7/SxgoSZ+uS1W+GqpaSjIURvu1B1l+GFYHVt9IRAWV8EKA/xwxsT1uMCrNoMlrvvD+BiH3CXrbsgRk9E2BA+l7+GusVg1YQPMR5Pr+z2Sd8Q3B58drBFgFoWGTcKAXE8lCOJCqDh8TOCfzV0yJpYBUbvOjl6z83tGJa8kaZRteY2P9itc+Xmv3AB9Ojd3ct6BLTQT4Ef4FpN2gWphXCXZs1hpNT+NXoUbs4Uo3EvL+bL3F7vTohuxvgirxkJxAxHNAB/H6d/TzldVvmjUwve/YNtMxMe+vlM9SZPw/1dt3ATrHtoI/Z/l/0bqsJIPg8KoyGK5+gLzgpOnaCL6PhmvNbjK4KaxMxDecJSooEhiIuTHpKIOBm0j1d7xPrdlpwpg1lBCHN72wOLXOqNOPvK5rJVyDy4K/6FSL5FJwSZRWKJWIHISVSv/z7EAE1SY6yQ6rnGN3TuPsLslw/a
+================RunCmd-strData-解密=========2018-01-12 22:45:31==========
+{"cmd":"login","encryptedData":"/X8VsdgCwb9HxUjqjNkpjsVW2BqFNsjnJY3lgHsW1GOD136D3K1yZMNZsQkCxNrhAv+lH0wR8MoQNrP0SN3QRNd1NRl2knYUyjwNdiQP01hc26RL/ERmdbiqlPDkpho59gUw5Ig4dxJy98dytVglSz8X7YSDb7W3M0X8IlxCwIl7iVaPLPt8BsOIdUFTG1vRhXZ6Iit8AzFWz82rzkhIn8qdK+rkoAb5E55FF4hg3jOgUjtg/53cZvrT5WGuuOGgESHrVpeCX4uCSa1LwzqT/Q1OV97XeowNijPg097koRg1o0t1Qrj6fdeeZNnA7hnDxQWRzUxmIq+ETv+rsgvY92oL+7wg+jBywT2rs0PEa+zTgKWFm6Vi53tQ0/aTk5kQCKxguofff3oMT7Ze7jMQsCZRhULhSGYVVdKBDbupU/grGNdNvo35WWzH+VcpuEg/dncsRUEtRlbzFZrGsWj6YWAnXaSHhRNTFp9pAt0n3aQ=","iv":"2h2XsxrKbh1RIVfKl2ZADQ%3D%3D"}
+================RunCmd-strData-解密=========2018-01-12 22:45:32==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 22:45:32==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strRet=========2018-01-12 22:45:34==========
+{"errcode":1,"errmsg":"success","data":{"minute":0,"totalMinute":480}}
+================anyIndex-strData=========2018-01-12 22:54:59==========
+Oj4XRenMQrbydOrQlA7Tdg5qqFwha7uzP5zVOkuWue14uhaUVdUUMqZkti0CFqZ6Z8jbKVPsfuj1yEe30Ded4FgEd4JEIKAHdBpQLSBkseItzq73EoSrHpS2nrltQFjtsi1NjZxiDYSr0xkM9l6KJnAmszQ5N2TAWZNP3YgGEsxeg8DMkZTmYRw3O3BiVuMVpIdWx9hIwU4kA0d4GiMZjHWu1+tA5WP/RgFNE6npdIn4gOm7BAVFNgZDiG3o5HV+HfELzwNeGQBrcITWSRBk+vg+EZYa7vkZTTTWggmaZA1lkJudtfRIcqDeF/cLvPRN+SpsqHdOp0AIfGuW0BNziv3NcJj53x8YUDBWXETyi/MitKtijNKTVXQvAAPYztlLSdB/LS/e0GnbpORm9ocL9wxakuZvA7GvuajRtPOfqEdeUy7cqSX5DgmN5fyx5iK8eeaEFm63daut8Hop30Ln+ZArnh1CyV/SML7ZCMFRUcRks331yGyEd0Ws2IdJwthZWVInzbFI4PmFlfd/v0CNftWUquZhHahlGwy98AuNR4pjLgm9/zP+74smTezeOMJRpayAcJ8Ul8FMsV5U1pO9zQqaTOCxSsn5hg3b5Z+0Ktbwycew12EsaLf1NKaCzwH+EGm7qtMijPaK+H7QU1BymyVgujoTFtTtrpzjOo/nX3eovnDp4kDmO+e1Ugq9ygwjVSCYZchdjswyJmkvfYH9CeSIVaj08vg5+pPdq1Vfoa7VcQdvp+/c0ShxkLNbK/Jh
+================RunCmd-strData-解密=========2018-01-12 22:54:59==========
+{"cmd":"login","encryptedData":"NR8OS+6o0k8p470yEO6uyktAcxUzNauWkJpwS6ME5l2CH6ZzPHn2PhjMTWLceEt1gdLy57MrO4c5soJ2s4f6W3/KjWdX864RTLqSaqwx2ezz33N2nWWB4Xed5x8jLXftQuOM+RURlBt+Y95K8PEQHSjJ6GtYMmuvDZ+NRUITZXrRcUf2mPM2rJp8BoJb6zdd4V8u+zXikMW+5cRN5KwPRI6Odw0uyYbUaYP5rhmVJ0EYZ0iuv7cee3VBP70O7EUr2irnPrzqRTKS5k0vvOp8TRbOfKq1yzVKvyYB/Aw11ditm1NCN60HngRGnm3qH6wcOB4/GuhyM0BV7NwZgxzoR1E6zkMjL81Sf1Ocj0znWVGdIHpnubmmZmUNjyUqIobRMvYD1IP+FhL3E2Y9R/3VMpi6FAtBPWsjk/RoDKLQWulrXpUxihy6SBh/4ask3QGmOI5QbO9+bDWA1AjTBs/rQAzWDeWKy2pnkf3VwJzI8O4=","iv":"XwBG0ruh0dOz%2BJ39IoqDyQ%3D%3D"}
+================anyIndex-strRet=========2018-01-12 22:54:59==========
+{"errcode":30102,"errmsg":"sessionId not valid"}
+================anyIndex-strData=========2018-01-12 22:55:00==========
+AcAIGBHGB5xoDpsglPQBZHw3OIr6RFAAoRnYqBsKJ5RU67/5UDz13Vsd1jv55dPKwPNO847cbHh6m6rCzjBXah7/6gn1vuz3pG5Dfc9N6cCKojq8cXkPRD7izmWUIghIO/ykbNEscm7xDlu0XEMzaHFOha/JAa0TzC42DqZ1mMLZlToHHpmDW51QAItEEqLaMjFxntOnGn+sfrEst8wrVCstC3HqHPNJGICVqGoEKsCtjPwPczncfO/B1r1DMD1zJpN0n9N/hiCicqFf1+j6eYV+xl4JZNjx4Fu5EFTI8p6VYR3SIwX4EFC5Ntn8N2a88x4hMR3qUO99DwVw8hcpNc/oMucqDLiANXKzhcgierIv8sng0UeISyEnZ+nsXBNsc49NVwm2w7e41Z+bN+5L3sOZDvqp8qDdr0sAUdDDLpPvww57qgM/SFtEvQU+aRVP2aw+6vzWMFHK0d3pOU0rrMn4+emSPrP4/wauP0MneEwUZUY9obYGv7CZt3Cm9aDvrXaLK3xQuZk7OwUN7khIQnZxNwyeRcS941HX6MFsd855Knxl/v7vfB5IFhC0MjUX7EPA/DNeWg8hfulixryNDCSZpMi6CkRSqcIf1InbLHKC7noz7sjNJExzP0g+Dz+ykQMXvlI2gzzvYePC3obDQrozP4xVFf0NuOQsLvWG/7yXRkPF4+RTmg/vZ8plg+iq5JueUVdg0sSXnZEDPWTM8duuKcXGYWIIB0av6BQh55VImFpXMRe0Wf1dDqnt00AR
+================RunCmd-strData-解密=========2018-01-12 22:55:00==========
+{"cmd":"login","encryptedData":"NR8OS+6o0k8p470yEO6uyktAcxUzNauWkJpwS6ME5l2CH6ZzPHn2PhjMTWLceEt1gdLy57MrO4c5soJ2s4f6W3/KjWdX864RTLqSaqwx2ezz33N2nWWB4Xed5x8jLXftQuOM+RURlBt+Y95K8PEQHSjJ6GtYMmuvDZ+NRUITZXrRcUf2mPM2rJp8BoJb6zdd4V8u+zXikMW+5cRN5KwPRI6Odw0uyYbUaYP5rhmVJ0EYZ0iuv7cee3VBP70O7EUr2irnPrzqRTKS5k0vvOp8TRbOfKq1yzVKvyYB/Aw11ditm1NCN60HngRGnm3qH6wcOB4/GuhyM0BV7NwZgxzoR1E6zkMjL81Sf1Ocj0znWVGdIHpnubmmZmUNjyUqIobRMvYD1IP+FhL3E2Y9R/3VMpi6FAtBPWsjk/RoDKLQWulrXpUxihy6SBh/4ask3QGmOI5QbO9+bDWA1AjTBs/rQAzWDeWKy2pnkf3VwJzI8O4=","iv":"XwBG0ruh0dOz%2BJ39IoqDyQ%3D%3D"}
+================anyIndex-strRet=========2018-01-12 22:55:01==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 22:59:04==========
+AcAIGBHGB5xoDpsglPQBZHw3OIr6RFAAoRnYqBsKJ5SEmwYw0NSjK9iPUIbPE2Pz/mb3nPRr1voPDbEWab81X1RFAmB2O45aQ0qFlWLI5YJvhPuztjdqpRkLT0pXr2DjxYJA9lPhwuujnRC1kHcp1kl5klsX7sdWN4YnC9EOGOTPvVO/l3vjH0ToVk/X95YTRoqOHCmIyaZVFi8pD43bpHJ2AyiYLfZfmuO+iFW3sN9UcR4PRdz68FS5+B/HwnHnWzdGC2pSmt61RK99rUfM92DQXD2uox4CEctTux3IrNc8mmkd17g1llIbkJYd4kxvKHe4tOBQZs14xtjx/pvR1dBOAyCxDxfJGyA+YYcUEmTqkZEIJi13QgQ5SvFJe+puUPdtTizh/2O35Eg0xn52lGgIQydRq/qhdMcAdk3IUwDmwyqMtuVSFJ/Al7PieoxG8T6vocx2PSHfF5wgJNaZAkay5+jOaiXbozvkNPNaKi6+XRs2E15/IFbzCp+/JCp/lCxSAo/obXRURqHjf2E2bZnCzxAJsDUDvVO1tDP0WGNnaC0pZ7rMB9kcF6Yu+4PRsjhc6W71lUO997dLBA42RngV4Yf0a7bXiPAkUXYs+cYTWhkw+Irl2l0uiDNoplFtmXO/zZQmHL82ajMwVa9iY1K4FHkXeEZtppgMvveIc2WsIw3cpoGBnOm1KtgsarEwPEZFHHeTQON5fGBEamIHbI6sJNNGYTZun+WmVio/P61ImFpXMRe0Wf1dDqnt00AR
+================RunCmd-strData-解密=========2018-01-12 22:59:05==========
+{"cmd":"login","encryptedData":"Ux9lTq9UOaMewRIDjSeauWT5Y7g5bNE7uKXI5qTbucAWqOtC8u1knTiVIUbwevJxcdAaslHY3VRHlLiUHmRmgdw2fQM0txdMfLxjdNZmGWanci3LpIYPZls1Ap2ynDinOJcCMQYQws9aeueGfqqdkzYsH23H+dGcH59EHhg6FfuiAQ4fmV4PMmhufWF4+jzv4TfZt6aRBlLIWzdjl0rmVWKwOYad+ihX+3O6195kUr9DQ0AZ17MGsH0vWZRh1GMkCctsyRL3IDLZgBthVXpObLqsK1G/h14YaxDJ91kmCb/6VR53ePqYT4DHEcUJPz8krNa8R97CfU74VSNTjZ2SmvHVJ7QqO5Wr2pT7smJ7czAmCydrBwzZHiV8Q9egLaXlMX9RrDRTZ3YIhu1PzZ1XWm2ezOTdANuzUwJy0J7EJPHmWbxGC4gvXRY6SL8m0GtR4HJ6P0YGszQA78aDyvpJIAVl671JMeeZUA9Enx02uO4=","iv":"wdU0d%2FXIBhq6HZdRHox0Tw%3D%3D"}
+================anyIndex-strRet=========2018-01-12 22:59:05==========
+{"errcode":30102,"errmsg":"sessionId not valid"}
+================anyIndex-strData=========2018-01-12 22:59:05==========
+TmKKzXptM/mvx9Lz9Ji9Z5wLzBjvPtPv3idVtBigabKzLMDhLYENtMaZyzQXKHiUcChVFOwENKgaJso3ojAVEp7Asd3CzRBpzKMBDfhoFiVC2d5DivdDO7Hs0Qvqcdr00+uISSnHQ0g2lPHGO8tcDA6t95z5faewmqa//er4G7Rn18Nuehl4Xgs0B3v4VvVi88R7RFjg1aMkenUmZR1HQ0qZjcna9wJmIB4UW5+JQguRr12CUXRsIEI37sLkCm6Fb8KodjWwSdUZN4hLqf1vgXBUpxaPYROeoa58VOP4J2RzVQFI4gf+DEfMACcHXzKSE8Xr0JCAZ0rmH+G/2YJPbsVOz5uzjKKjdi86mx43LLekhsCs8jFwXfEduy58s/w5tgiosPdZ9REAixpOdNljUN1dW8iOMDExbSRB5d+NFkekORSraI6gWHqj2Q07QKnlYnD9pEpG4C0BqR7zQ9yZtyRcplmVmWA4tIgOr+Im0vpECd9Kx++KvOVCzvXCyHsdJmvrhveYpDIE7GqGVl/iTK1eoH+jlhF4qCnFm47SpdHoTJ5f7efoJsoX9y1R4u8++uXze6RZuJg1+VtFg0suh49Uby/cM1sfOrda1iqdlyr5Ijl+PpV64/pLx7X4JrDVPkG1v7Pu7bmWn3DoSnfGFLOViyOnynMHEsbHNrF1UYdh9Eo8+VM7xK+duWNN0jae5eFjcP8RJUOq69OQtA7+KjofQaa83BO2e9OJeRzsTw/NSKp/Ameta3Jvg0cMMu64
+================RunCmd-strData-解密=========2018-01-12 22:59:06==========
+{"cmd":"login","encryptedData":"Ux9lTq9UOaMewRIDjSeauWT5Y7g5bNE7uKXI5qTbucAWqOtC8u1knTiVIUbwevJxcdAaslHY3VRHlLiUHmRmgdw2fQM0txdMfLxjdNZmGWanci3LpIYPZls1Ap2ynDinOJcCMQYQws9aeueGfqqdkzYsH23H+dGcH59EHhg6FfuiAQ4fmV4PMmhufWF4+jzv4TfZt6aRBlLIWzdjl0rmVWKwOYad+ihX+3O6195kUr9DQ0AZ17MGsH0vWZRh1GMkCctsyRL3IDLZgBthVXpObLqsK1G/h14YaxDJ91kmCb/6VR53ePqYT4DHEcUJPz8krNa8R97CfU74VSNTjZ2SmvHVJ7QqO5Wr2pT7smJ7czAmCydrBwzZHiV8Q9egLaXlMX9RrDRTZ3YIhu1PzZ1XWm2ezOTdANuzUwJy0J7EJPHmWbxGC4gvXRY6SL8m0GtR4HJ6P0YGszQA78aDyvpJIAVl671JMeeZUA9Enx02uO4=","iv":"wdU0d%2FXIBhq6HZdRHox0Tw%3D%3D"}
+================anyIndex-strRet=========2018-01-12 22:59:06==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 22:59:54==========
+dNIQ6a5XcE/ZgI/gRlHbv+AQMJeLDfkI1XUbh0a6TvE3EfmioudKKRp0t1H2uopt
+================anyIndex-strData=========2018-01-12 22:59:54==========
+TmKKzXptM/mvx9Lz9Ji9Z5wLzBjvPtPv3idVtBigabJriniyHsVSsVVE3uFlcKZdP0MXSsOEwQlFqzR+y8knL2PfSEfveRkFOsmJt/5I7glmBaWqByswgUfPCH9VM7dErBEIUoR0VybdUxdwvM+6DmdOViKrkytJ2VgNlQMFqqrOtb1BQBTpK6GMNmYi/REiVvoeGZjSopT2tdJ/trJKKrvzgVE+rjv0QZcEdKl8Pwhtd3nKwXE+p3tU9zmFeKxDPPlAju2KckvDMxsNZVd1zzFQL6FPK2g/VeEVZhMGXr1NlhKKgRZ9fHiaDeYTWH7yG9LIpzix7PLhavJhGDXGOvgwxPkiLJQjO9JfD+ndPwc6k8dVRemOD/seqDa2gnmme6O/KeXKZPW2YrOU/UZEda8cG7t8ivAYqWp74psv6Fe6iDf/0Ib55VB4mexk1G3gakqCXrblKU2PgLV8qIQxw8l14Wqz0kPRtDEwwfZhmy+UMyBPWbko7Nvulf13maVDbCA2kAVa2++3ZtwoO8DTDFQWGJ+PwWOhuhw3QRmXyBgkMXqjGUJObKVpY64gFhEgz1MuzyM16JWpJr0qVgiMJXjf3EUX+SSUOb5bWk1KjQ32qL05s77zLRFa6FuBAchw0irDeEw2LzJzvjg+H0piO7vAHpGy+HGISBHIatwmgCJ1EV2iUyUKdqBcOtTKqlZj6nLCCDgsmFqxqqftmB7WdvxUfCC7LPTq3i2lsxP/tlL36jckH1fa7c97lInXhBf0
+================RunCmd-strData-解密=========2018-01-12 22:59:54==========
+{"cmd":"getUserNoticeTask","type":0}
+================RunCmd-strData-解密=========2018-01-12 22:59:54==========
+{"cmd":"login","encryptedData":"RowcIzcq/polVwFjrlgJZm0E47i84uSi2wPeFsAonf2+H9NoA8a5UHiGR/XgsQQBE3NwoBzzti6dXzmPw70jIzZfzR1MA6awO2P1WAF+NBMz8YVFy0Avy3xnbHb3m0r0szE+Ltfwh3uSKHPYpa81aOiPdi+5HuuOHdWtfpMxzsp9PivGmZ/8dHkBt5bdzTPqXtL4tdMEg+hqz1tFUGeEAaDmeXDEd3/pYqXtBPMDDp79zbGaVDuKXMuUnVnx77yiQiNm0riAKNbRgx971Q+ws0QgZdLU6WLslujS6+ibOMIr1/ygkiB7+TwCBTNLajmufretHEhvbQMmzViTQEYhXBAnMpsQBS8elpEeLjwFV5vslcsQN0EZ9/k2azDwvY18Fqa7UAjH6jEVxkO+5K0aljdbaEVgipqDYUswaxlthdTkT+1rtpJi1vJtGJ7jtjtgI2PTeFeYLN4gR6UaMchSIDjr2Iv6h4bmLfQrcWREa7M=","iv":"Fpg6vPWzQmC%2Bspec%2Fnu0Ag%3D%3D"}
+================anyIndex-strRet=========2018-01-12 22:59:55==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strRet=========2018-01-12 22:59:55==========
+{"errcode":1,"errmsg":"success","data":{"minute":0,"totalMinute":480}}
+================anyIndex-strData=========2018-01-12 23:01:35==========
+TmKKzXptM/mvx9Lz9Ji9Z5wLzBjvPtPv3idVtBigabIP1agDGT6BfDzBRCYEJ5W//cMinHi6QO3rRmO/vDI1qQ0gpI3OVuMsyN7z6mmr6HTdufd0g8Om3wklgo8+eRlqlSUi1NhImdKHMhYd9yQxwzVqcEx1u3d2hnH0906q9J59bfq88/Xds8BDjH3wO+LDtOro6qBZQKz2YXIWN4WGx8YxqyaHQA+c2qv4tOKpyQjzYCiNI69bi2jTBNJvr+eEHC/xixpKpCw2VBIW6NYzv0VAq7B43sznWbSbpqhkCaqYE7CuRKmZNzKp2BJJ3OEVBIEI43dI4zRfNn13/2XBD4OTVesjHLJr7oMXHt9Ee5ORND/M7/SzfZIc4EOMd2AtNRj3mrtUPubjOA2NIjFchzEPIyQqWAgQY6KkI2NylxT437MDndD8Ud9zXvn15ITDjB5Xkv/SXF0bdcQDjGIeTGHqKsNPmBJROdSKSMhu0sDf17V4HX1SgmbUqO42W5MV6VTC8iJcFuKExeKCdnVmvb+prUkWUeUvlQlVwT40yPCteSx1Lpp+y3rn2+KQtSBIGt5ij3PuEc0/Mk2pbegQ1RtbWsNM99VpXMahssOD1KA8r29zAnNDCbdzNNc+4A7+u96yvctwUDuVCpY6aBuKpC2OnVJKOFkG5CqvOxDvuYb0DIlEwkpxijXsggHI4/qpp3eC1Pa2OJakf4Rx247zpOWvJMC/3sfzK/uyB3ZU6+HJofihWyLrBhz1pER08Pnd
+================RunCmd-strData-解密=========2018-01-12 23:01:36==========
+{"cmd":"login","encryptedData":"JLT/dbw5DWfC14m6yuJV3aevp/ILtBiYLaseu42h0fYj4ZsqZL+m18Lbav1jLhcJQJEXOQQ3eSJPSc860B7zVOUcaATKrmzpxmtyWbESHy2JrcSdcYgHS9Z3kyjI7UG7TiIXcrTlc8SKUVFeEXoqEC14BFYoTbi0Iv1TiEVOdQVYBaUAfYRYjBQc8iL09+wRUptK3R0i2g2hp4lRqURXIl9kVajlue28dGQ3UUh07cYkBIxnxBNAH9L8vfb8d3/iLJrIkO3Kz/k2Z4RV0YF53RpNWor2suhgMxDP1WXnOlFPem1bb2m9O+AHQXwkQoeLL3oeix1dvnbDUPwmfOql+W3oNz1jMH0h9Dd2PO3jwd23CpRj/wX3csXeelRWff6NlZe0fZx+721e3KqXZQcK80eEPGDKKMCKXYEPyuNpUEqewi0YD9ZqAjLdbCSK/g88wxmC/cwkKYiTMVY9x3lRMcv6Zdhxm7XVJdVyU1P0KPU=","iv":"aLBIoHrpK0lPSl7kWsdo1A%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:01:36==========
+{"errcode":30102,"errmsg":"sessionId not valid"}
+================anyIndex-strData=========2018-01-12 23:01:36==========
+5HtXGXxyLJJuBHzyJbREakcfTk82pGBzY5eahw0K0ePPIQ7XF04lLm1YGrctlMsJSDDMOzZRjFncGs9PCyFWdrsnK+12Fb7qb1tQV6IlyLwXb1hzdxflTI/8NJrXt0M+lMixYapv9euYxqUrDn2l8GLcWztwWeXjB5QGvfVGdLKumP0j/tbNYXJim5VFyKT6uC1VLUQps5d3lhFX9XTo1GqxtXDXxf4aHiMX6JrWgLXozMJGNC+1OogdgBWVFIG8rZm2asx0hJeUuLcCocbzD9VcTVl+Ucn9jVQpvRCtAbloq2q/LhjHXfUrTwx1CdAES6TlDzkzFr2gmyAC2C5Ac7zRWiA6MwPLko3GWBfUoNU7MDfRA/zgdkHepYCrWtzL/hwlu7EDDZfypyMIq73dOPk1ZCIcAvkMrK2PVbroKewmt0Ilmv/zWjpV+3zjGCdkcVae+NblLBMiEKaqPl1SF4xzJXykjmJt4FFHuKLiwR64JqfpfFt/12SJARSgbS8i3ZtALT+5LOpmMqCAKnAtTNzRhKdV/2VRyor3Syh9NJS1MjtCNsfiO7EJIx1HZgzdcqEFdgc/F20cj+ZjmhVfr2TA9gMJ8qBWI050FbNmTxMPer8GWYk2Adf5ZEFg2Gx15+U2oiBUOOHwvfvd2CPplgfIN/EGggg2ZPxl49PCTU41BrJiJ9muJ4dZc15X5bcrdsnaKNY9vSjZgO3RuGUzhwCXb7PGbeR1fg86GfjETLr8aQHnRN/rklkZ2C4nXG35
+================RunCmd-strData-解密=========2018-01-12 23:01:37==========
+{"cmd":"login","encryptedData":"JLT/dbw5DWfC14m6yuJV3aevp/ILtBiYLaseu42h0fYj4ZsqZL+m18Lbav1jLhcJQJEXOQQ3eSJPSc860B7zVOUcaATKrmzpxmtyWbESHy2JrcSdcYgHS9Z3kyjI7UG7TiIXcrTlc8SKUVFeEXoqEC14BFYoTbi0Iv1TiEVOdQVYBaUAfYRYjBQc8iL09+wRUptK3R0i2g2hp4lRqURXIl9kVajlue28dGQ3UUh07cYkBIxnxBNAH9L8vfb8d3/iLJrIkO3Kz/k2Z4RV0YF53RpNWor2suhgMxDP1WXnOlFPem1bb2m9O+AHQXwkQoeLL3oeix1dvnbDUPwmfOql+W3oNz1jMH0h9Dd2PO3jwd23CpRj/wX3csXeelRWff6NlZe0fZx+721e3KqXZQcK80eEPGDKKMCKXYEPyuNpUEqewi0YD9ZqAjLdbCSK/g88wxmC/cwkKYiTMVY9x3lRMcv6Zdhxm7XVJdVyU1P0KPU=","iv":"aLBIoHrpK0lPSl7kWsdo1A%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:01:37==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:01:46==========
+SrQZU/g1aPzwivsX6IAnURC/0GZnWnTVORQ+H5WVMFliZ47OkJIQG2QdhGVBcNIToE7cqRPGepKd+/8DUUCWbw==
+================RunCmd-strData-解密=========2018-01-12 23:01:46==========
+{"cmd":"modifyUserNoticeTask","minute":1440,"type":0}
+================anyIndex-strRet=========2018-01-12 23:01:47==========
+{"errcode":1,"errmsg":"success"}
+================anyIndex-strData=========2018-01-12 23:01:47==========
+Ge08UO4771aPVvAPRpVv6IYYx2bpCiKqxxVQHlXkTePb1nb6SlsaCDgWyBd2RWfp
+================RunCmd-strData-解密=========2018-01-12 23:01:47==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:01:47==========
+{"errcode":1,"errmsg":"success","data":{"minute":1439,"totalMinute":1440}}
+================anyIndex-strData=========2018-01-12 23:02:26==========
+5HtXGXxyLJJuBHzyJbREakcfTk82pGBzY5eahw0K0eMQbxi82eZux9XzeBteuJamOeKECg2To4MyUJIHWFlOneXTMIw/8SMrjHCtuyVr4fy6LdtxJoEFJwXo2o5jAQxTqM2xT4Xb3TweuW+GwJ98XD80ISmXMF8rsz5dABMzjHR77+k99XrAnO/xfDMtQ1Vno0V23q0QPqaachWA4l9Cc4bpDylEb4EfukErSOgNFWxzWWPEpeDHeGv5bwkO/uGp3XmtmZ6IKDqzn4jQnwSW8JhzdxYV9Y0hzEXSSRdaU7LoFY6AQFWMu9kjk3QHubbYcNNDRUwEGcJSAx02NvRAW95Jh+whmd10LLhVMWIBb4fzmJJ9tRk7QGEnP7EtnckYRp9uthl5bcF/YeTUpXa2aUXSKBE4hR2GGOM8fo84bn9Z+MQajdwHZaJ+GU/WOC42CacothsgROuSAKffL11RHxYD1zdiyp0pP7VjKxwYOBEh1oDruYj8Zgsa10wAeeMkUd5Bstdf6rkBtLYkuWx+aTPSYUeTFo+2eECoErZ43RDpOe0I5fmPDNd1yYe/UvunSfGmMQLlUv2/ir5AdynyVPcA/MuOf7w3dkZhOTD+W/LWBseywgY8Y4k2xGPFGh8KXdivbLLDI2YrAuXPadNY8822UIhWGI1dKfJvYWYiXzJ/FecUnZx2lQsEWUqCtAqNJCDenn4FsnJz2EMnhkMgbihucvfrXI9onEgpN0h6o0SjVnKyPkIKFGVzBeJd8qIe
+================RunCmd-strData-解密=========2018-01-12 23:02:26==========
+{"cmd":"login","encryptedData":"Q1Miok2DuRAzqm5y2eCDDJP/gVFIIBwC9p8ZuV2lSvT04a4l2z1UVLmCQarHra4BPmLgs4Jwvh3rRqcTQpDLEeYn+6eG8FIF4TgvARy+d1hKSs2wBkqjssGV/aOQn1//DUfqURxolg2HKXba//TOaEMQWuI0uqliX+JsHUIzETAgMBUVybMIaenaMQ+5lMb6AWsqMehZgYP90rpiZqNpu5GvyYRZ27l4/U+o8KnOfHE8RftRY8fhPctt77/bsm7WjmRc5+nWu/i5ARst6QAjcwHPkBIzAPCmaTuYY6gBMbiHb2JzajoLQ02kBZU0aIZfaLAIQOCDQVBhES70BeMbLvQv+ApfDtA/yyocus4XmUl1b+rMlrDdqXmKHbvjkm6Qm/anKBKHq7nekeLj8Mw7oSdxjhlH3cmgO8Rv2W5ohn67LiwuB+ebotFwyf4dCpG/XgIWRkolKMLkMVFyQhpqUy7TduZc05sG/t3JKeqh/Q0=","iv":"pQaD8lR520q9b%2BHdl7LCVg%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:02:26==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:02:32==========
+5HtXGXxyLJJuBHzyJbREakcfTk82pGBzY5eahw0K0eMz+8hi37jkuaaXwlgB+HRB28tunzTMgmkJ57eyAQmocZpaqJsj+XKmIcq6G64Qrt03EC++nbQMgtZhmlM9t0kzxNvsRlA52TDtiuN6dBSkyMW+Qjl3L53cFoXtRzJ2fFPPRYqBnnOoCTw8rsspthIWGFhae8s9uc0T0UEEpCgS0xgA/I7yMRzCDyiDl7WnoeFTNZcGJUAvqjhzlEJzgGsborqTmfkhGrHrUyEvCvxo1x6+cgLd/5oIeu733YCzeHP/HKnfewCWJuRqvb8Zw25tK/a1kYDI8dgrHcNKkxoCzX4W0CP4PckWpA7hJijo5HXK20o90WDvtEM5rKHxJUIfIA7iKIdJZn1PSkkZlwdy2Sv+xg2cftfYGhu8uIxMJW4vvTXgDfgYK4bAu8eYY9b5vng1OdBXB2xjVkN7pehaV9ITe53jCWYeZ8zRGLMWEQvsyiQRXD5r8sDMoTeFDxAYX/OsBAniCng+E6dqEPge1CaObC2ZLOtLIFB793DiJdiYvwuQrjLdbwzwD8yevC9P4+yMs3hGMbcqMmwKTZiCG9Kugh1WMC0vujs+8OpJhVy6UTz111MZRmTDAzpExY2H9Xe215PGzDqustabiesPPoGqdMnOoB7SIcoAbgve44ZL80srLdCyrRekj6SuO4whecgByOgDYdg1ojcdO0JZyJg9cVdxLNzJE+d4rAli7fX8aQHnRN/rklkZ2C4nXG35
+================RunCmd-strData-解密=========2018-01-12 23:02:33==========
+{"cmd":"login","encryptedData":"32MprAChl1VIj39Mk58ALZzgGXDFeEItoylm+7JCWaqK4aoj4yvQcFZOl9KWGWx10Hr81vZV1jwHHXZIRC3jokjIBA7JgYuGchb+O9+nPCZFT+eAYbnT+hl9sOXnAIegkKCefDkgoikHP+2htUFilzdrL6JKl1qBJqRx8ETcD2XCuPxxRb4Vs7mh4B0WkPRr6GazOOBPknXwVBMaXVstGXjcm2Seh6Ziz7l8Q2psB2nGqZCYfi8cKq7Chqwj9d2pk76u2wt+dCUfloGhbRRP9kGazGU9OXpitp1OwrobrG8QffCw/B9WZ88ilM20KD9k+pXKVNTLEM3KZNePk8BFBNQo2kSnaCftbaB8Yrk3b2P91nIHIfCR8RilMKshWxVcPh81cRIQtOaNKy2CZdGPkPmTG8kY1BIRtmwKWjsRUVQNib/DswRYmmy3bTq5+w+cPR4FzRRDULDAe0T3pJ6dbZYJ1ksFSIQyZytpf0nQ148=","iv":"LG5kegiaFPmGsctEPHRulw%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:02:33==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:02:35==========
+Ge08UO4771aPVvAPRpVv6IYYx2bpCiKqxxVQHlXkTePb1nb6SlsaCDgWyBd2RWfp
+================anyIndex-strData=========2018-01-12 23:02:35==========
+5HtXGXxyLJJuBHzyJbREakcfTk82pGBzY5eahw0K0eMLhSpmWk/byaZHLtuakiNOpBwNX7j4tcT5AXcsJG3GBf1qG6OfU4nFWTUsskfUBRdmVxwCJ/AVW2g7qc1gFv4+526151qM6oT9S3UOJOp/rL7C7CrBnGQUYL2WVujVoiL7yFB0XqQhMweVQ21xpOh2TI16pQc2xQAW2k4wuvYnua4FKZU8UA0m229vVfxjeaJtM0wdFyn+tN5a7o9yffu7/v4Sq9YHhdR9AKzomu3meANNjRQK+wUAYK4JyWlgwxBCaoWXdz+ZmPsjXflguHsJL+pZgviGjwTPdq5gXtVVBNMSwX55YwIRNnoeQuQtUHZKc4isOA8WMIa/45+Yk+oM864ijSWmXo8tle4AbfeehCFvq+yqU/EHmUpXL3w8zLZqTjx5Gr0NbTb81jY7BRiAvQb2ObzrJv0E+b4lPERnEOBi0kcZ0xaQrsbR0gxeZqmDJ3C8us7fK/Czb6RLQS7OdSkjScaYZrOFeN1wVIfzkWVysoxmEARnGvp5cmSUVSQXyjf9PGiPvVkIoO0Be2NYw9/mnumhmUBcWzGgitpwSaEJBMsRGGwOjALr7yDS0PGk4olu8fCaubNbuXnWF62Z4dzk6FAhrkfoPpHHTHMfGaURNisTJ8wJKywNGmjSQMwXeh3zWaw8A/PWfb3gmvYA1ZjFjWcUQqIGgsyp04wSM5RljkWvqf9cQ4kuAPuqFfXVMPecSdw6Esyyuh0hgrom
+================RunCmd-strData-解密=========2018-01-12 23:02:36==========
+{"cmd":"getUserNoticeTask","type":0}
+================RunCmd-strData-解密=========2018-01-12 23:02:36==========
+{"cmd":"login","encryptedData":"OpxEa81mAtuYUbOGEleamhAbMjeGdHtYz1DE/u50Qw2nzAIwJW3o0ue4mbJ1cvRhTotsgW6/5aMywJnvsgoj05X1a+y/0iNRnCvjrAlpstSkdY1dyLr65E/9TXoocjP92U5Kkekf9hsBRUzDNcXvJdJ4rvkgSjY1jmXyn9grk2ArqugxA/Ecoaig1ic6wMHPKmox7jV6MBO/0I43FR1D8O+toyIfxJ9vAHpIFuMh8K4v8hNP8qQSFxGhy+jc7jl26HaIHDNN34vqP2YmsPJq/TCow6SHXiTsKHn05x1CzPpNE21gje+VF5x0y1ebGep2VWuEdpdzlQ9gYvrp/9vO9ObXppn0gXC49ARgFd3z42fcHPWich56lAKitcFQl9Wweb1Ikd4lSwM9Xs535DOqrFscZPNI3NaE1l1hqNaQwe55GJpqL5sL+GDGmHOceHfx2drqys1nQhdtR7gWadkYLZem5D9EHGGxnFFLa97nOqw=","iv":"Qi%2FtqWM%2B8KAj1r29dwoBBg%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:02:36==========
+{"errcode":1,"errmsg":"success","data":{"minute":1438,"totalMinute":1440}}
+================anyIndex-strRet=========2018-01-12 23:02:36==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:02:44==========
+Ge08UO4771aPVvAPRpVv6IYYx2bpCiKqxxVQHlXkTePb1nb6SlsaCDgWyBd2RWfp
+================anyIndex-strData=========2018-01-12 23:02:44==========
+5HtXGXxyLJJuBHzyJbREakcfTk82pGBzY5eahw0K0eN5pNIHDVJjoD00ihjO+cs4QQbgH9qDt9dGJiiAp2PaGNbhAfOonDraEXH7U8AV+364ZoDMU7msDWNIb+Zc+5fgnHuDmaGyMY1uzUTSNttwDIkOfh4ILzMA7f8u1wMxO4y/waQU72kq7Y5VwLrZq/GMFuDK727pjaE4euKLhPIUEvyTH+YVJjZKwYwMH3J7Q/wG+FYEnnpYvx4HTi1ywik8I7s8dDcBHGAHaHI3fSmDw5cybObh00UxdrrLGmC02xshvEI3l0SCc3P/XYAhrnEHPCL7DNPj0cjHLqF37zlosks2JHJLC4v+pJLj9Y9IFj456+7oRlKzOFenqWNwHXh/+SDWaT353EU0fzM8s3AP9qDA2B11jBemBPKxCDvT6ltIAg8wDhCAhIoTADOuorCzp/sIsWu8/VTs6ZxEijzlPzc4eufMm4ILFnoZvmfnlhYKVe5lvAZYNFdNkyY65Y0QFTLc94dlmg51ey4gRsFR4TmVbPeQOVNCpTqjYYhBPlLBOaJqC/4sU/Ubu/nNxPvjLr4qDDp4UXuDYvB6ljlsRJEo8hIrdHRgWa2Mh8VxX9q3pbqJzmp1BQVpI+KAYzukYM+lUFsI4LVCgZaGlAZSL1sHLLS+HC68P598nzPcb/ug2lrw/U631nfmc+5/nUP0gaj1No75K488Q9AcgEa+PrKNyUHTxOCfviPX9GSEHzv8aQHnRN/rklkZ2C4nXG35
+================RunCmd-strData-解密=========2018-01-12 23:02:44==========
+{"cmd":"getUserNoticeTask","type":0}
+================RunCmd-strData-解密=========2018-01-12 23:02:45==========
+{"cmd":"login","encryptedData":"H1GE1TcP/Om1bu7pyt7OcG0NZJWSOZ/iGubUusAAAqGxAACmAo1CRV2C4vAw2J8mJzv49jP83zHizLyM+GTKLBj7+N/FGxl6tfVf+xVNht/hR38pp39eK2JOeK4ya03o50vpwWO8UiIB72q5FqHsM3VgfqXGipV9XXlszzJeIEzURFNi+VN1YxtBOgnaC3S/5v+GKBdXpSyZsUTYdF26K8KgKqQ9VvuTY8BR0m9+dKL50ctDkW4TVH5cPorAfBfTuTA4d1EL+1jOWS5jGNPJZShGtHRkOMV9V2Mw+gptTqMe8gCxy5Y7RPpF6piVKq4WPo24Iw74SP3RGFWjsKpVIJ2sTbHNsSmlLOegd6GN2o1e3ezAlQJ7+YhFu+dB9S1KfgdEwj3dUq8bmvcHSf6qK2ZwHYeWNj+j8l3stYdBu39YagbCmr9KgEn5jT4eyCTByrenWJvRJRhwNW/YPBW1XK/wAXcbSX5hvBVHg7iyG4Q=","iv":"XfD8AGQoUCe35ApQTiXsgQ%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:02:45==========
+{"errcode":1,"errmsg":"success","data":{"minute":1438,"totalMinute":1440}}
+================anyIndex-strRet=========2018-01-12 23:02:45==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:02:54==========
+Ge08UO4771aPVvAPRpVv6IYYx2bpCiKqxxVQHlXkTePb1nb6SlsaCDgWyBd2RWfp
+================anyIndex-strData=========2018-01-12 23:02:55==========
+5HtXGXxyLJJuBHzyJbREakcfTk82pGBzY5eahw0K0eMq+zYRB174CXrV7cmvcM1UZKI1u4U/sCaLDfIZynha8wVnGUDim6m2DyRY3uK+EcPRkaHmHNZVe5pkq5xiu+rVzYE/+oT/OqDijXcXSlhn+HPWIN2kyh/i2ui7vr7pG3pnpH9IOIu0UF6GG7Lkk5DxJyM6wz1OdSTuzJFJj8JH9DnCl3/A/FSDJB8IIF2XoskwDysTpGI41JK/+6ZdUz2XnbjmJlMH7dVZKeG8ybDEEti/5IPS3CGBweRCt6VZ4myIrVUVlIr4+nCgnhb1FepUtib5izLPjLLmKewuG0UbLwAHTOzIsS6Tb6PQzPO96fwp4REQohW+xSJlmMuG/H2urywaDDJl7HeiIRdz+gKyy7CpiGJg+rvKDgwI9NLbfDaB5JqCio8MNyxledM3Ee0iPTzSUJkTZTIcK4ompztrWAlY/gDePJho50AOxRK2oP6w4kPdvR964WhINdJAwg9yrlCKMgeYQSNLWPKJa+NRuLDwvmhlMxmttFZiUIYQiPWgLxzYAg+E/3cm/0Js1E5oD+0j+UHeKPK5wCt2gS5bhmigO98ZZ8GkWtdNUc6zErVCiHJlJn9ErYOvh8CrwQwN1AuWuFrAVxHO/bec4ulRuUJ7MGK2F7cD3p2QKCNxNUSs2TRnkWVwo9GV3oY/iUmxYXV5wMwTldF5+7ifJPADlcxEpokoP8UjRZP9X86HyxT8aQHnRN/rklkZ2C4nXG35
+================RunCmd-strData-解密=========2018-01-12 23:02:55==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:02:55==========
+{"errcode":1,"errmsg":"success","data":{"minute":1438,"totalMinute":1440}}
+================RunCmd-strData-解密=========2018-01-12 23:02:55==========
+{"cmd":"login","encryptedData":"DalMg1v4zosgctpMQrdshIBNWukR/rZy46M2PGno8lhUaMxNhk+AZZry8gxHt5ijktABGNNz6wt4sB2kj43ixrn0pKNp0C8fSTKnd+zB+Mx6o5VAOKu8k4gZ91P/emxw3AIZ4tsqjfSJBnSPs0g9R+DqIQLkgURLGUaLAAoKyVhfjPJMah3nEdy72X8846XCmGXOJX4iXvBndoxwO6j0jKT4YL6T0jLVAguO1toCgQoVtZqW2NuzyGoYDOpgnUMDW5WVvgBF8Yu5l1h7EYGZoBlxHM73DuIyYbZTK8CikbUwJzPhUsshtX4mefKA0IAz09s9CbQEXCx3ekWuzka3QNId5to8/OHGudR2Hb13QocwvlYP6HLuRBdi4XzKOSU3UoPEm26iP3nmGL+ItvpxthX3e/tPks/F91k9rU/EzQ3JXXtqlegwbpcguEU4Bwm4i+DDfT5EHZ6JY8wPXJG4YejbuFEP/Ha4a/SYLsvpC/8=","iv":"hzThRuO6l0fThwtj6fshDw%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:02:55==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:03:23==========
+Ge08UO4771aPVvAPRpVv6IYYx2bpCiKqxxVQHlXkTePb1nb6SlsaCDgWyBd2RWfp
+================anyIndex-strData=========2018-01-12 23:03:24==========
+5HtXGXxyLJJuBHzyJbREakcfTk82pGBzY5eahw0K0ePCSgYx+E2P6yCfcc+dQCEWTqxAfRem1pxmgWBNfcNIOW7g4sgNqZNXQ6ijvVLerNdG2auvxmQq1TQ94CTCBODrRFQQkShEFmX9+xNjxwi7LG6pg7Qjvd9+OK/uQTWvKJMSIDlAZnGf7z04Obv0Gmo1DS8Gor7qxxj6ALfLwaow2CqIdFuXv8HOgZlxT0pompRBvgz0ZG6/gAMBD2NModDDDyxTzaIYiuqozs0I8usBq+TYC9imhVKIJrBHu6Kkkk/mHsNIk6GkgjtZC7wUAxEyZTf+KpMoB9jJPfW+quFsDSjl6EkUQpdIFDBYCmabq6qdyjqks9OWfA213V7xmNUDxmzLFmXzOS3SuKWoQpt5WgJi7/0ujn/PWQaeu4dyb49LQXZBswHdjB/IaQNfOQQKWbdvOh3IpQR2UfaE0bbV5ta0q/0esfgNj0r24nnnWeighlXeZIsQm1FOyfpT+iYgIenPiVnyFL2PCSrKTAUlnfhOKZRUNBkErMmUJV827q/7HSefbPrRfA7YFemUPkGigtviKegXpBIQ8trOlyfveSDRH7kd2dSaO5Nbf0BKFPWZT//AxUGBFbG+rS9SRSMfmsCcYIoL+aSDhCnDODjhnsX1w5+NJIGUNtmHO+xFM4ER8XB26S7c2qy4wvj14o1141uc+HD/aaLT9S2p/YhSSSOt6AVC6NLMTqNw/bsOQ9P8aQHnRN/rklkZ2C4nXG35
+================RunCmd-strData-解密=========2018-01-12 23:03:24==========
+{"cmd":"getUserNoticeTask","type":0}
+================RunCmd-strData-解密=========2018-01-12 23:03:24==========
+{"cmd":"login","encryptedData":"KRAigysXz1a6m4MsznJFrGV9p+W8INWfV2XGdPePA4g4m2o2BIwAkDJ30w5GqMfRUFKb8zcxfe2JQE3seg8nbPp0ZUQcaSGnM4s9dPT3EGUciRj4hib2+zqycmXJySJft2stKD/a/7fLYCyF25xp2NJTJu/HBwBLSxbe4jmm/eXGkVvIrLOlnS76F6YnjkKRtuvHHiaZ2L6a7lVlMKRESZEINMRp6naA73nVFJBX7Hv4O5Ta/lmZYYYjm+8IOZpbjGBo5Ucis8oRGIEK/lcUVlLGuuewyaxAX6L+n/1J8ehthLAx+SAM1ueonE8LVgCIbFvUbYkVKm9g82ofPWs8E+aqqT6xsqlyCRvlzqigihTfrVYcM8qpg3CY04W7zr8DGYC6J+eC4ZujQslW7WTx4fa/qkQce144nBEUBLyU7njGhnCZrXB5Z+uOYfwv88dQOfEDsfsDJ58V1s4nRH/AGAaPzUkgGrUgVu3HV9WHLnc=","iv":"YOx0X4YWmNPrJ5DY0cSPrQ%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:03:24==========
+{"errcode":1,"errmsg":"success","data":{"minute":1437,"totalMinute":1440}}
+================anyIndex-strRet=========2018-01-12 23:03:24==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:03:37==========
+Ge08UO4771aPVvAPRpVv6IYYx2bpCiKqxxVQHlXkTePb1nb6SlsaCDgWyBd2RWfp
+================anyIndex-strData=========2018-01-12 23:03:37==========
+5HtXGXxyLJJuBHzyJbREakcfTk82pGBzY5eahw0K0eNZfAQ4IWNJ+hdtTEjva6WDecFM/HqgjGn7fatkRXKWZVeOY7rXOKG8gkxDtjlgrj9I9YWttgPxEozTqxcrJ9BgwIvPx8f+5ZBBqqy3wMgidtdIEB3nFNseCiniWaJV3QV8wnr36eu5j9VWsIHfcrWjPTcRZuKwK9CEpATgbBA9V/0M2UPv0xXfkslc3DHeVuXxLFiVqVP65J1vhG3MCBpC2l4hQKRIALidE/j96M5hCh62OMzFPVDi43uvzWyceLghfcayngfGyBXTd0k01Ybl9ItxJaxYfUs/tGN9EHKkT3g4HV95szrgi3Gf1tcZa+3fLAEIS6o0YN9L/3z5RPNU4o+8qK2j+pUt35khGgSHjGvU+5YCEyMYK9cGEnAclCKfRbKlXBcY4p2AARuePZ5agPzB+N+0gWIYKkNolCAdG+duxCO5Wl2O7VzGzOUT/ZVCtVS1en+OhtcYK0IJopMCXSmDhwi1H9ZWlCyXOTo2vvVlX+gJRdQ4marWPv5nPscmsVx10ZR+IpqiGHl6qKkMmSZZC80hociW1WewACZhvt3qo/MYqnBpxImmmfPtdqszACszeDaStOzOmZqAlAFmw9Ik620iSB4Fh9hHXMMVMnTJZiOTQhSt51t1J33bpCastMvBCm1jFFa+Bpw9WWa99YuzoM3HRR1yCA82gqG7S+qThzaoSMEhRcccROzPJBL8aQHnRN/rklkZ2C4nXG35
+================RunCmd-strData-解密=========2018-01-12 23:03:38==========
+{"cmd":"login","encryptedData":"byqNwLR1KZ2ckM/jk8aQjlrzUCUxjiRN8H1jlbsPRndmPxOCSRft4qkALt/3bRDkmxL8zntphhhCD+cuD7y6SuD3YWZ3N4uJpyihL7yuR/jwlItbl3/Wn8hPxkEMcS5tTK9M3sHZoNS7W+GuYvRZeg2X0+MJGxllzNgNAWBN4TDLV0UVrhp6bhI2nNLOR9pMlnsyy49eR26kbdiYmJQtYYwCg7w+PF2xod4FmtUvuNYfnByoUdOq/yc91SqhHRrK721n+PDyLAyLvSOVUv7xUqgvWmAAAoqm0ax3YkHhF7yEUhGe5gdGoXnJBO2joU4nq50V1Q9zvXjh3lXHuxyobcnPXSlplZP++sKZx0HgO3AxKNaOorEi391SjdTaIfHPyMwR7+j3142tZX+8U8h4/coGQNcL6EFVy6IxU3OL06WPN9oWegINLG8eVmA4NX5+dcHJTJssA8fft8tGWOnOifupjqLKmTCh/Ltyx5MYuWw=","iv":"8nE9RyQl4liDmJSActaCNg%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:03:38==========
+{"errcode":30102,"errmsg":"sessionId not valid"}
+================RunCmd-strData-解密=========2018-01-12 23:03:38==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:03:38==========
+{"errcode":1,"errmsg":"success","data":{"minute":1437,"totalMinute":1440}}
+================anyIndex-strData=========2018-01-12 23:03:38==========
+Bi4ArkRXliJvALp8tN9zY7SFwfe4gTGyNR9yiYqs+3v0/opZhZxMpv3Nio+2HniUN/t3tCBclktIFvKDI4ekVF2MKiaiLCK00nLIhCAlmMUFYwCAm+nmFdp6ETMf9PKwbquAYcATZnXbJtcZbR0xN+or5hZsOwuuPbeByX9wuLw723nrsfrHVSzEUEi/kNwBmhQ+0oheo5mtG4gAB/PbFN8EGz/DK0FOH14rJaOl2MjAqyv1RgulbWTUwBYNm+hig5dhso0umUbsQFjlerv7SBfHWyRUBJXFH17TUgyVkqL84l+hiOsCg4JrCD68ByzoQX5PVBBXhxDRW8GG+9BNTomRh6dMR2VYWWk8DiexCdew1g0f3VDrBkLQN8Eix80MuANqY2qu/IvoIWvjYmNQ8wWie5i8JvLik2Fk/83HeSbNPDbNNRycThlU/+eSjzrVgyLqgwnHPzOF4hrPsLHwNTBn2nDfpXELW86JMoqubaufEXMmNjnWCuQ33Fox93WBwzWptMzhfnNyiaB2Q2jHsuJYfwBoQOaQPPb/hyXDAaKqyt4TmYypQgY0aiepGOJwupdFHnwxOXzIY7Pn8or/VGNDAalu+6a9zhju/+b73z0FPmL+CErKtFXNY2JU+NU/9DUhoesWgATuTrFVHNalCOUDYSQOal1genowfPDe+HgIyx6O/cWdHp4B43vZTWBYyqUWor4TAyiqwZF+Qn/tVThEyY2AywUbs8fYznR5XPvumhbQpFDfataa1kzffOsj
+================RunCmd-strData-解密=========2018-01-12 23:03:39==========
+{"cmd":"login","encryptedData":"byqNwLR1KZ2ckM/jk8aQjlrzUCUxjiRN8H1jlbsPRndmPxOCSRft4qkALt/3bRDkmxL8zntphhhCD+cuD7y6SuD3YWZ3N4uJpyihL7yuR/jwlItbl3/Wn8hPxkEMcS5tTK9M3sHZoNS7W+GuYvRZeg2X0+MJGxllzNgNAWBN4TDLV0UVrhp6bhI2nNLOR9pMlnsyy49eR26kbdiYmJQtYYwCg7w+PF2xod4FmtUvuNYfnByoUdOq/yc91SqhHRrK721n+PDyLAyLvSOVUv7xUqgvWmAAAoqm0ax3YkHhF7yEUhGe5gdGoXnJBO2joU4nq50V1Q9zvXjh3lXHuxyobcnPXSlplZP++sKZx0HgO3AxKNaOorEi391SjdTaIfHPyMwR7+j3142tZX+8U8h4/coGQNcL6EFVy6IxU3OL06WPN9oWegINLG8eVmA4NX5+dcHJTJssA8fft8tGWOnOifupjqLKmTCh/Ltyx5MYuWw=","iv":"8nE9RyQl4liDmJSActaCNg%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:03:39==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:03:50==========
+KIyU12aMiZszUHeYK3Mwj99jXHvz5IK9N0WJ3ltsozn5/19iR58/I9/yOKc6DiIi
+================RunCmd-strData-解密=========2018-01-12 23:03:51==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strData=========2018-01-12 23:03:51==========
+Bi4ArkRXliJvALp8tN9zY7SFwfe4gTGyNR9yiYqs+3s+vNM8SjMjGlpBzUt5wlcd/w2qEOUNQ+3e7ii5VnDrWTiUz7WtxEi6ZeftFpVcf6rrWRBOHmJCLt4ln9SPkWg7TrJd7FnuCBpeYd+YzauDlfSZi9BpBM+BqAW8p5UBhKDbSBuXuw7HflIaCmFGZq9nLT+B5JQgqrwVkccJ0Aexcv1dR+TQfhQ+32KfV16ZSIfQNWkvbjJaMzimG893T3o9NIdcLFK34e1D/jalHv6KS5ZL/9z2//Of/6EOwwoBxIIFY0SO8wggO4lebOl4kqEF91SBYHwjvh3ktaOFoZBMFOufeyUMe3WvbesB8AD34ho3rFECtcVULeo/H/ERY5x2NbGE5rXsApuH79ZbosXv1ZsK7infBexeDtCdL2Ze4eKfsJFsPtUmmgzbuyUdq0MOgAUUqQHzi9Y3BCQq8Gtpf94G9AEbdUcJlg8dau/V+n3Q8DG4C4588BYYL4V1gx9TXh9DyZ3nZr8Ymn9/y3JCMeS6/byJ5kWAvrNCireXkxtCT0to8OHNzH8cDDLuwdgM683gGkC6E3jZAcFo42DhGIxTPgoTm2OZl3YrVZSpAub16WLE8F+pQAaQL1+czBPYsC6OJux6fOqbcGOq+YpFjUg8cNYlomqHOrnoPJeek+fG4/YmjRRTBjKIxYYMVdlD40QOyjn5g0O1b8qDQ8fEm9FpCWnXUjsXwIgtYt7GJeY+EReph9IC1No1uYspC5/j
+================anyIndex-strRet=========2018-01-12 23:03:51==========
+{"errcode":1,"errmsg":"success","data":{"minute":1437,"totalMinute":1440}}
+================RunCmd-strData-解密=========2018-01-12 23:03:51==========
+{"cmd":"login","encryptedData":"FmzZVWZnYU3TKXxAM5APPoVU2AY4knn7qExuukud/G1yIv4eYPW3kNeWiqA3eRJpDKnM+RVW07IdGKMPjz15YgoG0m1QMMvEUl4E2y1KpJYjQT4t+QHF58pArZVLVqvJBWvtN43Sfz0oRFfT1xCC5mVQ4HauPi0kEyClbhaV9528p62PXWP95Ns3ouJyaQujY+dl+fNhuNIM8zrWwRiO2qYcbbNJ+vjeyA1qHvSnCv2wNm/qrxEPYJjeenyoLd7pv2CynmobEZEvyd4+z/N0MrjM04TWlEZprJ3zDqHRS9JjKOm4z4/vJD+3mcTPdPFz8HrHS+jaSiHhN3+RAfSwhnnhmwucOZQVwHmQPqZ1Qd8zRnAuTvndaccyBfw1dwsI8+r0f9mqBWircMFVh6F2tSLQsX8HOzIGN8uhqObD/bSg0eYIbgUlgpASXBvmG/nCokxmlaTeqnXiEe5HaPspFQVwQI3avDnwC9qivKqsw48=","iv":"w%2Bbd2syBFeSptyYrMo%2BHAA%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:03:51==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:04:04==========
+KIyU12aMiZszUHeYK3Mwj99jXHvz5IK9N0WJ3ltsozn5/19iR58/I9/yOKc6DiIi
+================anyIndex-strData=========2018-01-12 23:04:04==========
+Bi4ArkRXliJvALp8tN9zY7SFwfe4gTGyNR9yiYqs+3s9wgLz4GzMSZSyVnCBt2tIGu9DlBoznuiE2Vtb7+BqnEdMOJCpgXKclyTl2k5QsKRXt3MKN2mgkOdoNdbfoH91rndmaKeSUOrjzVFxid+3cRMejue+U2Yg5XAtl2ArNvAtzjPrhV2+XV/6UVwMbIJmpUUFq6VqQJkNgJ9cJyyKaT1V3w3psqs3YVuYYOuun8TkDWKrrlgA+OyPWZzuYqrpgBkuCN5JzexgXpgDSL/23rv4ru/HPYSpLd9aA1eA6P9hKsspCsVcFaindxvZV2FLqKc0rdpzo0PpdhIMlF8fvH9mpWakKEoKGZo1UJMT9pxU5HdghqT7fZGcIZtp3/hjsk05M69cr7+YKEtk9GpDV1S/OS2YFcFDCq9ggbMSdwKRkLNq1Vch811TQsffoGlOH0d0pXyZIRLQZck9gB75g1r6pWk+Q4MeCNc+51zW0SzwHArzqIKy862Z8Mxy+Q/TyDXDvTjW1GMLe7NTspZabkzLTl/SI3pq0v0v4l2p+/YMh1CLSd0ycWwabRgExb2WUiLhcQuuYiOiY5fQjlu8h9EyTxDUnYFQEBe3bZg0Sis3/m9XqV1NC3w4HD1FzYstBBdK0a/AOMrdM+GToqGyJs1dwDsz9KaAQ1BCzdx5q9jPgmiPr9x6a4S1Dp6c2LX54QPI8SVMGgdmlU0C1wntn9m9u6j70rGw/WIP85yQ7kHumhbQpFDfataa1kzffOsj
+================RunCmd-strData-解密=========2018-01-12 23:04:04==========
+{"cmd":"getUserNoticeTask","type":0}
+================RunCmd-strData-解密=========2018-01-12 23:04:04==========
+{"cmd":"login","encryptedData":"5iKffF4uAH2cKBYnLsPgK/T/6sPx0XcZ5BnVI37OwI2GByXQnb3DdkkGHxBkDIuq0MVjb4oy0dHMm8QOhI1ftTl7Yr00nfAmJav1GPhTit/itqAY2KYfES5cYiDMxOp8GrUMap/V+GYnVWaRIy4Qe4O2g4CQJMRPyNc0wmCWWh/8I9tzqdQBH/kkmEetA2oVlGgjuNApbxtP/nw279VA4TUT28ZX7PgTxfIYUo8Kao5ezlgdkpnT4Sc1I2s4ek/A7GcCVkB7EZUWmIsUnOMuV8APRIiAAppTG1UH/6SBLCOsvRYRuLIBB0vjulpeFgF1g3oTDKlBPDbWo8pQkdoozNEdbBbhI2JIbKx19yFn1vY5DTw9xTd0f0uGVSLXMi28w31gEAz7yMIS95xEqvDVf5tIh96XJr1mD7N6/liWUEcBL/aVK6MOSj7V6zCJAM8jpvLvnq+lCDkJ+h364ErV4ZL8tOtbJmkIDnb0jUZrLlE=","iv":"ueywobZ5sVRzwEqTMf1jgQ%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:04:04==========
+{"errcode":1,"errmsg":"success","data":{"minute":1436,"totalMinute":1440}}
+================anyIndex-strRet=========2018-01-12 23:04:04==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:04:17==========
+KIyU12aMiZszUHeYK3Mwj99jXHvz5IK9N0WJ3ltsozn5/19iR58/I9/yOKc6DiIi
+================anyIndex-strData=========2018-01-12 23:04:17==========
+Bi4ArkRXliJvALp8tN9zY7SFwfe4gTGyNR9yiYqs+3sE05e/NKVYGEvTM+NEW3mVWGEElB976HdtZp5bMsMDN45IkwvbT0D1QYVjCIxZA60vX1vod9goEq+1oyA5c3gX4Lc15DI+GzJFIsoxxHQ9Y7u8b3QIcZUh+KdXQDYuvg8t0A8o2niCiCF6Bzc8ivHmbgX4Cc/lxp0B2Ws+z4t7oA61o4Ncwfh5BgiWUQ1pk4qHyDa7eFAA0uql6wk2YQa1CZtlQUCuVQjRixe++XeDjV1xtfLRs4a0g49yAkia22Few5DYdNA6vQU6o4pIvanPMzpjRsnZJ9UosD4IzJojowVZytZTtko3Ese++IvHlEgTv8OrZI5t5yZAjRLB9mnbbY8hgJmwSxvi+za7zcCCxM+XDsjBCoQf4F8nZKxnLOjd61iqdE1IvBKug2wQgLq6O3HUEPzT0FLSCcXM3ACj0VL9yssXD3HjRV4NFpt2oIhezd4HcizrVTncRKVrQc6WjYMBWG+TDa9vWA4SFT+o9/vj07GxFKDSHYL6pYXhA0fDW4rRsxP/42K+f2bXvAPWr4nvuZjiF0XovK1/BvViIhlUjCHxsbl16fwS3f4A2yHTVqhcmr2B6/6/z0QF2ANaiGgOKdg8kQZeYYNBMcEMz3LdSluBil5yOBpaN0LH/if9CK+J13T8OL9I18NtB1hJ2lPsZM0X0xoai5VxKuBK7wn4Wx+Zw8wzyS9fsWu7U3PumhbQpFDfataa1kzffOsj
+================RunCmd-strData-解密=========2018-01-12 23:04:17==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:04:18==========
+{"errcode":1,"errmsg":"success","data":{"minute":1436,"totalMinute":1440}}
+================RunCmd-strData-解密=========2018-01-12 23:04:18==========
+{"cmd":"login","encryptedData":"FhSVlGTzNVnNvergOZQrdpSSEP6J7ZQ88I2+iI9WtJvx5RN2YTcudtbva0Iz5V5BJxK+A67AX78vhIJnnSqLUr4Yjkc1Q9Iys4O63LA1zbWuuYnbNfxx+7ooT61ZvB6n1fVj6L/onM0eD572jJ+DNqb9GI+z60++EZ/w995Y/h6UErLMyPAjHTDZme1csmfzo7ZidshJ8wxCrBXtT/uB/12AZcYyOrrStnPXopN/12muhShoI5Jo59DVvJO3wbYDzR2hdE1vqbZhabgmyp7uyImV+SWB1d0AWdi05On3svvT11Wjg1QtgkIvBbRhQmRcKGAhM1tT2xVYUjrkZ9QyNIPPJUykdhz0Wkf74hWdgFPjX7KmWBCLXha2RBZ9MF/o3RJKKdbVdeQdV08OFAdAkv9tcG9B+qjAhZx6ZdGeEL+A5MfPtQyX1O8mLGkAO6EYODq6ZuJwBfqw/9awwiG4A6Quf/y+w3tAyDTpuDXcNlk=","iv":"qZlJcNiUi8j0HwXPBH1Lxg%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:04:18==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:04:36==========
+KIyU12aMiZszUHeYK3Mwj99jXHvz5IK9N0WJ3ltsozn5/19iR58/I9/yOKc6DiIi
+================anyIndex-strData=========2018-01-12 23:04:37==========
+Bi4ArkRXliJvALp8tN9zY7SFwfe4gTGyNR9yiYqs+3s68xzpsS07Nk2E2fOq05JuMZegAaSQPwiCdW/nXC6kF32SzgoQzPR/ArrldwbAMYCHytCfP5G2vJFsd0+YNyaON/9FFM32qGUflXywVjAiVqSKjvekvsvaMlHLq/VOEhae0DDhFfB0+dzHOOkRlutMDGKXEpLlfbQAqxryadS/lAYZFAK88nwDIMF6fGqELqqWrS3mcS8QUKa3XR4FrxosDOu94x42Asdb1VYhJCkbl0zkIILsnrH88Um1LqDF6+R8SyJ66S4Tw0Eh3X5rjYDXLNEL2vyUKWJgCZPBUr8lZe1iqW1gS/DAiMsu1zw3x3c5cfXifc6nqHt2IQtRhdNttfxtlCpa3BN5tss1My/T1a5eOAwusotAPMV/gp6Cp/GEFAkzZvagtzQ9tEypYyWvj4jCzYz64MST4m5eroNqV0dlPIJpOgWQeOWGK/qlM9qs5hRxsyquHCT+roFEDUuUwFOZAz13/3OYLIwWT3KJuAPcjvqdZGhFAsQaXWlykbmze9Pz3crS/k2VvRJ/wFBia8x33eDlxwx1ya3QzuGg5mWXUW/ZjC1KFCR2XCWy/+5uGQR08wQ1K/dfenaQLVphHZCI1EtQjH0Elu1q3+lo1QltRkQDxBgm7pmLNDXiB92hvZ/jNqo9rM2mgFfaPNiLFYIVHPyx5PE4tFNKZpamx3ESfywDUcgnZX223xG3zrcOySdQw9NE6MkT0hJUXKyT
+================RunCmd-strData-解密=========2018-01-12 23:04:37==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:04:37==========
+{"errcode":1,"errmsg":"success","data":{"minute":1436,"totalMinute":1440}}
+================RunCmd-strData-解密=========2018-01-12 23:04:37==========
+{"cmd":"login","encryptedData":"yrgTySR2NrCryhgYkH1vhw6f5B3E3p+o/wbSz48An6ueXGWhPCsFy3fTURAmVdURXDlfCJM8loRJnlyme3tY8SWjMqCPubaoMxoS8UKyEtR30WLe7L+i/pOniMzkOcQZgtLqF7MhBYaIsGZqi+hARWZR9Dg/j3m/uVkwCjMDHEGhUek70B+O+NOErDoMHlM2acWDi81qr1poEgiQlvL+zp8ZFfuwRtO2OxoLZ39xwWCDH/KOahB2zyCrfNwy1tsG8UCasQeN4e8VNqreKNvbLaFMKhVi8paQuBh75JFo+Kr5jPID4/s8jytsxeQuz+pizwYWJ3HeFdoGCIQZwyA3kiOWDS7H5mCpJ3MVIbQ04pGy1SfNiy+AdKHPW+Jddoe3uGZH+Do85mmClLAoHR4CuqzwRfcWKoWd+3xP+q/9oUWkk/riKdiepK1vnJA8R9hzAbU7lFVr2a0sMCOdyjkO1wh0r0Xtcx8ygsrrkHfebnk=","iv":"zRkX%2BurSulOZYYTui57u8Q%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:04:37==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:05:13==========
+KIyU12aMiZszUHeYK3Mwj99jXHvz5IK9N0WJ3ltsozn5/19iR58/I9/yOKc6DiIi
+================anyIndex-strData=========2018-01-12 23:05:13==========
+Bi4ArkRXliJvALp8tN9zY7SFwfe4gTGyNR9yiYqs+3ujSyejdCbMh0JsNM0/U+XxeldvSXiRD9uAx86HcDKHZZuCV+v0vHE1VYLNffjAXlwJlkbipKlX7Q3BHXXFfqGg/v5jASHQpfvOPPrkeZIXNG61dNYpQePvnavMfW01xoswd/+YLjlz7CFJzC1PXffEpMxzfNF3QJHFSjuXxET7fe1aj87wDQD2bowIh7LxtjJLJHXSYEVO4xiEVmWiQHdB+z1tCB9MiFCa1Pc2AFr1Jva+LAAcJajMjEm+Ve+5WLnf5LIOdGaZFuThiPghrArHMs4nFCYlnLRK8ioSvtOP427R7HXlmppZAHA3SPcu/QUIfJhD1cAvdPaCNL3PCVz+3rcC3LPM74I1G3LcVTS4BzZsFpbd6buKTQ9/VTt6ql9ngnfmqiA/SwQEBX/a1+59niEqNI19DAMbvttTDnD9m4svMPfDcxr/u8ecd6ZvSmkdMq54RaJdARzgnvMgiqSm2hR7Keqq8ib0+JHnn9UfKgs/5TLK7lSSFDDBNjCN0HK5TwM5MUVg1UwNWfCd+bZGizv3d1FgmMV0c0ZvOKp76zfmz4Yq/IS9Acccw+85VrvPghNW+0dqPw9c686MKjBlTwzqGmh9OjKkw9gPqRCTN69sITOJIpDIBLtj63QMqQ7vQe4MEBdiF8z00l6oJGiEV2iMqzYm19LORiLlAfFTu2pd20aGP+hIbWriL5bagPkOySdQw9NE6MkT0hJUXKyT
+================RunCmd-strData-解密=========2018-01-12 23:05:13==========
+{"cmd":"getUserNoticeTask","type":0}
+================RunCmd-strData-解密=========2018-01-12 23:05:13==========
+{"cmd":"login","encryptedData":"rECBEKv3h7OFLNlADXoTHRrSswt6Y8Yd/Bhuysch7ryYFxKZLk/o9WVpne0cZkjRAOJIZaRuBbK2zdVB4elJr5xVhDoi3pj8yTeycZcK+Mzlf1kdrhpxDfLITxgq0kQlp4kX/2UiPZ/JI/tG39QgLyM028aSFdOBfCXhiGVa97/haD0Nv6vLvDISJt/Ajt8skSjP8ZL3X0g5ly+KB2gcXdVHdZG+6GZSFSJi5v43LJfLVBMfY+y1EV6SQFF8B24jFmq8DWCig5RBrypiBC3fu1lYoV+KGSQXdAuoAj6uJdl24NJXyYtXxb092eXIEcgcB4NhQu7iUom1r3G6ZoN+SfrNPEo6ZQa1cUbVOWp+qE565SccI2pYR44MMjZXA0338Is/XhwgpuacDO+GLbjFo0nvrnq3qBKutHUYsbO2BguhkbpTI69qazq0HbA95zErWC3+X+6GGkvURNJOTx0TQjdhM5OQZ+B1aH5yMraxpNE=","iv":"p%2FjvxUnZOu6aNopz315jAQ%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:05:13==========
+{"errcode":1,"errmsg":"success","data":{"minute":1435,"totalMinute":1440}}
+================anyIndex-strRet=========2018-01-12 23:05:13==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:05:24==========
+KIyU12aMiZszUHeYK3Mwj99jXHvz5IK9N0WJ3ltsozn5/19iR58/I9/yOKc6DiIi
+================anyIndex-strData=========2018-01-12 23:05:24==========
+Bi4ArkRXliJvALp8tN9zY7SFwfe4gTGyNR9yiYqs+3v31jAC74GSuEQkE64Zt0rzkgZqgsOwSo9QCdw9Pc31qia0S+BtS7LSJP+BkTuIm4WjG5T4zO1FDe5ZYq8z8ktvyKU8ukGLlkIzmb63eVTMzU/ntv1z2XBBO1OCyLH43kWqzw9m6hGs5lkk0k0zG3DmxbXL7EMyrhePw9ipzSQRpWV1X7bwGLFKOdrOzFd+BM5Bh9TT/qJUOF8Hfgt1jbG1oS0nqvyEoJiqoJK4Y4s3LXjHv4hWYtnHlP7qMSmuKKwYqt1Qo/jJuPpQ1DQw4RO3i/uNw9X9nCG5/nLcE+M/AS+qw3FZbGzYOJa4/SEedG05x+CjPlz1CXrNA0e+veLLifemdjvHhyy3Ez3lZ0U64zuQmy+G4Q1EiktZIT/2hbqXGWvifUSuI37bVhSy8f4A0m5IKVh/0Q40N4l5M8/Uuy0RKWN1sQCbwb2xfIwOaNEdY9cpipiZta65K9TuYyoanCiZBdcKwIAKTZC26F0I0b53+iY74yJuz65Nr5Zqgf9PssgU9KRyZ6F8YpaBecFK4aQRzM6kvtW8yaoxA6oaRNQ9wRvqOrTrJszhnXF5jzwytFXLhB1ho/VE0CihPWg5Kk3N4Thr2uA+ToziBR35oloVsm98IHlMCKlOJ9/tA74hXCD6w0Yj7dF9yrwbz5uM6HWyoLtpF1qmUuPo9miDYZc5R8kgkaW5TX7I/xFJEV/umhbQpFDfataa1kzffOsj
+================RunCmd-strData-解密=========2018-01-12 23:05:24==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:05:24==========
+{"errcode":1,"errmsg":"success","data":{"minute":1435,"totalMinute":1440}}
+================RunCmd-strData-解密=========2018-01-12 23:05:24==========
+{"cmd":"login","encryptedData":"MbzFEcpJsKramtvzhd6pw0x5ud4EHlP60ewF4rijooCxeOIIbMnVIR+9ee2W6VO1nDHAAlYdYyjqQjbW6J1a2I30wpxHDWa4lQXnFPjo5jvxci+ImwMlgrpt6ZfS0DILqtEbi4pw7feUkAHORKD8sDmFX5YIhtN1v6/fxTF5HvmLdLVFR1U1SxmZHqeHMlNn+V9n420PmpQRx0kXD9uphnVRiTcmZ9+kEGh1fj4BKQYZLxwZPZn7PAyNaBh0LANiMoA32rW6dIOpZaxsOOW0xVikqtMcBBEEKnLS81oyNdvqvUrtm1AsvYgnWl6i6Qj56iZI4PVb1KHJJCWxKkO8NziIKUVSUvq5Ldl4H/Ah/07J3tweUU1ywV75sJeuSAO577mzZgL7A3yWswm3NwJS4gvQgJuXaoRgqzQWr7DuZoEGIroZT11oW4Bnm4H4kK8/rcA4fEuj/5qnh5YWxKVi11HqN6d6nBZpfRrrz4IPJDI=","iv":"X6ielrjx7YSAOCC40pvnyw%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:05:25==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:05:28==========
+EI+xVHk9jLV/hw5rGGHdf/bxQbubjD88p4E4mqmYR2OnZ1LuAgGdBEiV1wFfxvr/Ive0bvIqk+1HxZZwWUnzEA==
+================RunCmd-strData-解密=========2018-01-12 23:05:28==========
+{"cmd":"modifyUserNoticeTask","minute":20160,"type":0}
+================anyIndex-strRet=========2018-01-12 23:05:29==========
+{"errcode":1,"errmsg":"success"}
+================anyIndex-strData=========2018-01-12 23:05:29==========
+KIyU12aMiZszUHeYK3Mwj99jXHvz5IK9N0WJ3ltsozn5/19iR58/I9/yOKc6DiIi
+================RunCmd-strData-解密=========2018-01-12 23:05:29==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:05:29==========
+{"errcode":1,"errmsg":"success","data":{"minute":20159,"totalMinute":20160}}
+================anyIndex-strData=========2018-01-12 23:05:30==========
+EI+xVHk9jLV/hw5rGGHdf/bxQbubjD88p4E4mqmYR2PgAaH8jG0M459cF/FuC2Aa+f9fYkefPyPf8jinOg4iIg==
+================RunCmd-strData-解密=========2018-01-12 23:05:30==========
+{"cmd":"modifyUserNoticeTask","minute":240,"type":0}
+================anyIndex-strRet=========2018-01-12 23:05:31==========
+{"errcode":1,"errmsg":"success"}
+================anyIndex-strData=========2018-01-12 23:05:31==========
+KIyU12aMiZszUHeYK3Mwj99jXHvz5IK9N0WJ3ltsozn5/19iR58/I9/yOKc6DiIi
+================RunCmd-strData-解密=========2018-01-12 23:05:31==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:05:31==========
+{"errcode":1,"errmsg":"success","data":{"minute":239,"totalMinute":240}}
+================anyIndex-strData=========2018-01-12 23:06:58==========
+KIyU12aMiZszUHeYK3Mwj99jXHvz5IK9N0WJ3ltsozn5/19iR58/I9/yOKc6DiIi
+================anyIndex-strData=========2018-01-12 23:06:58==========
+Bi4ArkRXliJvALp8tN9zY7SFwfe4gTGyNR9yiYqs+3s5IL2WyvecrSnu4DTJHk/jUbL0UGnXnDSTunrtXCXxMc9YC4VW4wKc38gJcOZQ2SkqoM5xBh2uKqXGlm0VmH1zCjdg5sSYWg4+kx931zgoLF60gTsEKheL+cj44swkSOi21hT8rdrb17dVUm1TdspYXDu/6EnZxDLKkRwhlCFAMDvOhpZXcwM5TJbfbZgSJF3UjPEcdt53LoGNHN0imWzBwrJBzORgIFNKWyQv2ecmtQJEO2KAgKRwKgMbw4hM7fMs0hTlGSaXhGi6ST4sWbHVAtr4X4KbOddJlRpLVeHRZbr7UgE+Q3FwLgc8NBUkuqKGU3aL9aZpV4XX4fzK/CYQNWkAnHHqTOYigik9g7kEgHeq2t6NhRfWF8a/TU90ecnv7dRuhr8EfU/cY009Lybs0yhdSqRl1Ra1qz4g1X5GH0/IDb7nJcM3Xy65VUB0K1E4N89G2y56aD97fqgEvXV4I/Nzrqo2kbA7jxnA04JTeZVuLbBXdX3aWGirZfJFyY1SUNmDUGsdsuqGpmMmmoZ29RCm41fZk7TBBfGmuoVVtqQ5sFEiCvtx2NsvQjuRCLaspSa9kXWMcWnBFMcoCaPZ4NdhoCv4ReQjU+/hNGs+aYmsAKbZiYp4VKVh/9zMGWkj5bszk1mJbi3bw7G5PojD46+u3s3PzjDDSIYaP875goTlVAEpbX6BHlc1eliOZ8XumhbQpFDfataa1kzffOsj
+================RunCmd-strData-解密=========2018-01-12 23:06:58==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:06:58==========
+{"errcode":1,"errmsg":"success","data":{"minute":238,"totalMinute":240}}
+================RunCmd-strData-解密=========2018-01-12 23:06:58==========
+{"cmd":"login","encryptedData":"6/XphJxKqM4L5idwHO8MIrMuRb3o+64G7Bmmlrtaljsx+F4BkMBjUKsg9kWIXn26aa1h24TZebOTxnp90PlW4tNmG/p8kbhETGqvrudxH+RLL//LV5aBowf60zNPBXGuMTiLDLZauRGkAsfFNO+3SrNCWWRfyhHTL4NMGWi3P5b85hmrXifkEkD+w6zBXvlZdjav53XhgZQOFhB4gdWPAU+nubKtRBN6yah4Trw99WuaFhFuH6ifYxQGKxk5vI8xN6ffd6CjX4djKObfnShO0Qj3PJFkh7ZTR2iKyDBlIk2tEfuf9ulzSAahCc51ghUns5/zbkHFbbHh9/Tft4I1v6lWyXTBUPh+zZGt85aLAn7bd18zG8+R0LTGVpBMmhP/67ScF0Q0ii7C22cYojdCVnEYFlWx9+pJaqe4t5bwQ04SfUG8E/gX3KNPlEYb9OvgWY2h1UEQ+oJQm/l4hwF+OmmriYy9ZZFmohDnPUCE0QA=","iv":"3A6Wesn4VSj2K8WK2bJiwQ%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:06:58==========
+{"errcode":30102,"errmsg":"sessionId not valid"}
+================anyIndex-strData=========2018-01-12 23:06:59==========
+JbDjohqL/x3pWdjJIoqk5yRUxHiJmH8cBGjqvF/6+1+I6Q39fsvlmxcFa/4L9pbHzULsVJgXE4403z5+tWfnt+NA11B/5DrAUxunBfM1T4Dhas36/H+Ko4ncZD9zy/qX/HPsgRZmhfUvIHy6OOaEnRnrS6xhpw5VDcqos1ztZ6q9JjkRmxPRJFmgpjmOYLv4vne2/qmQlDHBUQKOib13eCsvcEXwFW2jetyf9/RB39gn83W2+GOATHuAqt4B0F2oxpGa0eIIfqfjjyLtHFy7LB6bXkmv9FkV19yRxXchwmuw2rVifPVlZ1AFFDBnipRIVwTnzV5MEB10y8zZgce6hBki7U0V7Ym+YDIVa9sPUdIpoK7zIHeKcU/xayFROPKipMxv9r77kiELYkJvKYuX1V5ZAvS1zIVOp1g1dCU3RGApGTSy4glzyBYGpVQl5oZcrGYHCdLLF9JNR3lpL1/rJDB5FYTV2SAiYhpBq4sH2kOiBOzROX2bW+Vbx3Id7yFrthCdrmcZ2cxPfNJ3+NWD531YTY3PCsfcrAQkLfCxCD2kOjMylq84qdICBw3Lo3trJQdcwY9PIDrdQO3bgVWuTwSmEa9r1nKV3AjKFEhK/tiLZIMZbsw/vWswk5x+dAdEpfl5I7O74k70qw9L6knoFcDDJ0ISdmuIeluWmftBhiOGasvriCvhkK5G8aDv8qmE/PHjB6PdabwQSK5YzQZn2n5k6H0ahW2DEG1gq0HN+sWEyomkSWWCA1m5hebKzyeU
+================RunCmd-strData-解密=========2018-01-12 23:06:59==========
+{"cmd":"login","encryptedData":"6/XphJxKqM4L5idwHO8MIrMuRb3o+64G7Bmmlrtaljsx+F4BkMBjUKsg9kWIXn26aa1h24TZebOTxnp90PlW4tNmG/p8kbhETGqvrudxH+RLL//LV5aBowf60zNPBXGuMTiLDLZauRGkAsfFNO+3SrNCWWRfyhHTL4NMGWi3P5b85hmrXifkEkD+w6zBXvlZdjav53XhgZQOFhB4gdWPAU+nubKtRBN6yah4Trw99WuaFhFuH6ifYxQGKxk5vI8xN6ffd6CjX4djKObfnShO0Qj3PJFkh7ZTR2iKyDBlIk2tEfuf9ulzSAahCc51ghUns5/zbkHFbbHh9/Tft4I1v6lWyXTBUPh+zZGt85aLAn7bd18zG8+R0LTGVpBMmhP/67ScF0Q0ii7C22cYojdCVnEYFlWx9+pJaqe4t5bwQ04SfUG8E/gX3KNPlEYb9OvgWY2h1UEQ+oJQm/l4hwF+OmmriYy9ZZFmohDnPUCE0QA=","iv":"3A6Wesn4VSj2K8WK2bJiwQ%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:06:59==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:07:17==========
+q23X7xd35aofJRNYo41FM794vqTM3MB7djJvO8VcvLjZL/ulUPyHOmENznJ7MKbq
+================anyIndex-strData=========2018-01-12 23:07:18==========
+JbDjohqL/x3pWdjJIoqk5yRUxHiJmH8cBGjqvF/6+191KGdKs82S+iU8lDfNac0SWogT5Ltg0NSLTf1eO2VnnZE8isIsEpUpJj8Q7L7kZjpxu/QPxsvieG8eCWQPHtK4HfDub/4eUgnrk5U1U0OXpthfMQ16g3AzELPD6CwHHz45efttHxJ1pc7W5ojVxFGwLVxNJ/dRfppbcrRCkRLdbySIuPihF9NmuKwayhDzgAu+n6z6wUbIDb+jA01IPXx1bXBY5dNEkEIeNH/Wjp+C531hfDKczWrZNMe/Q6uTFN3EqaJvsC2CGIynmOGg2SAFFTaSVtcifej6QKHEwZeNaNeCIhaUrJ7IdoC8p8gQcNVer9cU9yJVzbGLJksGlWkAE5gsUGga9QZQdCAPi2AUpKWEI35KOG5SBGKOhl1rsSRoCWa1iLtlAg/p8TGZymPtvZpKFHJuRnBOGAAelFe1/OKy0v+WBM3JBl9uotj5wt6NV9xwKb0B0dtlyde1Wj4V+4K2VDhLlG4zI/moUF94Wplyp0XNRldyVQ162A3Idz3CTzrIM8NNp+e4xyKGv6+ql0DvPlll9bCPIRPs8UIzhaKAfHp/bM+6Zub6s2Dpqlo+KbZA4UvOMlyXepkE08u1GnODRl0qjuwQ7L47kR2OtYCk2j9I+AZYssZrEdNYrWrpdkYNvpMoYga91lL5CEh9BZSBcKyIRw5peZDkE4XXNBQjIhiAh7BijbpRvRPsrfZxE0URcEfy7Pzt8aQWZAQU
+================RunCmd-strData-解密=========2018-01-12 23:07:18==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:07:18==========
+{"errcode":1,"errmsg":"success","data":{"minute":237,"totalMinute":240}}
+================RunCmd-strData-解密=========2018-01-12 23:07:18==========
+{"cmd":"login","encryptedData":"rFJrhxAf8Qtbvoe5Hlarxawr+dk2s6WjYtWyNBN81KqtsvhknMhDM5JSahonJj36i+yA3sBQFBExqtRiqFTlcw2RafAROY7V/yahxEtfsLKR1J55mkxIBUwi9RtLS9qWcX6TfQSpmpRTCijVADSnZRxyYgvWcde4Cg1XJJmkrwfblWPpFK6mwdrh7wMHLVnh9alOqf+sjCG8ThP4msTXbcGzvgFTons4yOu8prRWcOAkFF7SKAGy1i44y9tPl7iml5OmR1zh12sSIC2RynckVMReRZbDRo67j/guXSHEeBL1MaQ+XYD/Yhb1LGJNVNFMhbczgQv6WSldhWsB+bk0WKnBRqyrKKiQbUVCKGW+kkdqZI2zxOLGrSG6Qm/KrsShP5dYWrVe2Ci5p+RqIP+W5HZUovPZ3CcVz5xkvwmeas1wOd2949ay3Z8bC1cAmGL2QRdHAUuxasDViBN2P+HleZUOAkDfhU85MiGQgt0oN50=","iv":"vILX20vfjku1%2FyAqtkc1zA%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:07:18==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:07:38==========
+q23X7xd35aofJRNYo41FM794vqTM3MB7djJvO8VcvLjZL/ulUPyHOmENznJ7MKbq
+================anyIndex-strData=========2018-01-12 23:07:38==========
+JbDjohqL/x3pWdjJIoqk5yRUxHiJmH8cBGjqvF/6+1//xbRV36e9mVJ6OueThWI9eGK4cCAzj7rTTmnS4b3tTG8bbaeNMiTvFZ5Z0K2hIGvgXI/AKKuknxkvB8nbu3+939bnxU3rskf7m1QTk3CuK/QIKbGQc4STJk8LYFwndtdnQT18Ob9aUX6OVnUetwIVMdywai3c95+K2KIWqRF92BTLpAe5yXQFv8Z5MZWar6Nyo0JQYPS6+e3z+dV2WfKBYsanr5X0ELYOv43cqDsIz5U6kXZphClSAMnaV8t2sAfCQTANqXhFbpDWMlMil8g8SxBnD0O+IVVASfZc5FImmHpDgvYdZaur2bYTC0B0ptDIvLgwqvFYr3SnIqeQQAYGg5M6ORq31eRFQ8O0l1B5+1OuxDNRW9kL18DcdstidyH+0dkoFsoKZmQxTmjhngmM8h7QWTPevmFkvzB8iOFPtI5IW179SvsuIZzV6EA8+L9JyUyrsYb6rHdxxhvjvihLLRa9gaZbVI58khsrfNeMEWR3SecuoMqrATWdnvAB8KUJjTKspp3RxhknDy+RAtHFytap3eZl1E36VzpiUxqLE/OAKbdSqAgyQI+IQLrk/YNJ1Wv46s+wV/Yrftkn79AJZ3d2k2wAJzInOs54V7OTyVmuFO2BwZyMfzOVDFQukWAO8bkUYW7I7DSllUAN2bdgW1JkAv+cGqWe9p13DWY3GOnuBGt8td7xNV/O8MzX/d2EyomkSWWCA1m5hebKzyeU
+================RunCmd-strData-解密=========2018-01-12 23:07:38==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:07:38==========
+{"errcode":1,"errmsg":"success","data":{"minute":237,"totalMinute":240}}
+================RunCmd-strData-解密=========2018-01-12 23:07:38==========
+{"cmd":"login","encryptedData":"lqmMARHmy585G2VmqEM3w5lNOTrRrBCPL5rBzD6djOCkpO4WHnLKBhIpL6+DcDb8yNCV77JoC/19XqUcXDynpPQa8Mx/KzAgbh1EdZH7t/mMVo8F4KJhsLEccDcBdL5hVcl28cIN/Nt3cVjsoxvAj38NhJicBE31Sm+huWVUx5Y1oLXvuGNKYG6s/1xqqY4n0GUM5InnqwCk2oqwTByq+zWsnuZEDms+QWQgYChAWnnPaBvzjw5hTo+U3ULzZ64A1jnvBon/ZPHLYNHOD5SJIfHu5wGxvjFfORbRWYNFvNS/eRX9IelmmJtNrYP1fN89E/B1PU1H6Mk+i4HTWlMp1XjpP3T1z0RH3vgeoGRkccmhvphEzGL7o7q1CL3yVRtP7d6F97y0H2+H0AsE+639mEpOOT9bUhg2lIlfAjrMaJw2reTIF8WwfW8UoydbcxstkVJI6ynCdWydtHUdXPcsXCgL7r7HmK5aZfYf/C8BP1A=","iv":"ohiZ4US53CICDWhSznwRpg%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:07:38==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:07:50==========
+q23X7xd35aofJRNYo41FM794vqTM3MB7djJvO8VcvLjZL/ulUPyHOmENznJ7MKbq
+================anyIndex-strData=========2018-01-12 23:07:50==========
+JbDjohqL/x3pWdjJIoqk5yRUxHiJmH8cBGjqvF/6+18PRxXbzAwO7tAbcFV9lbDA4uI+VXoTIv14A4rDbZyrsNq0AXCrEhI/r/a3ZP7JY/LhffHzf+gv8bmWbRRGqmbNM43ArLY+vXutg2EDQE0t/fgNHiyZU/GFvrS8LyVxdXtBVnC9x09SO1QPwUE3IlmZPnPJp4iCaok7jSyp5FcEL/5DOcRNG36DeiU0M5pFhrfu5CTQ9L98swJPd1P6X6LyJhO6tcYcbp7pEAfyvae+YbUkukogc8AcWKD4SFN7QweieO1PCOd9xoIxKnsKb6mHQGv5GxXppXpsthBX1F8C8hXpeKRUor/s2VTGNYDqrxAeZi2VbHvluvGTjB/cMCkpSGr3koGfQt4aDIFTSwkbAHVmLr5LJ272vsy4D6ZFTEANocc/mMab/wUQ/6XpU77PfKJvCyxhArCMRw3bQuF3YCjNx0RGO3Rnau4se7u0BoMA7VmnBw9nXt9KExFgw9S6EgDbUAtnNrUGjRBH2CqYhuYAsXB8zIIXXUDXPN2lU7vjcYpCWGWSmM4jVuj2HrDmd4tcIzG59TXtI7M+YhaWAMZm1gsQtmbGDdalIV8HysuyFR9uAoc1mLBjo5B1CIUZIeQ/prGiLZP9ESunzJzkej7f7z4ZXifpxmAUj1+0fJkLi34xW+TVRWodNQkJAsq9xqPz1ae8iKYA8qvjeiIx9vhqE+vGN5JgO3dTCuQh+XmEyomkSWWCA1m5hebKzyeU
+================RunCmd-strData-解密=========2018-01-12 23:07:50==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:07:50==========
+{"errcode":1,"errmsg":"success","data":{"minute":237,"totalMinute":240}}
+================RunCmd-strData-解密=========2018-01-12 23:07:51==========
+{"cmd":"login","encryptedData":"aM+RExQHJ4za6bkEia7zyWSHl+jxzfMFBTOuJHIcmGMeTFPm7fhxTl3FeP0V3wC+waZOakwg4e8Kl0auX7ZztEXpt7wEBkp0vyNC/cyEUU9oJb7uNLcW1K4B1hrBHgJ4Keh7CEp5jzYStfh6MR5sYxDzfeUgNhPNLGXsP/c9NSvc+s/2itt2p46HgqLYXAL+BPqnJtrPRn8jT3I8999pRhkqEiz8akUHCYeXttOYQ3+IBNdBW8QWjVDX/5AkeuoCcmFk63PZT6x6vMacZGFRKFT0uh5lTQ363brpFtd+LSrJ2u4GTmtJJa6i9xrXZbR1+X9NB0i1sMtz1lQEfzJdR8hjIfaxdgTJqRzQwqWycD9ZjfPWV4wuQUACU8zBlI8ffyHCuPMpKpRh/eUG6Ymu9cfS6R9nHRRQMz6izEJy7MuZ8KE8XiK/f5aF9sdXptWRX5AE+6pq3kF13mODp0cUA14g/Md8doi+QfWRVppG1dM=","iv":"1ySUXNQyDPa8AqodPeFhPw%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:07:51==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:08:02==========
+PfPhzncRy14yCGsCgAH7ZuqdR/RAvD1X7ctSQ4DVi5c=
+================RunCmd-strData-解密=========2018-01-12 23:08:02==========
+{"cmd":"getUserSystem"}
+================anyIndex-strRet=========2018-01-12 23:08:02==========
+{"errcode":1,"errmsg":"success","data":{"phone":"18668179721","ddAheadNotice":10}}
+================anyIndex-strData=========2018-01-12 23:08:08==========
+aI2wYz75ddiUW4kUPHTbyV9e68CWko0d92uDHBwSnNibW9VCJS2NI8O8uX8l7MJ8
+================RunCmd-strData-解密=========2018-01-12 23:08:08==========
+{"cmd":"cancelUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:08:09==========
+{"errcode":1,"errmsg":"success"}
+================anyIndex-strData=========2018-01-12 23:08:09==========
+q23X7xd35aofJRNYo41FM794vqTM3MB7djJvO8VcvLjZL/ulUPyHOmENznJ7MKbq
+================RunCmd-strData-解密=========2018-01-12 23:08:09==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:08:09==========
+{"errcode":10111,"errmsg":"\u67e5\u8be2\u4e3a\u7a7a"}
+================anyIndex-strData=========2018-01-12 23:08:12==========
+PfPhzncRy14yCGsCgAH7ZuqdR/RAvD1X7ctSQ4DVi5c=
+================RunCmd-strData-解密=========2018-01-12 23:08:12==========
+{"cmd":"getUserSystem"}
+================anyIndex-strRet=========2018-01-12 23:08:12==========
+{"errcode":1,"errmsg":"success","data":{"phone":"18668179721","ddAheadNotice":10}}
+================anyIndex-strData=========2018-01-12 23:09:44==========
+q23X7xd35aofJRNYo41FM794vqTM3MB7djJvO8VcvLjZL/ulUPyHOmENznJ7MKbq
+================RunCmd-strData-解密=========2018-01-12 23:09:44==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strData=========2018-01-12 23:09:44==========
+JbDjohqL/x3pWdjJIoqk5yRUxHiJmH8cBGjqvF/6+198NrbXWD2NVVonw2x3nUyuiH8s1uvuYXEvkaqIsbtFeUSUiORFxtsq8FD7oe/Sd8dMh+AUf+LSrQCGUtOfXB5x1MArkoiOhMqptkmfIrjLsd4BONno8zSItXpbsSaJTakZZRnl9ZXKCyMiHeeYjxazFAPHFFYjEdCeHr+wUjtxXjsP2GbBGZvjQ+W8m1INysIMph4QjFjiVfcLSWwEpyzAQcO3JiOMv18R9DO0nVd/Cj/+oZgFvZQclvm4PBzfmyosIBX+oUUdfME9SYsv7D08hQNcSilty7qHu+P0G6FtNg+cVx8Bd10cdEkXzOoO6xGy1KBOgZjVGXKNl2chWyjeZDn8mU2vzWD1uApPQNkrO55g5s2sP6JdUT7a4kzmeHFzP0PM30MfoEJj7D3sGgIN30O554rnELyr8chhto8wF1VtD/KkDUf5h2aE0H9QegH29rpcd44/TxFirPTekkavwTP7OJnI4IrdhJCikcsZAxDZ9lPrt5t5vPkf0GVQDjDL35F4XiDPamaKb5sgT0CW2lF3ftFx6irTOEku9bhZzAkxhNfvKHiwFkhZ67+mLasOYANfNv7q3+cxvHUPuxDnEuM00PSMcw6D3hGfMetjOIPQIKBOBSW2fqESIsXZp+53wqOg6eGOQZf0kfqpvun4NIVgczu88uCFX6oz6DpGw4zcOZAuddqcjaLEVz18IW9DFn7ZOVB0e+KfnifohWLV
+================anyIndex-strRet=========2018-01-12 23:09:45==========
+{"errcode":10111,"errmsg":"\u67e5\u8be2\u4e3a\u7a7a"}
+================RunCmd-strData-解密=========2018-01-12 23:09:45==========
+{"cmd":"login","encryptedData":"JYqHGkQ3uY9XokNfDiwNmdAa3TTC5zoBQC3NuqPcr/iSxntaq+RQHuOp6IJmB3lffTJcxjn2gQj8QNfOPFKjHt03VVFRNgNI8nRRc4NJa10tr17gqszOroV+AeB1rR55oJcVDGHxlkbdQ5jPXy5/EZScNF10QvJy6nYiLYi/mpjVDOyKwbJAXEzahelrfqr8X7v+M4sIr+UpJY66EhS3paDofHaItcRUc3O8dXByubhe0XFfZ4f8LX+FsQGAHryPKXRJXfKrB1853x/g2MlPw7tCGABJzveon+GrLMxlyC1uSLYSCVNgfj4qriy3q73Eod1Rzt++14M7C3evMumxfTYO3MNRM0j2IwbNeAeiz2Qt9aijAOO3LQW1GFOjmv85NflL0rCKNe2VvdWFlbxd71mb/oWXuKf4WVnq4LIqiuHQFytwEAzgHjT7tp5rAIyaf66W7nzAmZwFkphcOwxn51dYmIXrFhDj1FqCoja/50M=","iv":"SkzoD2%2BWhhq273Yz%2BtL1jQ%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:09:45==========
+{"errcode":30102,"errmsg":"sessionId not valid"}
+================anyIndex-strData=========2018-01-12 23:09:45==========
+BAGG8rDQ0N07FdRPpnFBrNutMBfLUiIrSKeCcPuOt/8RlFxua9vjx4jcHLotxI/fCUSPPCUfiqrKDhbyCdNlZN1cvFa6s3twxySafmB1RFFlCf7b37lr7A1j24VNLdNXJaffrxuE3yENFqMWkusXrJUlHK4nCieT5UYvealCYMYTkLnHT8zqu/6DABWB/wUzeses5ina9YyyITuNukD4drcJ50i6wCHw6ihZarwYtOSJ6Z+TqsSSJa+n4m/s+a7huqOSAIYjN1bdMPzppe4d3dfHZ/IhL6KUyzV5Yi4yR9MP7LT5EGb6F0siGIZZD/7JPiHZwxqVUYwhATGSJ8M/IJJDRhRbyf/0NpOdKb3ykPcMsR1IahKKzvIIFVH698BTtioStXGp7oyfpJRSE1I+PBNfTNSNBE4Db5LNGFpqjem12NTgv7WVwXUYEvrf/YOVLqiAq20Z4Ug73fL56mHldGjbDCG8bsSCCQIcvzvS3Cjqtw/SQgHdyM5zgWdS+KfjJ3u2G4yk7o586nfj65o5T2PQpR5gPtZGzxN0y6pOwUy9qhs52MAnev+jsb+CJb5JzEO3mddzaxsp47P0rx3WCeXH+7g0PJeyqZR0DomqJzxuviQaL+/8QxbFy3B0KNPWXsFrd2543WSBVRG486oTjUzPNh8Pf6lWneiZ5Tm8wj+6sZYsAnQ4gqU4ykAMD7mtSkZEKYI8j/BLc3plh38wNr9hTIVYiYTWPbdInlt6ukoZIikIbcOnNHWqzuTdHbkq
+================RunCmd-strData-解密=========2018-01-12 23:09:46==========
+{"cmd":"login","encryptedData":"JYqHGkQ3uY9XokNfDiwNmdAa3TTC5zoBQC3NuqPcr/iSxntaq+RQHuOp6IJmB3lffTJcxjn2gQj8QNfOPFKjHt03VVFRNgNI8nRRc4NJa10tr17gqszOroV+AeB1rR55oJcVDGHxlkbdQ5jPXy5/EZScNF10QvJy6nYiLYi/mpjVDOyKwbJAXEzahelrfqr8X7v+M4sIr+UpJY66EhS3paDofHaItcRUc3O8dXByubhe0XFfZ4f8LX+FsQGAHryPKXRJXfKrB1853x/g2MlPw7tCGABJzveon+GrLMxlyC1uSLYSCVNgfj4qriy3q73Eod1Rzt++14M7C3evMumxfTYO3MNRM0j2IwbNeAeiz2Qt9aijAOO3LQW1GFOjmv85NflL0rCKNe2VvdWFlbxd71mb/oWXuKf4WVnq4LIqiuHQFytwEAzgHjT7tp5rAIyaf66W7nzAmZwFkphcOwxn51dYmIXrFhDj1FqCoja/50M=","iv":"SkzoD2%2BWhhq273Yz%2BtL1jQ%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:09:46==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:09:47==========
+kmEnYoVi9bL+e8/v1oF5hbwsM1NYy/YEdwS2WenCHCU=
+================RunCmd-strData-解密=========2018-01-12 23:09:48==========
+{"cmd":"getUserSystem"}
+================anyIndex-strRet=========2018-01-12 23:09:48==========
+{"errcode":1,"errmsg":"success","data":{"phone":"18668179721","ddAheadNotice":10}}
+================anyIndex-strData=========2018-01-12 23:10:47==========
+PKx+DwJtu2Q47KJs6UUdtFFk+OUPsm+BDdKhM18tiokS9q/segc7dESyC9sCEt5U
+================anyIndex-strData=========2018-01-12 23:10:47==========
+BAGG8rDQ0N07FdRPpnFBrNutMBfLUiIrSKeCcPuOt//VyQJDPzKPiKqO6abTT1n8Vp4G06BShD6MLHqMPgwA+JjsvzTw9aNiUR1QzLIgPoSoQ8txyi3feYwutlHe013eVpTQPBl/iIsFPFxIJgO9MhHPrENrphYEe6anGPEHy/q8gDvytPogj5BeAufFh6+fE/8VmejHb7INhlngyle2PFBDDqAYPgZJtBjDRPclFcGBDnVA4LSZvTdsfCv7+JX0QQvkUZmeozGEc4SlzsmBCgnZdWpU2Cl3sAjjAHD7RIKoBduk86zWb3MBt5z/HuokvwXibdaB+XSxM2+q7eeVC//vVgqpiO5Zwi+zTxab/VeX6YzKa4CU9EUD7hPQf5B3NqoW+/CTpjTgnBrPatrVe15POyQsimtfsuUaIRJwmR0iJaW9Oo4LK4uZwE0pELY5oL0r9X83DVSKpVN+yxu27eH/+RG8vvZFOFgJdmI3pmq1gwSTq80GVFFKzGv51Dn/p2DUxZ0L/ezktzwQeTJWyejhJzdumaRC65Bn59IiYg/hOr/SJTZCutLgMqUIyCu5FANKH/QPrxuEGWDnGPtI4cG6ZMwnJ/dB2bDdn0Lsgg1oHS64b9fnqmfifM/xxADNgqa+6EWX2ck+Ex/eXMM/pGKRq/uR3fEiz34aQem4jgxbNVq8RNyjCe0+7Bw4nqzxUPEADoGxaj8qsXuqDmEdARmx7LXjoKv0DAUPzwEdHdESgViks6jaGxwvvbZ58gHe
+================RunCmd-strData-解密=========2018-01-12 23:10:47==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:10:47==========
+{"errcode":10111,"errmsg":"\u67e5\u8be2\u4e3a\u7a7a"}
+================RunCmd-strData-解密=========2018-01-12 23:10:47==========
+{"cmd":"login","encryptedData":"BkEUs2cjdkn9FP4yPTRx1i/O9JaiFryvxfd7WqMRbiwC/ZnSQx8fgyh7S81lhUtADu+ZmUgPKMK+uj7MEWhTbxr5UQSvF3/hsh6CnoUpvjI6JvxLhquf/u4mJ2QzPn3Maajus90kS98kixOsGi3xK/UR8y2rdGEx8zw2gIX8vEKxRHi9Z6pwbD4zGQ6KyyDT9CD4IXOb6u3NhuSVvN/TWKN5/k/gcoTDkT9Kl/qwYtbN6t/7Ld1eywuDXim8GKGJAWcn4BNbiN1jTB/FAxp4yQe9tdZLLub6A6Av43G5PIw2UvaaaN0qw36NAvXFNttvFOMeFIPBGFIbqGOqPnSaEWQg/8MQv+Fwst8un42VbYKT8LGZ1CrmdQk9aCNQQ4o9amEnNG5lf/E1tluUGNz3Gcn5GTG6cGdEcpgKVZn+IT5IdgnuoU+1OUsKS78D+zjp/OWqln+HkpuelsB+HRg8451VpFlU72/vHJGZLlWS5qU=","iv":"k8%2FJU0FXZTDU1FLODTbsVA%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:10:48==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:10:49==========
+kmEnYoVi9bL+e8/v1oF5hbwsM1NYy/YEdwS2WenCHCU=
+================RunCmd-strData-解密=========2018-01-12 23:10:49==========
+{"cmd":"getUserSystem"}
+================anyIndex-strRet=========2018-01-12 23:10:50==========
+{"errcode":1,"errmsg":"success","data":{"phone":"18668179721","ddAheadNotice":10}}
+================anyIndex-strData=========2018-01-12 23:10:56==========
+PKx+DwJtu2Q47KJs6UUdtFFk+OUPsm+BDdKhM18tiokS9q/segc7dESyC9sCEt5U
+================anyIndex-strData=========2018-01-12 23:10:56==========
+BAGG8rDQ0N07FdRPpnFBrNutMBfLUiIrSKeCcPuOt/+O19tXIFE/rBdZtfPYIwHRc75VLQRZtzsJB8pvVkLfn9fsWy+wanxhPEKo9OvBHdN334YWc0cV/+FSec1yPkasJ9KcYxfbRwD1FZy4tD9NP1+uYzw6AkqeV2O/Q5e2UsMI6JtR3ymuPVWE0vUkWXPUygejvwiwX1EYDHXM15OPBtfUYp72EnerEw5Ubcxgo0YidzyIhC4aMKAt8scLs8Mty3Qv5fvfcsCTiXLU6F9DaT6zjtOQ9pqbaWtiKNsFEsngoPbs2RoZbXR/eoWB+xBichhtazip/PTrqmoxFmlq9QV9d0hVa8g+E6qUK5u9QWUoBH0RT0IOaKhSiJdzC56TzvAcE0cMQoTSbdH+08TZNFxp9uWPAJ1/Dw+wIEB6rjJ17EnvZoI9b7/7WF/Y+WReRIjOjArNpn2O3nshCoWRUamMkftD+tCnptwlQipvNHK9BhEFJqwjhJe5p1gdEfYVGzlhgasKxt5E8k8CAeyakkbIL3lDJJpU2DDt4ZQdvVBMicE8ubJ05M+5venlBJhC7d3MmnfjqW1SMCCtyLYTI7u8KXMrUC6o0Mdo+zwSZTTCrMkhCRzfmoyhpW/C36rufeNgtHl/1b3CQmifR8PjyKf6m26SG/6qrchxbvFrp1O0RVNmBEWbPjp0NOoMM9RWmKx+UyWaZG2B+XGgetTXW2Yrb5/z0j9WfzFqJ03kzruB2p+8Txjhi/comjbU2jRl
+================RunCmd-strData-解密=========2018-01-12 23:10:56==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:10:57==========
+{"errcode":10111,"errmsg":"\u67e5\u8be2\u4e3a\u7a7a"}
+================RunCmd-strData-解密=========2018-01-12 23:10:57==========
+{"cmd":"login","encryptedData":"XtlcN+DrCMLxQ0D0xcni5YYqlj9UuU7TrB74wZF/VBlbOTF7LGU43GkqTBimu1FTqMCal2VdsqSgUVIR8PUijc263eJSrzLukhhodt/G2ZVg6HnO/TPPvbUsl9szKBJwfAWpR+x4j6jLBBF0Ge07vwMl1V4Zvjfs1UETji6SK87S505mtCQp9qrDzXRSGJdxhBgiWSMDiZIRc7KoZsDG/Cg+BxQHWSkT4NZKa55e9trVll8OqjCgX0fGFAxZWirJhvDFNU4kNJJEjB8HTquTN3pP3BGZ0FNRgNAzF3QGbEKXq8TzTMeNWKr9uUuxfEvew8vaPz5oRTGvD5ASvonRUsVIGEuqjiYaAhGe6WVqhj0MjpbCc6YalY/kLTB9zTlbUz6/CVJ4GBrGmFH4f1FxrEmud58I/SS5+2stJMAjxLcPGlFQrYwbBafme2/i1L6Ndmgm7sMlo6OFaN99YpXLZH66Wdd2uqltgwrywtfII6A=","iv":"94YfOhrboscegqlxq6Lt8g%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:10:57==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:10:58==========
+kmEnYoVi9bL+e8/v1oF5hbwsM1NYy/YEdwS2WenCHCU=
+================RunCmd-strData-解密=========2018-01-12 23:10:59==========
+{"cmd":"getUserSystem"}
+================anyIndex-strRet=========2018-01-12 23:10:59==========
+{"errcode":1,"errmsg":"success","data":{"phone":"18668179721","ddAheadNotice":10}}
+================anyIndex-strData=========2018-01-12 23:12:06==========
+BAGG8rDQ0N07FdRPpnFBrNutMBfLUiIrSKeCcPuOt//KTgZ1LrTxNB8/UPfbXKElvelPFrjpuR1mGxAm7KJosNJDH1VmPb7YPMVToJhREeXyKLP/zlauc9NyIeqM6t9if3gIKmiGvIJRlHcxGf1MawxoWzGOJmxHHPizKUvmL+DH5zNIGfw3klLuLpwadjWZx5hdMgdYHzzPxbFGrOxWv2jnTt0p1RSWAHScSYB+R5219dmICYkHgMtcEcxQk0x/suq+MNQhD2PTwBeABOVs0+eA854o20Sqk/Th4jVAGAY98gyu9ghXyzu2iYj0zrZTf9Db07ed8TmwnJR+ICHLD5GsZ8POWpiSWVmfT3fqvDdQW8YfWbH/7H5CqO9C/m8CSv1UwMf69fUVcRHwoEu5u5h6KgDNlwL1xx4iotCjZWArqJUn97HEcOmayigLgC3XnyR7BHooDKxsMk+m+Owiq8hbPrdQubjok4GZX4CyGoDR48pQ2/IgeRKeXGf3OlI9eKELgN/m+dUy/MJK/JyeeW+/7FTKPu87Ws8+6zqM6CmEG3nyLn+P445ubAARu7lqNgtPSUMQAPffQbYkjL+OnMEcPLN20/10PDeisNwbJnRtS0lG2o8GEO8ybSotkCajZrwqJJ9riO4DLULnlmcRYHzcjJ8FL2IOcG3nTR4p8pk842xI6HeynvUcgb9mXmWtCgemxCWT2ZtD6lha0888iohR+IqTlcGFQ9gX20eTAcQSgViks6jaGxwvvbZ58gHe
+================RunCmd-strData-解密=========2018-01-12 23:12:07==========
+{"cmd":"login","encryptedData":"9pFE1u0QD4n3rVEo/waQ7wd0Eq6Li+doDwZf5oHUz4AZa2sHMNEj4nXOOrZWeYLJcDe4ONhg1EQWT0/9pQiy+BODM73gOb0hAkG2QCJZAsXFcWyA3m77SZqkVeMihnK80Oaq8qo1VuWhSIX+TVQ6myzmoLNViHfFH5YAtfDDJALmGEqTd38fg5ZOMWBre8AShuBAx99MPC6LWtQzacp85zlud/sAAd4bL1ruxuMHpsIS76nVX+MXMicuxc0VIwO51mVGNzlPQvRYI8MYSGrLMhlg97qsqoHdFXFsSzvdnwLjb3nEm4Ajt7CuqPEbt07XfBCBXGbS2PBO/33NM6lNIGNgJMNpB7xHKjZlvOknh6G3A1iHFkNMiYyT4bkePkKtNT3SPakfn2kaYV5UMKt1KUhCeWJrVymAlRXE46+7+6lXVw3cpWUQNtJVrrg86rE+GsN9og70rNb1O9Bo8MuhEbkazJZF0QRA9b5YTcFFOmE=","iv":"byVzWMyf1kcXvc%2BqhOTb2A%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:12:07==========
+{"errcode":30102,"errmsg":"sessionId not valid"}
+================anyIndex-strData=========2018-01-12 23:12:07==========
+JaJUbggi2mvirni89QxqMNfgKkdrwFWC2+BrHsmYJWXblwvj9MNv17mCVDcOAOqaC/uJR+VFl0GbTZeZbTZ5S+UyounUYEBrZyT57+IWkf7TwfzTJX7HNqWyBBrsbzRTx0I6cjb5+9j+90Eqjxo/Z96KLjr3EwisDSxmnM761gOCRedxSzTouJtqv8J/j7MelQ8izNe2g+2ZalC9eJlPP8KDfnHTO7Rp1hGpM6PGRJPsrf5vw4sthX4CMrTAvhhGv8lXNsROtwgO8GydC3qeYAmG5VCaynUIWxFy2S3yPvh22ehFQygs3A6xXrAz35tEK5xM1AKNm5VGQw9zzyDXW+tX4eGx1evgRuue5O9vNGJDCwdrUmR5Fw0979ixsxhcFrFghwr9vbPwa6BtnQ5ekJ6m8RyJsJuKCRNSYv3zIJwZ1w0+rdL83HNSaJyEyVWq8t4dUkEc3zeTSgmL9in6JQ+VbPzizCS3RXSi/ML77MTwga9qxnxu3LY9b7VLCFNXyBQvzjQHR7u7LwRP9tMlL7sdQGSJXRkH3gAlDN8zP6qh1r/UlJpMEaDD7fA6aLt1PjKCAT+QtOisMsQngjXfDnnUINb3cooHIQzLZgZu0cyytudsjpyVt5jasGGphfjTFYl8rdueAlIwFOcCi4HaMPffpNybXbSo0oE2LcMS6biwCZ6fBfT6BF8Uq10UrT2xrSOy2Rgf+s8H644jnoDpYBnOyl/mguc88tGXE7mPndTXKnvawxRnlcGj4L+5KFkH
+================RunCmd-strData-解密=========2018-01-12 23:12:08==========
+{"cmd":"login","encryptedData":"9pFE1u0QD4n3rVEo/waQ7wd0Eq6Li+doDwZf5oHUz4AZa2sHMNEj4nXOOrZWeYLJcDe4ONhg1EQWT0/9pQiy+BODM73gOb0hAkG2QCJZAsXFcWyA3m77SZqkVeMihnK80Oaq8qo1VuWhSIX+TVQ6myzmoLNViHfFH5YAtfDDJALmGEqTd38fg5ZOMWBre8AShuBAx99MPC6LWtQzacp85zlud/sAAd4bL1ruxuMHpsIS76nVX+MXMicuxc0VIwO51mVGNzlPQvRYI8MYSGrLMhlg97qsqoHdFXFsSzvdnwLjb3nEm4Ajt7CuqPEbt07XfBCBXGbS2PBO/33NM6lNIGNgJMNpB7xHKjZlvOknh6G3A1iHFkNMiYyT4bkePkKtNT3SPakfn2kaYV5UMKt1KUhCeWJrVymAlRXE46+7+6lXVw3cpWUQNtJVrrg86rE+GsN9og70rNb1O9Bo8MuhEbkazJZF0QRA9b5YTcFFOmE=","iv":"byVzWMyf1kcXvc%2BqhOTb2A%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:12:08==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:12:45==========
+lZ8ulWanGdiRMjS+huz+ZagjzPP4KXWx6wMRAOUPFc6jtoru3mOTxi4AbyyZISYK
+================anyIndex-strData=========2018-01-12 23:12:46==========
+JaJUbggi2mvirni89QxqMNfgKkdrwFWC2+BrHsmYJWUg/A/kTA6VoD+XDgnARQmoI3C4JCuS4gCAYF9Xvw826MDgiC8ip7vAQo6a1nk+9iT82H5z64x+qNhqqnj9sKe7CFkkI30WLhlcRxBYEooL06hhDVNnK9ishGCmNdVrIrs0PVzT1YxpMS7OTbq28PHWPG5xDIvVk+Hx66U3YX03l6YSbxFaDxKfiChND3gFAETzQKPnWfTbqe5y9flgLwZhgjQKJQJO4jHMtyXQzNLceZSKeI8HShZWLj8LHV/xFgGLL4RPUwFFjjxZpBImKGuYdm+nFbKtB6netlgaXdjctuwu07CUby+SAgc62yzG1SUvOH1T4GWZCvjdwUxXKsO+SQN9pJFQux3nTUWq50FamcW3c9Jc36CtNYCVUx5ZD1D2rzGWlnh4lSlhehVNQe2j8SRALkwXMwGXzEmhmKpiz/GyShXoLcexTlgRgUPmo71fwlbcogEl6gTmfXVKBSEiGFwbTgqW3u2Gu9V+TVaA1nFgblu7WNsL+94Odr17b22bqgsEXUdOwG7UlpkHOtR9CaQit35kbGP/TNAlXI7oV/q011JMW0s7P4kK/YXh3u4rm5z+3sN8t81qCKk4gipMaRcp1P6WrAhVpMfgpOPKfVcvZM9kn8L1tnlyqAzQX8iLQwdSdEI8buwqZFwWbArg9lUKGHFSw7vaxrIc6a+o3I7LzClSNgu0TREG8BJXG5TcAm3LCQIl78j+068m2TvY
+================RunCmd-strData-解密=========2018-01-12 23:12:46==========
+{"cmd":"login","encryptedData":"RdwPdi7/yBUVEEUG1gE/pj14yBE0QpXcjquvfssLhnqXC+3P2J0WsF2wnlSC1nc1IB/8LaZkpl7OIr1qQGWW9IwhHdJGX7tNE3HQH957acaPgrc/rvLB2AOUVSL1SQUH4Lmy1BqbuE2ZsBgFXZKHYNiwEqZHpCDMrAKaD8QR54VFGAbAoA7XxpjTvxpZCaEv6RkXZf5JAp5QeQLtC+mg/x7YkLPBFGJb+45fAlCDV38pBfszfeOn375aSzfx+GQRDwzE8s/Ahu1tYi5fmxCiBJij21AtbI37BXab30sarL/AOurioNSCT/975Gta1QmMkoEwYKgrAG2cHatmjkpb5OC7s+R9aooT9YBg5Nafk/yjGsey7tiffUwJOdYFELM7OZK0VeiEGjqBAf2vxc1axbszP1+FGHRrbxNGYZiIjeB83C2dRxgWu3bIyCT7VSNtAZCXzQTQCQSNo0QXyW7w5g8u5LTi7/vlLbtD5HEwWCo=","iv":"JnIuUm154Az9uJ4gxGb7vQ%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:12:46==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================RunCmd-异常=========2018-01-12 23:12:48==========
+SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+================anyIndex-strData=========2018-01-12 23:13:24==========
+lZ8ulWanGdiRMjS+huz+ZagjzPP4KXWx6wMRAOUPFc6jtoru3mOTxi4AbyyZISYK
+================anyIndex-strData=========2018-01-12 23:13:25==========
+JaJUbggi2mvirni89QxqMNfgKkdrwFWC2+BrHsmYJWUZxFKKpIMo5x+puGhQiyezbsU1n6ulaGna/cmIoNTX7KeoX4hkVqF+w8pim6euQsZlw+eoVq7inkYUyuxR1IXY9ZS1AgISjkvKgG3n5xs/QL7ehe9ItdNNqiDmntTnAVH9q6l30HqkXUw1nadQx44/PA4yNojJAPFH5Wvhpuminxk2LKd+kBE+4PzfiuuIwh6LAGKer0xU5baJe7NUccYGbE4eJGdQINz4URyV2txX8krkskmtFZH101DF9Ws6b/NWR5dvCiytlpzPbvn5yCQxXN3Zn52izgFZd0QXqGQ4i3NaQpKKn/6bDhMNjfOL81sLp8wZ+VA8BvtDZeAVoU9G3ShR5pGaNd/YgVFZjZmFtxnZ8nKlFt4vFq8leX6jXZTVcG8HTNzbvEsxPak5M2s0Cpkut825F2ToblWarlJJqBIxl+Gi/DahlzcqwcuhjkE7aCZQ+Q4CKx2QkIEeooF+mPoO1DJuwssjfoU20pxC9wFKG8Jndms63p8HCpvDPlKujcYDuIjwMvEMNsFPuotx5Q/H0ukUR6b67jgcIYEJH2Afj0brYbOKbUcVEGYiRdz3Ga2GWQQ7HKfNSU5TGaMEw19ejY6u3q9yEFXTdsvfIWgUYuD0zFFSKJ+MWpsADKQ2SrWeQb3jXeB8sAfNjLuVeTWX5LurY7IJIAaWegE7bF51uwTUO+GFSreUUmAWebHcAm3LCQIl78j+068m2TvY
+================RunCmd-strData-解密=========2018-01-12 23:13:25==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:13:25==========
+{"errcode":10111,"errmsg":"\u67e5\u8be2\u4e3a\u7a7a"}
+================RunCmd-strData-解密=========2018-01-12 23:13:25==========
+{"cmd":"login","encryptedData":"qKecFOsIiubYQCRmVBeUlc5Igmzd5g15UKTznaKHAQLNFOoGCClGm7myfgIYvHk7AZ7UD3jOp8RYncNSUZxIlg1mvKRrN7d6f11TfYIQ/+GmfxHzAZIgYrvfisy0sK/iO5dEWbWvBu3AWunCKEcdNnE7Rlkh6giAfNzxfHoLvPHuzeLADQdMtRPOP0uEh68O28G692IEZj3zYhoQiOeBobH9jHcLZ6FO1mvmWbdwIYU/jr7EaPiH48qIiEe1HVQqvbsdgAiH359rRkaU+cWZlsDsdZlfoHpXAqm/atKs9Y3ND0O9h9YwzGYbhk6EUB/r0xk+jUW1Gkp3rcPkuVO4caXSOUCudv9UlHCspkOjLF1Yl3iWOkcreBQ7wwvK4NglxeWJcNcsb5fCUbop5w/9Ms2XhjUuG6ujgxPLS9K+hX3XY1tYQoMCGVK0lGhdx+cv/zIqibf1MQF/p+UFH9gNfrmXs9vwwg+KZXeT9FUB7xo=","iv":"nukuQvM0qCi8LXZEWO8sMQ%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:13:25==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:13:47==========
+lZ8ulWanGdiRMjS+huz+ZagjzPP4KXWx6wMRAOUPFc6jtoru3mOTxi4AbyyZISYK
+================anyIndex-strData=========2018-01-12 23:13:47==========
+JaJUbggi2mvirni89QxqMNfgKkdrwFWC2+BrHsmYJWX4vBnjiGENtMAKQEdkuyy3moYDXlCMOTNOSyV7A2QIg/bzZSBA5sXpYG4D4NbHVOM1FWNHyDm3zLRkSlddjBlddpNTvmtLbhKZj7s3IkShyCVd7nM8MjJK9G2a1U1S0xfYPJGM1CMVDCB1/jsK2ZJWtVpc1Fh+4x75kKkJ4IV7nk7/3GDm9M9fMSKyikm8s2zxS1L9VdMZATWYz57w50aqURbSGKAfJA/rnIhsZtr7U1ikmKxbnMbbJWftsMrXdXxnS1uhpBdsYF+pWunfeYQepW+SujK74+3HSuNbvOjArwRbZjz7n8A1KbaL7cWejjBIycYiRxj+5yb/wmb2FPOkHMvOcjKbRd8S987qn34ZcxTrbJ+jdp7NfXK0TktnPqnoOJ2TwJP+iz6mdsHs1inCi/BmKLewBx+ngD0nCZiNh4CYQffm1Ye90HaRun+c8YQ97Hq9vtt6kk8llCLIfTHJ98dQTd1L9puI9Oigb5WJ52yYF6+VbLIzFCezbgRU2B7BNx9QXgF4eO4RX0hgzAngduS6X7lkqEpSxACRHsT6iQLn/5VAVUu0xU5kAUEvVbFyK6PvTT4A9pKmnH7EwMGCQJVWbO3CiQZEK6PSkGbV1g5VFfRHamryJE28c0ajthbHgmyX3D9DQpb8GQTvMZubCyIDwi96GOU4xLsLku0TF4O7HRXF6ugs93oECRI0lePcAm3LCQIl78j+068m2TvY
+================RunCmd-strData-解密=========2018-01-12 23:13:47==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:13:47==========
+{"errcode":10111,"errmsg":"\u67e5\u8be2\u4e3a\u7a7a"}
+================RunCmd-strData-解密=========2018-01-12 23:13:47==========
+{"cmd":"login","encryptedData":"QH7wROeLIsA4zWHWSWO0dsvXkQu9uXrijehfcC+pe454BwkakciRY0iNLCoCgmvnzC+D+OT4IyV7X9v2z0e+iVfMygzt518sswXsw/eG7Jih1wSR8qnW5IpCcAJrNbHGXPiMkOqEFpDTHvFrOgkwSVW/OI46Sclx2wlaNwRxgHlbnb5+KzxrE0XEpYQYDapK6zgJu/zFrg1lRKtGQrgP/XX+JWjHqtbI+UynuwNZ2rYZWs4a2m5P8uCDymDc0UaT/lLIQHuvp2PlQU0slhQIcnj5B8s+zNjRWgzZPOP5AuKyh5L7VDLsXKCCAn/jQHuKx75Dq/YDOv7oTf73H7FOVpdbg8ZDvOZJ3JT2h6c3Gvl7shxLa9GwDrLycvB5wjSOW7nbeu86NadUB94TklHzA/MV1pF1mL7WMzX9TQv+2VU45Qs1OmCBhHwk7s8pFbhiHCgltGpCWy3ybyT69qBNfMnU+pllgsoK0LSMn+/ZHKc=","iv":"By5nLvsZ6ZsZ9enydnLOng%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:13:48==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:14:07==========
+lZ8ulWanGdiRMjS+huz+ZagjzPP4KXWx6wMRAOUPFc6jtoru3mOTxi4AbyyZISYK
+================anyIndex-strData=========2018-01-12 23:14:07==========
+JaJUbggi2mvirni89QxqMNfgKkdrwFWC2+BrHsmYJWVfbDfEGJHvigLzRz9g3YgH6ArdFYpI7kdn+kZcok6t4meJgrziuntiV9XBIdTo8ScG7BpxQEzgqg2AVpepLaautb+VNHGbrdzZu7yCzjX9KkQmZExhE8dy7BSD01XEWcPt9GN3bybPej+nl7INyh2GMss1PhBh0B/BHFQJcqbpKEpli/4M30YZe6J2K63hEJEkyIapyIKWd5Hqmn78ZzoCK5XMPh9dtfDph7PAwSauFID+k3ev+2KQ4BhyvNmPJCExuUXfFzRVbh87qhZNQwwkkJZyBuAkF/febSPC7EmXUGf+ZVjrSnXISZzsJKh+dlUJihWW6SnH7SOQPZtzxpzCp74LmgwpkWzN2xPO/rxZ2SLEN2sbuL6zHQPSDjUH6TK6cfOjq4kX3OkQkYDFEkM5HGlF5FBRoDMe2v6UfWX7v7yDkXrDtVEXPbHFy4coT4HVmaXuXIwLJLNyIOIQrRzJAC93E3kYX5HP/fqsRGCkvmrV6ezP48ntuYc7INBGK9kgiArDtKJ+xyRgxET75UI9mNJdbMmBizQpX+mfrX26B445puOn6bHrE/1OXZXbIPTyzYpvVKr4exgteof1NeRN0Uro30YjOvdVxClR+9ZiBFZ6UpFBD7EPkH72Fxyi8f023vPK0oAjVN/aLL+2y/UdjM/ZJkODT4mrpru0bx3Dy+wOZ1II3h+hvFzq6u28CnsxakeG9dJN9NP9qV3zw3tk
+================RunCmd-strData-解密=========2018-01-12 23:14:07==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:14:07==========
+{"errcode":10111,"errmsg":"\u67e5\u8be2\u4e3a\u7a7a"}
+================RunCmd-strData-解密=========2018-01-12 23:14:07==========
+{"cmd":"login","encryptedData":"dzM0pDGfMb9LcTpZ9/yzMl0DrQ+R+LnwzxG6hmM8GYJQUsWOESYYJiMgx1P9tXI8l+UmqLBvKjPTXfL7oiK00ST5zzN649g5T3hhd4EdaKflLRZKgxp8krAWj4XESaxj0+U7fLGqM3MD+5vCQRcyeKJp2ObtB9qRREI1Vnf10Oi/aLozlRpIPjHWhRsg1dOzZt1WRMoo5z9pOsVeEqf79L3uCoXEZy0HGvYG8YzSAYAFeDgxVRkrgFop3b+/WRVQWhNDXFpXc2rmZqMJT5dayplbVVjCWvVdsogZyPwUSN0jiwD0xZ9XYBssi/+EPCJfNpLoDCml7aakkCk1g4o/VIWDD9cJzLYEuGO6+bf36BulmnhSeFFoxgwrakPaYp7mHIxbSwnjjlUo6aVWdem9uZX2LjStfdFd5Pe7VDAGngZP+LManRwi80IDY/2FA8RLNglaqxoS5mQ9GHJ3uiEXOB2hMUHrh+M9W5eno9wtHGQ=","iv":"n%2Fd4GAmy%2BrkUaVcAo%2BvsrQ%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:14:07==========
+{"errcode":30102,"errmsg":"sessionId not valid"}
+================anyIndex-strData=========2018-01-12 23:14:08==========
+257TwSuVE0HDVHmKBNcc9RrbqZJL5BW/Mee8G1c+VMC7Bc+2atu1V59tIAkgL2wGV9hGMvJI/qmiNjVKRXnJnadqTWlhXGG3A9GERqWA9OrCpP0qXkHiJUL9pLK6zG0xslsdGlqxVeWsB2l83t+T6wwih1qOFg3MbTuLUaE0LaFcckZjHpcozE6f2jxeBO61XmdOh417RlQ8hK5PKORH3DIFM1tuo72Z2wBR785RD+zNdxlf/hg7STO9FHkXj2ekLsDyR9wonyccG0600AyGgvOK2fPS8jCRY2j2EhK4vHAw9VS11Pn857ap4zHxRJEJtvLBu9u4T1yMtsjXr36GTLUp4HtHbmvJSiquZ+PHgFptlbg9HQZaGyFISF0j/OJlhMVMhv7acz6ssWpoHt045LXlvpwSDEKJqgqBDAqJvUT5JbfYxLiGocWA0Iwd1U4U2oMWXhm849hvtgKHkrIMzwpZTUOxJp5GmgKdCZBhfcWmJ8UmmWmkb8CRPZhg+6RMFQlZfRnu+BIz2863deGhI8SMjBJy/p5vUxr9ZFAAa3hCe32qdveUqcR+V1waBrM1dF9AUP3WvwpHt5iVzDYZCkCvfreiT9lpNddlOLEVSorJMaCKuStQ6ZuK8nAoLsvvthCW7ojlHyHb5lLTxiI76RgDvgu6z7W0pZerDizBWNGvZemTaDGOyl+5SMgBoVJrTV0gYYz1C6+kCYmOw+ljutdGALpBY9uuB/5ehNqaWZb/8P/BI7AFYqY2SLwnkL0m
+================RunCmd-strData-解密=========2018-01-12 23:14:08==========
+{"cmd":"login","encryptedData":"dzM0pDGfMb9LcTpZ9/yzMl0DrQ+R+LnwzxG6hmM8GYJQUsWOESYYJiMgx1P9tXI8l+UmqLBvKjPTXfL7oiK00ST5zzN649g5T3hhd4EdaKflLRZKgxp8krAWj4XESaxj0+U7fLGqM3MD+5vCQRcyeKJp2ObtB9qRREI1Vnf10Oi/aLozlRpIPjHWhRsg1dOzZt1WRMoo5z9pOsVeEqf79L3uCoXEZy0HGvYG8YzSAYAFeDgxVRkrgFop3b+/WRVQWhNDXFpXc2rmZqMJT5dayplbVVjCWvVdsogZyPwUSN0jiwD0xZ9XYBssi/+EPCJfNpLoDCml7aakkCk1g4o/VIWDD9cJzLYEuGO6+bf36BulmnhSeFFoxgwrakPaYp7mHIxbSwnjjlUo6aVWdem9uZX2LjStfdFd5Pe7VDAGngZP+LManRwi80IDY/2FA8RLNglaqxoS5mQ9GHJ3uiEXOB2hMUHrh+M9W5eno9wtHGQ=","iv":"n%2Fd4GAmy%2BrkUaVcAo%2BvsrQ%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:14:08==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:16:00==========
+257TwSuVE0HDVHmKBNcc9RrbqZJL5BW/Mee8G1c+VMCiYZKpkRzJeS822tttZjxjurqo3ZkMlk2ZjUAd/+6UA7rEe/82oIoJ4GD/cx6T2aY4GxDRXpTZO4+2NKD1irpqBi8d8y8TqdhYcJI/V2r0zzJnnsuH0Y1jzi9uO8zkL0qwWYbrA5FiLRChN+H7neV60VytG1qmZGNChDFpa/pImLRPAmxzsrR3JO/El5BOUO6T1s3lrjWXxfwcwcgltKqNYxaOdNcYEAfDXv6105ZCgCtJ1FCa5TUfecxz739jWYWJ2c29AF5ji5deNyHozTVp1jlzh3B7KIIAAtBHbvqg0q4M8AxuyDija6W4xBkLSxFAKr6KyLnZd34yr5qVrMUcXHmFXQWIO6tv5ErVrznaw/dMe8JldyktdVCKA2XbMtViqtxdFc3Yd6voZI+3cTvSPLV+p8wf2wYSZZbTWTkvShZflWbzuSYL6ZKvb0yo9/vgrY+KBglQHi6PtzdKwB2HCuX6wYzQIMmDLz2j5kNg+/+RGCa1V6Yl7zB3aM+NsnMazzQFyRNQD/vd7uOHpiEmpFDguxE6OY+MWpPUn2U60r5HUVeB6+uSpWhr4WsaFb6u0tYlfmL3PYGKbACcnjQ/8A89h0Mh3q5s8lFyVm1cwtgC50Fu0avmBzpxuUxMr6krKazWtynp7aWaN0n2I6e5hy1k5G4JWJ9U4CjvtDHIiH56x5JxmWapFaMcInW3z6QLKiiIvY6wd0X64RRoEFs3
+================RunCmd-strData-解密=========2018-01-12 23:16:01==========
+{"cmd":"login","encryptedData":"VK2MKJpV+YyRXer3CZHHbD0CEC+RNFJ9LVaU4GYlbQepoQbJSgiFy7oaB5wb5OOTR3li7MfgRkXeT/Cf34mBrnJhDs1FcCxAk74vHtlib3StWqWLL0tTvCxwUf5NZDX+FDKayOV7/kOP4GssMQX/rdmKF7g3OKH/gyPc6t8PNOVBxkStx8IRs0EVbzY3+9Riti0wdhJx+vqhlY8GEFfhfdxvJtl8OAF2PYLauBkDzs6cMTaxOuodh7qGSZgB00skNJ7HCpdtEYBfrkv7n3topk8O9NToHzIdnEEGexddmRWPbbgtQCDReS7mckydQbhJzGnWgFPzwhM2hPW3ZFYxxrEmaHu28CAG4UNX7+3AjHDAEh4DIfz/nmZYKr19xi7War7gQkc1DCgGCxr9jmiMywIyfsR1XbFt8YkdtiLp0ieTjrzcX4dC/zdG/JcgSkM1Nre9ES4Vzh8jeBE+DBXCXBT5abARG89TSNO3Xq6mSRc=","iv":"n6P3f6Rz5ocwH%2FXVMUalCA%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:16:01==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:16:01==========
+ifSyL/1SKf5ofvnXTEzDHuVc7E0NwaRxoxqsELuJJFFvRAGwES4BSXhQhHLDLG4Z
+================RunCmd-strData-解密=========2018-01-12 23:16:01==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:16:02==========
+{"errcode":10111,"errmsg":"\u67e5\u8be2\u4e3a\u7a7a"}
+================anyIndex-strData=========2018-01-12 23:16:42==========
+ifSyL/1SKf5ofvnXTEzDHuVc7E0NwaRxoxqsELuJJFFvRAGwES4BSXhQhHLDLG4Z
+================anyIndex-strData=========2018-01-12 23:16:42==========
+257TwSuVE0HDVHmKBNcc9RrbqZJL5BW/Mee8G1c+VMApa7cVL0mJjK0gWuUb1mRyYxKCA82N3t8mw5TsMQpEUq0ujfBK16DZs4JcRF8o7JQWb7yZNjq7HItJ35mWCLtPr6D9DXdIMGqpe4jJ8c3icOpARIsHnsZefQW8XDsMxPwIGoIRcj6DvRf4/GS52zSAwCYHWiEqSku+JiO2fGy1qZikys/dcAeiUrMxXYpe9LfAekUaViOscppavD3Wkc4aM90w289WhPJJO7kl4u2mAUb2u4ZRujcemwlxt0rJpa7PgSKuMl20Wf8p+i3tP8EV4vacELdOlF2G9xd98MstaTi+B7Xy549vAN6/UNx2h56UvvPtkx2JcLRVNdPTsjCJd2Ua8btfugJTKA9WmMkytbc7sN1yMmiK9CoThZh8NeXz25eKIT0RbgssLwWhPPQWORGx7GShCzsQ0dvk/3XHfbVFJ8nK2R4VWKPaQrRVvGEJLcNI8uGwXoYwR32ekhmKPUcEbjfuWiMRi540SlonuOEXflc2h9/L4eFKP7i+CJb1GhOn0E8J9jwUm6I9PJgRVQDOBiywAh0hS4fcsU772stS1hc9qRL2gErlHy6Uh123JpfWYpclguUxaZTD/Xu0pfVvWWNr+XVC8OkXf206mSW+bbAobK3dsKk0zI3wsq7NBbOXCSuq+9uvtFLrEIEWa1ZmyZEOgWuIm1pKVkgrdZK6zJ94MqucqWfmlv9jsQhNp8+VS8d8hFdRfKVUSzd1
+================RunCmd-strData-解密=========2018-01-12 23:16:42==========
+{"cmd":"getUserNoticeTask","type":0}
+================RunCmd-strData-解密=========2018-01-12 23:16:42==========
+{"cmd":"login","encryptedData":"gGnRaMcN25425llzoeG0ggbF4yNpVUquzgEYq8ZwaKKIZjRs6ODfsBK4ruDlyCiG79AfMaJ1O+npIUGfs/ZnKezv7Ya9oXesH2Rd/U5M0v7JA05A97P97nCGeOHKiOgjG/3Ca3n0IT2n1ziGnLUJQ0AJyfFZLINDx95OCFgHbSPXzwdOKDq5PunLRJk4fXJTZlr0wrYFwPGTZUHzViFBflCo4k4BOzRuTYKSW2zTz31ficRJYHUzT50ggkJ7Xm0yKA5oKJYyJMA2TwMjHSfHBMzWei2/IpBLxHW0mFXLOtaxU46WclOHcTjaiT7+UUj0Ou2fjtt7zQNeOHSzYfllmdtnhV+FeCEbXeuX4SJai/leab3FJA4a8v2SM7j+G2y2lzrxN3iVvVmBn/TC8asa12IMUKD8Gqswfg1MyEVZ4+xHH9iwWaPJ3iWuSg7IhQ5JTuE2/3jOF22SDamkhmqAmHtqtnPYcHe2O25xNNT8DBw=","iv":"TO1svRAusGxGLGseYJ6oig%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:16:42==========
+{"errcode":30102,"errmsg":"sessionId not valid"}
+================anyIndex-strRet=========2018-01-12 23:16:43==========
+{"errcode":10111,"errmsg":"\u67e5\u8be2\u4e3a\u7a7a"}
+================anyIndex-strData=========2018-01-12 23:16:43==========
+CVV5gIqmURpZFCvX2dfDbXrYYKidcq3hJ/IE3K0WmEdk8GsI5j7gKPAK3d6Hwj1teqGrxt1BVwGP54izh5JTh9WxfgGdUSZO9pwmGsfGHC2mBIRuE8aNsz6pBiwU2h9H+n+/f1Bc9L16RAkKtj75SplrFWSPnuwG8e0HivYKi42kxgY5NKiIDmwvu/1zY7wNKrbIvCnRNQ1ymw9PX5Mw+mroFyFzmWeGMpw1alIqjm3Fey0aSL69E2ic4ZCWUx//MWnZhi2YHT0GQuiAQntnCos+33BxW1/uxPRsODTUoFawWhCt9yRJH+9wDnnqFuipWWn7A0T2P7x7NBNIZofPzmDAYWPaDHITIah0Y4Qco9yiKNv7V3P3TBjEY2abQubW/4hS3OUjEPh4KlzcRXTPRhqNdZtOXpYojq3/xce8hbZSSqctSQwyo3pW3k8yWdlO6we+Nm33Cu2fpKc6dOJUMh06iARitOSUpWPpMu0n8Eum+jzaikXIkPvRV2WOSL+7HvL61mSu9RMvpiUDm1nyDnjwklC8mLG1lGHB3kPMu+yUeoTz9ND70NyN0EOtkyQBrFJIEGhCr4URX/BWIigcMBuTHVkA6Ig68VFyiFe6DJbFJJAl7Mc2tbNF8gQmEra/Ixhsj603MbzFdUy980avAusoYA+upfbYxYZrVZ9C9oS1EnhLAJ2bijnbUQg5ovhPp30rGgC6xgm1q5TEhSQPWvUCv4BkJp0INdJPh0Rzgw1xRv7PfJMEN6D12pkUyr6R
+================RunCmd-strData-解密=========2018-01-12 23:16:43==========
+{"cmd":"login","encryptedData":"gGnRaMcN25425llzoeG0ggbF4yNpVUquzgEYq8ZwaKKIZjRs6ODfsBK4ruDlyCiG79AfMaJ1O+npIUGfs/ZnKezv7Ya9oXesH2Rd/U5M0v7JA05A97P97nCGeOHKiOgjG/3Ca3n0IT2n1ziGnLUJQ0AJyfFZLINDx95OCFgHbSPXzwdOKDq5PunLRJk4fXJTZlr0wrYFwPGTZUHzViFBflCo4k4BOzRuTYKSW2zTz31ficRJYHUzT50ggkJ7Xm0yKA5oKJYyJMA2TwMjHSfHBMzWei2/IpBLxHW0mFXLOtaxU46WclOHcTjaiT7+UUj0Ou2fjtt7zQNeOHSzYfllmdtnhV+FeCEbXeuX4SJai/leab3FJA4a8v2SM7j+G2y2lzrxN3iVvVmBn/TC8asa12IMUKD8Gqswfg1MyEVZ4+xHH9iwWaPJ3iWuSg7IhQ5JTuE2/3jOF22SDamkhmqAmHtqtnPYcHe2O25xNNT8DBw=","iv":"TO1svRAusGxGLGseYJ6oig%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:16:44==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:16:56==========
+Dc0GaMS2wcinIaxz2TljZvBOnxkr3+AY0AS7bc+vZHo=
+================RunCmd-strData-解密=========2018-01-12 23:16:57==========
+{"cmd":"getUserSystem"}
+================anyIndex-strRet=========2018-01-12 23:16:57==========
+{"errcode":1,"errmsg":"success","data":{"phone":"18668179721","ddAheadNotice":10}}
+================anyIndex-strData=========2018-01-12 23:17:01==========
+Dc0GaMS2wcinIaxz2TljZvBOnxkr3+AY0AS7bc+vZHo=
+================RunCmd-strData-解密=========2018-01-12 23:17:02==========
+{"cmd":"getUserSystem"}
+================anyIndex-strRet=========2018-01-12 23:17:02==========
+{"errcode":1,"errmsg":"success","data":{"phone":"18668179721","ddAheadNotice":10}}
+================anyIndex-strData=========2018-01-12 23:18:07==========
+hvUplc5rukfrJsvDtCDM0uFJkamGZDI1AJzSON+2XUkjlj0MB5mep9QjVNp2kZ8R
+================anyIndex-strData=========2018-01-12 23:18:07==========
+CVV5gIqmURpZFCvX2dfDbXrYYKidcq3hJ/IE3K0WmEfnJrxUs/oLszB1kw0aMS74RRfLsz9I2+XMaGwcR2mCCNr/tyqDqLtZ6XIsjgnL0nxrE1ga8lEUBI/vG5Y5YOzd/If7okcupz2Pmzy0Jvwcbp3BBBKdC0qGkbWXT+beLA5I7agwniSP4Fm5XFOoykrUUJXavCnQdjRS7sQRvks+euzhKCFZmKg7MoOmgoQZxnONmtn+HbFokg4ml8x8I/ucbN+jEK6N0jj1Ic6rbGchxMT4T6syckkHF9DcusU9hHsTmlpux7Rr2Mw2oo5KcbtBqZ9R1Tp+U9VIr9WScvU8hPYayaN1GxlVNfJ57nz3KXdPDm5AE3LgcaaviFq/7qV12xKMWxKcwKDkESM51Re4CRbGV4i063JVl98Mfg9BYI630mOUnrhrnuOqRmRJ94XcB+GJ9eofF5/bHQ/SZ4JIQ7DLBR3wgzGNR/9MBdJRrsqeccYPV8ysI8hY7+Y16Ztl6A9DuYDVphZSnUooThweAw3QAjVijYJWDLvg1CuurEAQ8QNl5sX26wPk6zfQyfCRTZPtXVD6hifCHMz91cYE6516TIjsd9x5OP0Q61gbVRTh7NtLOeK/SIAFuWe4kHkuRVXNZ7wOqZ3scJ/uJ8xrDN6iZlD2DZN1+29EQ3Dyvz6gHcNBl9006WQwFNCwYGk6b3QalkGAdL2E0QSsg3eJgeqPFnvFm2rhm03Yovn9YVfSPPczz7FNoDyK9Gw/3Vok
+================RunCmd-strData-解密=========2018-01-12 23:18:07==========
+{"cmd":"getUserNoticeTask","type":0}
+================RunCmd-strData-解密=========2018-01-12 23:18:07==========
+{"cmd":"login","encryptedData":"DdPSCdLbRBbdGqVSBPFnVRC1WbIY6oKkfZ9m9WksE+A996Lx7oLepOZmBRytGLjzo2H20pxD1CTC0e4cucYjdaY7oIxAoYXolWlQ2emV0smK9mffosUC40W1wEs5XyFrw6rFa2yDbFjtzrfUB46dTNYSl9fgqlOWt0+VMb8s2b+TfZWDkhIwr/UXvAAQ8cOJ+QPpay4q8ceyfthMVivGOXBmw3nTEUvgztjn4ZkpCAVr0ro92/PGP8Lhl2VEcK1WloteejqAsOOqbG9f10cTSjU8jrSuAAelnSK8yYM+eGPCUGns3OTQXHU2RdC9t4NybBXqcwZHPgQ0+xhUuVtPQO2VF47ZY1tovR4uzOnWeE5gmjz1vojUQ5vGnP40CemKCX91yM2JD2a5Bl00c1PKgj9whcxlocv6F4tNrmbBH9smNI/ZmXUWBS+w2Pr5LsFL2fBgUiDho4IOgzMiaAMC/Kh3MLBYDueWn066k7QJ/HE=","iv":"ojf6tw0nR%2BNKyGK4IZS%2B0A%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:18:07==========
+{"errcode":10111,"errmsg":"\u67e5\u8be2\u4e3a\u7a7a"}
+================anyIndex-strRet=========2018-01-12 23:18:07==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:18:25==========
+Dc0GaMS2wcinIaxz2TljZvBOnxkr3+AY0AS7bc+vZHo=
+================RunCmd-strData-解密=========2018-01-12 23:18:25==========
+{"cmd":"getUserSystem"}
+================anyIndex-strRet=========2018-01-12 23:18:25==========
+{"errcode":1,"errmsg":"success","data":{"phone":"18668179721","ddAheadNotice":10}}
+================anyIndex-strData=========2018-01-12 23:18:29==========
+Dc0GaMS2wcinIaxz2TljZvBOnxkr3+AY0AS7bc+vZHo=
+================RunCmd-strData-解密=========2018-01-12 23:18:29==========
+{"cmd":"getUserSystem"}
+================anyIndex-strRet=========2018-01-12 23:18:30==========
+{"errcode":1,"errmsg":"success","data":{"phone":"18668179721","ddAheadNotice":10}}
+================anyIndex-strData=========2018-01-12 23:18:57==========
+hvUplc5rukfrJsvDtCDM0uFJkamGZDI1AJzSON+2XUkjlj0MB5mep9QjVNp2kZ8R
+================anyIndex-strData=========2018-01-12 23:18:57==========
+CVV5gIqmURpZFCvX2dfDbXrYYKidcq3hJ/IE3K0WmEf+hnChf9yhxDds2We+GyVuJp6/Gm6SQ7digeRtZaS58SX9/R1hiAoSiX620c6fZjoOV5uLzG6chRtG2MD5HfvHBHzNIi26bXINkrvOVOe+bfBWita/SfBcxBUM2vmmuYo0dLORRa4usL1L6AS/X/3LbpuBKtKNhTTV2J1AF45YnHA4JoUMg1I1n3VZs4dkcO+ClpULN/3i0kiVPFdEjoqk8admmHDWziIgc5V20IqplAg8w3/r5Cj8uEYJQY8lXNYV+zh3iAUaZVNYVW71XDGlfWq//oByQGSD30+C46oV2O/zdjgZg38AqmKYB+L3YcgAbsRE8Mzwwwcc6YwEhd3qsc5wJ+eNtb1hHP5hv6/DmkNz6hMMoSD83iz6Ydp8kJi2TlAYM0GR+z3MJ/ZUGTdigBGhKlZGnhhhl17OAkCwx9TU//WICE5n7JBYdwplGw2c4VAm3zO+3KAyZyR8eX7O4b6LSqgcx0pnWMBNsfKR91ZOLg/pVwj8nR4PmMQMKbKM6XJmure8UJYz2yytFOoJFtu8IrDyaD0VjxQNXqSgtKNBHsxAHMk90HYoE2k+g4rMhHIynYbmlLQLMey2tKOmBODHX+6kd60MxYfk+Fb2BK4vDLqOWzNHkoErM+1wAusxq3IaK3nxJ8eTGgOpGe+YrKAZodfghtB1amby1Kam6swohn7ld+TKYgs1S2XmOm3sI2BQdBksNCre/v4YqVon
+================RunCmd-strData-解密=========2018-01-12 23:18:58==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:18:58==========
+{"errcode":10111,"errmsg":"\u67e5\u8be2\u4e3a\u7a7a"}
+================RunCmd-strData-解密=========2018-01-12 23:18:58==========
+{"cmd":"login","encryptedData":"cvuZD81OPk6Sy3QfXXQ5Uzmqf1q7IS0CFFm3r13XpgqDc6vNsnru3HWxUs+6m+OpdnT0kckMIA0RkOl68v1YSRAyKq4deg9IeliMo6IOg8UdjaL90Xf7Ytn/KESZQT37Q399fMbD0w5UYzgU60GCL7OaP1zd3PUma5rofCq6DJIjyGYeUeenIeSOd0JpZaHdBDlKc5YnvluKqyMII0RH6fE73brepYGDbsOw1yo9PfrgGlpIKrY8eZ2INJ8Ewz3ghNx4DMS7U4W+ejzonEJiZGGX/HMwQ+Sg1TmaEuEdMo+T6LZ1gSkP+pfnXq70MVRofGr0qB82xTZWrQUHwREjvJ1K5zwbF/wJTz+6Uwn7F7c57sHNAog7cu9CbPwqOY6YxZs9oKztPN3ez53N88VJ6Fy7BCW7RiQU9wRBvQUYertHZz5+utBNgnXoQoHUzYG4Ap9wDv4QP243WnDk1mybwmFAOG+9dEHX4GrtrvQpbTQ=","iv":"EKwVSIPgUbWaGCycmvnM%2BQ%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:18:58==========
+{"errcode":30102,"errmsg":"sessionId not valid"}
+================anyIndex-strData=========2018-01-12 23:18:58==========
+UTXv//jRaPx6grZLBgLF1hqtfWCcLAU7xih7W/nj8bUEcVuxfDxmo8ZFJ65wnOfVUfGJBOVswIVGhHZ7staejLsDsm2g6bmVI5YxtUrLO4xtdFVPaG3AA68xExYFQffs5GLhaaaFJVbkbkEvyTTdM9FzD5mbiOj5bo5ZF0SNrlsplhKlf0lheS/Bn71wXEmiRfQbl21U2AMNhU/D56gK8eL5GBKUGsVIyw8f5cAquEDGMLP42yBCkV6zzayq7nVnlwb14qHVME9MJImCkfgG3BvcFAss490gK/OVBPCLp2sQeTWuZRkZVOXCkJcsuXGEu4AvYr+5qMXob6WaYv6gcvdchha3GMmmFimlDZxoOffSXQl42pGGPIFaKb9eD7pnegb9jirgPasxk7f9f6aD6RoZlnU6L/TylIRtTMhxFF72RfDIdCoZwDVsNE3l8jo+AdMLvvz5wbXA+1ckUQXBEncTQWW06pk5uzNBt49wDAvlhkCnm5fN8pyVYWdpWbKIomP0K6xHVXzYXKN2Skd7bGEI8QFgLpE5HLFywfjhGJ3+zl4FSI+Ca/uW3QBfD7PY2wGMfhGVGleCOKZNWBdd0xBhMhR/90L4BFzYlvkoNXrQG/CzFOL9uAHIy6jSkGLkSfkmf3yCsno5I3sO/Dpr4bWeCulSPBYI1s5d7NGMjYSvc2udFbryAVNbR0XVrePwnp1vBprSWhOAQZum9eFJA2RMC68KmfYiEkcKxDEvGab9vhVnKC7dRsDYjaIEdqNG
+================RunCmd-strData-解密=========2018-01-12 23:18:59==========
+{"cmd":"login","encryptedData":"cvuZD81OPk6Sy3QfXXQ5Uzmqf1q7IS0CFFm3r13XpgqDc6vNsnru3HWxUs+6m+OpdnT0kckMIA0RkOl68v1YSRAyKq4deg9IeliMo6IOg8UdjaL90Xf7Ytn/KESZQT37Q399fMbD0w5UYzgU60GCL7OaP1zd3PUma5rofCq6DJIjyGYeUeenIeSOd0JpZaHdBDlKc5YnvluKqyMII0RH6fE73brepYGDbsOw1yo9PfrgGlpIKrY8eZ2INJ8Ewz3ghNx4DMS7U4W+ejzonEJiZGGX/HMwQ+Sg1TmaEuEdMo+T6LZ1gSkP+pfnXq70MVRofGr0qB82xTZWrQUHwREjvJ1K5zwbF/wJTz+6Uwn7F7c57sHNAog7cu9CbPwqOY6YxZs9oKztPN3ez53N88VJ6Fy7BCW7RiQU9wRBvQUYertHZz5+utBNgnXoQoHUzYG4Ap9wDv4QP243WnDk1mybwmFAOG+9dEHX4GrtrvQpbTQ=","iv":"EKwVSIPgUbWaGCycmvnM%2BQ%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:18:59==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:19:03==========
+qPLFwg8FHMKWsLIx61Pue1mrULrLu9AFc9bD5DVfCNE=
+================RunCmd-strData-解密=========2018-01-12 23:19:03==========
+{"cmd":"getUserSystem"}
+================anyIndex-strRet=========2018-01-12 23:19:03==========
+{"errcode":1,"errmsg":"success","data":{"phone":"18668179721","ddAheadNotice":10}}
+================anyIndex-strData=========2018-01-12 23:19:11==========
+qPLFwg8FHMKWsLIx61Pue1mrULrLu9AFc9bD5DVfCNE=
+================RunCmd-strData-解密=========2018-01-12 23:19:11==========
+{"cmd":"getUserSystem"}
+================anyIndex-strRet=========2018-01-12 23:19:12==========
+{"errcode":1,"errmsg":"success","data":{"phone":"18668179721","ddAheadNotice":10}}
+================anyIndex-strData=========2018-01-12 23:19:15==========
+qPLFwg8FHMKWsLIx61Pue1mrULrLu9AFc9bD5DVfCNE=
+================RunCmd-strData-解密=========2018-01-12 23:19:15==========
+{"cmd":"getUserSystem"}
+================anyIndex-strRet=========2018-01-12 23:19:15==========
+{"errcode":1,"errmsg":"success","data":{"phone":"18668179721","ddAheadNotice":10}}
+================anyIndex-strData=========2018-01-12 23:19:18==========
+qPLFwg8FHMKWsLIx61Pue1mrULrLu9AFc9bD5DVfCNE=
+================RunCmd-strData-解密=========2018-01-12 23:19:19==========
+{"cmd":"getUserSystem"}
+================anyIndex-strRet=========2018-01-12 23:19:19==========
+{"errcode":1,"errmsg":"success","data":{"phone":"18668179721","ddAheadNotice":10}}
+================anyIndex-strData=========2018-01-12 23:19:25==========
+7pE8B3ZCWZR/XVd13q8O0j8rP59lWLOl4jjbcAHEmzr3TtsG90C/sEWZCnx9VARGIj3dCYxQmZwZTYYvSoiU+Q==
+================RunCmd-strData-解密=========2018-01-12 23:19:25==========
+{"cmd":"modifyUserNoticeTask","minute":240,"type":0}
+================anyIndex-strRet=========2018-01-12 23:19:26==========
+{"errcode":1,"errmsg":"success"}
+================anyIndex-strData=========2018-01-12 23:19:26==========
+dgwn/ER83U8u670e0/P1VamcnyBoy9GuN+aqOnvgAbQiPd0JjFCZnBlNhi9KiJT5
+================RunCmd-strData-解密=========2018-01-12 23:19:26==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:19:26==========
+{"errcode":1,"errmsg":"success","data":{"minute":239,"totalMinute":240}}
+================anyIndex-strData=========2018-01-12 23:19:28==========
+7pE8B3ZCWZR/XVd13q8O0j8rP59lWLOl4jjbcAHEmzqRqCvJAVpJqZBIQN5pG453Ij3dCYxQmZwZTYYvSoiU+Q==
+================RunCmd-strData-解密=========2018-01-12 23:19:28==========
+{"cmd":"modifyUserNoticeTask","minute":480,"type":0}
+================anyIndex-strRet=========2018-01-12 23:19:28==========
+{"errcode":1,"errmsg":"success"}
+================anyIndex-strData=========2018-01-12 23:19:28==========
+dgwn/ER83U8u670e0/P1VamcnyBoy9GuN+aqOnvgAbQiPd0JjFCZnBlNhi9KiJT5
+================RunCmd-strData-解密=========2018-01-12 23:19:29==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:19:29==========
+{"errcode":1,"errmsg":"success","data":{"minute":479,"totalMinute":480}}
+================anyIndex-strData=========2018-01-12 23:20:06==========
+dgwn/ER83U8u670e0/P1VamcnyBoy9GuN+aqOnvgAbQiPd0JjFCZnBlNhi9KiJT5
+================anyIndex-strData=========2018-01-12 23:20:06==========
+UTXv//jRaPx6grZLBgLF1hqtfWCcLAU7xih7W/nj8bXCbhBqvNlcQiXcKSSC5oE4XcDQ+yVXgpea6LB8+PuLGraEhP9j87SudBZ9TPyEW7yTFgvNONPGe1VASHw4vDyMH3GvCoV9NO1lvWJHGVDo+NiX+c8YiQTMaoxE7hTzHeqIoFKJZ6wOqJegifEdJy91Ibh7nHdY+0lnYv5poQ9alUQeu8CZ60azd2Wg7X4SmEZ6m9wIq7FrJ/wM+qxbkontdeni4U1RBEb4dehyBqYhqvpOhu0knlBAw15bk/OvQOjqEITW4i1I/2a2sJLacTIeBVHGVzGnUCfNTBsBUKZTRBrJl+Tng6SXbmS9gckrdv/dv3tLDD0akc9wksJCNiqCzWKwbqy9EWmxTohpo26V0o221+O7IgcXG/AoqddogNk4yqmIu6RIwa9xkBjIzugBRLjdwSl/XPK00XPiFf/A5IuNA+Um3ZtC2Y3MpmIs/nRvCRti54lLKF45E0LHv05vfI8/dNnSZ5kmGAS+NnG6OXQilPgzLoBgZngX85+wDTk6H7S+hyV2VYbv3bukS9wRTj6tv9+6KW1AyLwO+qRHgcLP5icbVE/Zyx9jrVt/3NpOdzHjTwL10qFXKAGap5eGd0WKj2ISP2V5e6Wk6k0G8B/rdZ+zfks63i70yGH63WMo7yaJKbyy5Muc4oSPF9WDXZT8INrbW785WyhivMuiVbC8fhXHQAamyuW1DO/19pn9vhVnKC7dRsDYjaIEdqNG
+================RunCmd-strData-解密=========2018-01-12 23:20:06==========
+{"cmd":"login","encryptedData":"Wb5nIzUaXFmtf8fmekONYmMujNwyqimFuHylgd283d0aiZkqiw+6iV6vWtPgVYc3qJgJeDnOedCklvcDpezAL8efcexdF5nzP2JpKpVBlbK3U/l610tMbeJIlH9m1oFNvfNQ4dCLtzRavrOCo/La/lCsdYrwccgiugbwN9xq9hcXsIEaVpZYAzFmWJK54QXe3O66QZMJ/ka6r+ld9uzIan38/6Hlyh+6kf1ipncmfvjYg/JaGNskG5XhjprwnJyJDMidhn6exWOoxw6sLAkp5Z2Fqn56pYz6t8MeArs3+Op3IdMKaWc/Yedrwswd2QtRYXrsvaJUmLuXhjxd6nmvJJJS2f0QrkaT9w3aPWWMjV4n15KT1amKex46CzwRoU1K9ciW1CcJl2Z1Wqh5m5Ti7e7/FKMX4wTwuQuPVIcqwDL6h4t8pGWurVu59VUxLWjugw87kq7Ep7QG3M9Q9NlDQCMLmgTcwiLmheV4I4qcLC4=","iv":"WR5M6duW%2F9oEXxRM7PqIwg%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:20:07==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================RunCmd-异常=========2018-01-12 23:20:08==========
+SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+================anyIndex-strData=========2018-01-12 23:21:36==========
+dgwn/ER83U8u670e0/P1VamcnyBoy9GuN+aqOnvgAbQiPd0JjFCZnBlNhi9KiJT5
+================anyIndex-strData=========2018-01-12 23:21:36==========
+UTXv//jRaPx6grZLBgLF1hqtfWCcLAU7xih7W/nj8bWa9RspxeJBE3IjXjOCAK8ob08YlWhXyKzwlcpFp3YoALhNCTpk158wS/F5OIesClMAbM1CDXNWC69VEqMe7v4s3AQTgWtSNnP0yXKQWardXVLK2eVEHgqZD5YfVAm/vGLgBPLML2ndq2zphCtBv9CBdJhvT+jgT0bWVOZzG+kIPE4M8dRek3LLQKZ80uq1tF7ARabNDy3mS7xaBconcO7eNtOzVqR0w60u95bYs5UJGwjhzlUl+KRtvasUYHzrnh8dsiUBhz3H8O1JASLUI1OUoSha9qBA54iziFk2oydwdwgy9WNH45kc+orx0MXP5dlm8RolMm0nWQRRyoA9e/cDABTbGuAnx/wrH984GunQq0w/aAiVRX9M/SAEPVgNTi3o02hw6fByMvwPhzVT1FqXkhFqaRMoKrl768VlUuEsajei4LajpDRV8neH8ye7R5Fz2Uzk73Yqq3lNGFzG10+l+JLWeXyqQq28wKjTiYad2CVMWrP0kEoywVKmYdGlpCr7gP9WLIkITfpip9wt6O00YSwMsf/V3TU6+ODQA5pjhGhHKEs+rwYojUvxIh3kIjCAPSm9LQuDGeLHpg7u0j3RodgL8Ughp269nOKV/CewyqFk1YAP3QWKl9l9hprwCp4So973F6zq/YMPpGXrMHYy2fPzhF6QdfIs5Wj8Dbs0ojhb9Kzm7K4aEGd6xngkVKH9vhVnKC7dRsDYjaIEdqNG
+================RunCmd-strData-解密=========2018-01-12 23:21:36==========
+{"cmd":"getUserNoticeTask","type":0}
+================RunCmd-strData-解密=========2018-01-12 23:21:37==========
+{"cmd":"login","encryptedData":"aaYcUdSgJ2Uy924fGoz0U4Vwm4sPYrovXmbUZDheck7y6NGW8bD2E8eEkjiGQsp84T/Bcf6po8PvE/JxaImvHFECrelanP7aHGTfBkED2bmg6Mo/rznHnpqnBMcyFHSrCualHMa45M+fDPdIWKaowFvyxHGz/gDvCP2to9VeSxSgdptfEDb2TVT3GnC4FVZlSlpz/h1YDTr5tAsEiReZljKBN8ITi+siJWsoeOJK/obJB5YWWeuUr1LBPjmWjWUzWlmQ7MVNFVQ5i+To6GSqbMIXenZYLr3ko7ypnBH+hP+3JXCtlmzUNXLFkAIRIwwbrwr5cHOH4OENLLUS6EWWBBI3QDrndavFg7wZvHNthWCPCThLSimNGdTFa/0sbqFGrC8sZs2to3mZDq/LvcRjOqbZJiMRnc7JlYc07QlCwL8l8/9LliYddoM6o0m3PONm3XJZxCslMLD0tnpef+hwDUneQ3+dHpqZ8fAl0HuJDDM=","iv":"VhsH%2B8DsKeTQa9XkrObzsA%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:21:37==========
+{"errcode":30102,"errmsg":"sessionId not valid"}
+77,"totalMinute":480}}
+================anyIndex-strData=========2018-01-12 23:21:37==========
+lgDIiYyWVvV1Gb0BzFlGGKpyYQVMGCE6o+qknSC6KS9SHfVwa8Q9YjPiNYgLaiJ9V+zF8+65ZFhSvZ1ReFCCRUOckVNQL/Pmlovgp+Gco1MQTHcgIR4QsDu9dM79qfu55S+o1cEABpZtX5sa/ZFnuIXndyxc56XHgWLvhdhDNT4ls/irKwkXEIr7YvGyqYOPG1uYGPp+EaBlDahiBaeZ/1XAxrbU9uABS4uNabA/n1svdSjZPamM3ruZ+c0vj/13HUQaIpm00Pnn9urOlJ0InSnxNN0qj09HOgC01Tj5yvmX1rX6HxC37bIDJm0da4iN7+T2y7QGAp+ey0yd2Uqo/w+3lbkFXstRQud2uXCHP+36g8GeQuM9JtEhxOeqHWFfxNaGlF7RbMWOFBkcf2U10zjkurBnkI6B8uHVcz9TDAuySuUiCHUbJyNPVOYfeYUJOZTl/cAv6dGVKHAIGKdmzlXbgbAD1jPnVYH8Q5amYRC2r1gUwZVs9iJhuDrVjzM4FwI4146BoFpnFvr/F/HV414q6n9qT2oNYNtyv40/zAcSowIamafKmya9b4Q2ZIec13BY8qvPIc8uRzwcrb61xjJ5TMghFhJroh92drsjwXIUEMMzO3b9LpN0CwP79u9KqkUjZ9uAcSxN/ImdjIctFbYm1/lZGmdnhYAC25oY5LB5Yv723UB+7G0wXlIUGlCWp+D/x4poX79EwcXjVPV+6XAzGXG9DUhRDb1XWCZTDDiSmTNzVEKYO6GGEUbVOlfO
+================RunCmd-strData-解密=========2018-01-12 23:21:38==========
+{"cmd":"login","encryptedData":"aaYcUdSgJ2Uy924fGoz0U4Vwm4sPYrovXmbUZDheck7y6NGW8bD2E8eEkjiGQsp84T/Bcf6po8PvE/JxaImvHFECrelanP7aHGTfBkED2bmg6Mo/rznHnpqnBMcyFHSrCualHMa45M+fDPdIWKaowFvyxHGz/gDvCP2to9VeSxSgdptfEDb2TVT3GnC4FVZlSlpz/h1YDTr5tAsEiReZljKBN8ITi+siJWsoeOJK/obJB5YWWeuUr1LBPjmWjWUzWlmQ7MVNFVQ5i+To6GSqbMIXenZYLr3ko7ypnBH+hP+3JXCtlmzUNXLFkAIRIwwbrwr5cHOH4OENLLUS6EWWBBI3QDrndavFg7wZvHNthWCPCThLSimNGdTFa/0sbqFGrC8sZs2to3mZDq/LvcRjOqbZJiMRnc7JlYc07QlCwL8l8/9LliYddoM6o0m3PONm3XJZxCslMLD0tnpef+hwDUneQ3+dHpqZ8fAl0HuJDDM=","iv":"VhsH%2B8DsKeTQa9XkrObzsA%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:21:38==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:21:47==========
+VI9tCJUVO+QnvDz4K9wWLGZAYbxZepLEJ3U77uiWNQWOAZMmZAhDNee9kombihXd1a70MkDPlKoToOJQaWrktw==
+================RunCmd-strData-解密=========2018-01-12 23:21:47==========
+{"cmd":"modifyUserNoticeTask","minute":240,"type":0}
+================anyIndex-strRet=========2018-01-12 23:21:48==========
+{"errcode":1,"errmsg":"success"}
+================anyIndex-strData=========2018-01-12 23:21:48==========
+koDLjm5hik7zY7wSR1G6xOY7+r7KFYyUtYc0dphnepXVrvQyQM+UqhOg4lBpauS3
+================RunCmd-strData-解密=========2018-01-12 23:21:48==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:21:48==========
+{"errcode":1,"errmsg":"success","data":{"minute":239,"totalMinute":240}}
+================anyIndex-strData=========2018-01-12 23:21:51==========
+VI9tCJUVO+QnvDz4K9wWLGZAYbxZepLEJ3U77uiWNQWOAZMmZAhDNee9kombihXd1a70MkDPlKoToOJQaWrktw==
+================RunCmd-strData-解密=========2018-01-12 23:21:52==========
+{"cmd":"modifyUserNoticeTask","minute":240,"type":0}
+================anyIndex-strRet=========2018-01-12 23:21:52==========
+{"errcode":1,"errmsg":"success"}
+================anyIndex-strData=========2018-01-12 23:21:52==========
+koDLjm5hik7zY7wSR1G6xOY7+r7KFYyUtYc0dphnepXVrvQyQM+UqhOg4lBpauS3
+================RunCmd-strData-解密=========2018-01-12 23:21:52==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:21:53==========
+{"errcode":1,"errmsg":"success","data":{"minute":239,"totalMinute":240}}
+================anyIndex-strData=========2018-01-12 23:22:31==========
+koDLjm5hik7zY7wSR1G6xOY7+r7KFYyUtYc0dphnepXVrvQyQM+UqhOg4lBpauS3
+================anyIndex-strData=========2018-01-12 23:22:31==========
+lgDIiYyWVvV1Gb0BzFlGGKpyYQVMGCE6o+qknSC6KS9tpOT8e1m4SJxnm6WyK/dySlcL4ziwZGPtAJgja8bu/eNk5UANmqhRnI95wEK/5LG60gW7HZsr5Ch3Z42VUWT9TO4LpnqtJBY/EIM7lci0JCTTK5W27JOgAVWH3rwrzW3/0MV8LizhSMyo2C3ZqioAEl/Db6WaSUJ3ykyqBc3CWjOzaHFcrL5isxSKowttd5fYEZt31f3lsegA97gFC3ZPKYNVjtLdaFPR1fo5EtfOzmsHsgsdQ5WN1xKiLDufK+8oXPPTsMOmegIIlt8OpvXwbs2/I0mzlFkPSVmn7CiXp4+eNm/oSTZ7EWyh017CX+0QBPuPNte/6JjCXoS8vrDdAtdouFMsM+t+hEodqBiHxVCThTufyjOAwyKW6taYunaLWeMunhwICGeg2z6BZdfcekAYkX/bN032gn3vzYQNqmSLgKPqO6gtNRtms95sx5ZR2Ke5ZOO1ejHMPrrkz4JNhg3Z0hQuXDZb4LA+6IZJkEWQxKSh0qIHN2GzjfEcshEnL7iIsN9wlTkt1dOraNltT6rmgyOIuq6XKADx+Boph+5hs9+p7ld3ggs/JUdVlwBvyioGpt86Dm/NZspkwZBZu/axZNlJ4hY1InJq5KAHvMkM/gvqScya790oh3Oc3GQEIO7Aur9EWoZxwXv4tK3kSAPwW9oH/vzq6zWkUfX2uYHSCo6gKLIE2PqMksJ0vUSAxOrGmLpnYnAbzx19jj+h
+================RunCmd-strData-解密=========2018-01-12 23:22:32==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:22:32==========
+{"errcode":1,"errmsg":"success","data":{"minute":238,"totalMinute":240}}
+================RunCmd-strData-解密=========2018-01-12 23:22:32==========
+{"cmd":"login","encryptedData":"+eD3Xw5mf3syEsbJHzLCoJDzbN+ApI79n14ck+rqLUuhozjkUrJO95Het6eIUXt6DSsUnRYJtFQ1AWPqWOIIcxU3ZcT7qhj/cgu62kKB59SD4WllovXJ9dVMUyww1UpmEz8Dw8JYED/s4Ga3NI5RUi3yKKIa3HCTJMtxq2E28MQs+VUwPT+Zwnl2Ijj7b4SS4f2sT30krO9PGdoYeZj50qJzhVgsq1cPS4UbmEGbwVaqkURjIZ1RYXnyfjFnTNanpIXezeRqvvjnac+WOz+E5FYGP/9Ek5tgcNBrICjEB8tE9mdnPVbu5xhWjUSPN1jKaVTerKPmEaA85aufZMMruQg1sP8mSQLCiyOD5SLuGhoav6b6lf7imE1yqhZD7NMlaqqW9WTowXRPxI5Nr3L3LW549X7Jg2/VoYlzlmbpirgJB5AN8neFo+NXP9Vcx+N/6GJrCviAy1iK+hoI3mjLMC4gvxkTzfAMUUR8U9yRZdY=","iv":"Wz74bLSYW02vC3v5KYw0fg%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:22:32==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:22:33==========
+VI9tCJUVO+QnvDz4K9wWLGZAYbxZepLEJ3U77uiWNQWOAZMmZAhDNee9kombihXd1a70MkDPlKoToOJQaWrktw==
+================RunCmd-strData-解密=========2018-01-12 23:22:34==========
+{"cmd":"modifyUserNoticeTask","minute":240,"type":0}
+================anyIndex-strRet=========2018-01-12 23:22:34==========
+{"errcode":1,"errmsg":"success"}
+================anyIndex-strData=========2018-01-12 23:22:34==========
+koDLjm5hik7zY7wSR1G6xOY7+r7KFYyUtYc0dphnepXVrvQyQM+UqhOg4lBpauS3
+================RunCmd-strData-解密=========2018-01-12 23:22:34==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:22:34==========
+{"errcode":1,"errmsg":"success","data":{"minute":239,"totalMinute":240}}
+================anyIndex-strData=========2018-01-12 23:22:35==========
+VI9tCJUVO+QnvDz4K9wWLGZAYbxZepLEJ3U77uiWNQXsoNjP6TM7th33FD4lzgQU1a70MkDPlKoToOJQaWrktw==
+================RunCmd-strData-解密=========2018-01-12 23:22:35==========
+{"cmd":"modifyUserNoticeTask","minute":480,"type":0}
+================anyIndex-strRet=========2018-01-12 23:22:35==========
+{"errcode":1,"errmsg":"success"}
+================anyIndex-strData=========2018-01-12 23:22:36==========
+koDLjm5hik7zY7wSR1G6xOY7+r7KFYyUtYc0dphnepXVrvQyQM+UqhOg4lBpauS3
+================RunCmd-strData-解密=========2018-01-12 23:22:36==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:22:36==========
+{"errcode":1,"errmsg":"success","data":{"minute":479,"totalMinute":480}}
+================anyIndex-strData=========2018-01-12 23:22:36==========
+VI9tCJUVO+QnvDz4K9wWLGZAYbxZepLEJ3U77uiWNQUhmdTHGqhXm3QIDAUWeg0uo7yM+4BCmzJmzLNbC8jTGg==
+================RunCmd-strData-解密=========2018-01-12 23:22:37==========
+{"cmd":"modifyUserNoticeTask","minute":1440,"type":0}
+================anyIndex-strRet=========2018-01-12 23:22:37==========
+{"errcode":1,"errmsg":"success"}
+================anyIndex-strData=========2018-01-12 23:22:37==========
+koDLjm5hik7zY7wSR1G6xOY7+r7KFYyUtYc0dphnepXVrvQyQM+UqhOg4lBpauS3
+================RunCmd-strData-解密=========2018-01-12 23:22:37==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:22:38==========
+{"errcode":1,"errmsg":"success","data":{"minute":1439,"totalMinute":1440}}
+================anyIndex-strData=========2018-01-12 23:22:43==========
+VI9tCJUVO+QnvDz4K9wWLGZAYbxZepLEJ3U77uiWNQW9cgIyrqwR7HTL/YEpO+gyo7yM+4BCmzJmzLNbC8jTGg==
+================RunCmd-strData-解密=========2018-01-12 23:22:43==========
+{"cmd":"modifyUserNoticeTask","minute":4320,"type":0}
+================anyIndex-strRet=========2018-01-12 23:22:43==========
+{"errcode":1,"errmsg":"success"}
+================anyIndex-strData=========2018-01-12 23:22:43==========
+koDLjm5hik7zY7wSR1G6xOY7+r7KFYyUtYc0dphnepXVrvQyQM+UqhOg4lBpauS3
+================RunCmd-strData-解密=========2018-01-12 23:22:44==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:22:44==========
+{"errcode":1,"errmsg":"success","data":{"minute":4319,"totalMinute":4320}}
+================anyIndex-strData=========2018-01-12 23:22:45==========
+VI9tCJUVO+QnvDz4K9wWLGZAYbxZepLEJ3U77uiWNQWOAZMmZAhDNee9kombihXd1a70MkDPlKoToOJQaWrktw==
+================RunCmd-strData-解密=========2018-01-12 23:22:45==========
+{"cmd":"modifyUserNoticeTask","minute":240,"type":0}
+================anyIndex-strRet=========2018-01-12 23:22:46==========
+{"errcode":1,"errmsg":"success"}
+================anyIndex-strData=========2018-01-12 23:22:46==========
+koDLjm5hik7zY7wSR1G6xOY7+r7KFYyUtYc0dphnepXVrvQyQM+UqhOg4lBpauS3
+================RunCmd-strData-解密=========2018-01-12 23:22:46==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:22:47==========
+{"errcode":1,"errmsg":"success","data":{"minute":239,"totalMinute":240}}
+================anyIndex-strData=========2018-01-12 23:22:47==========
+VI9tCJUVO+QnvDz4K9wWLGZAYbxZepLEJ3U77uiWNQXsoNjP6TM7th33FD4lzgQU1a70MkDPlKoToOJQaWrktw==
+================RunCmd-strData-解密=========2018-01-12 23:22:47==========
+{"cmd":"modifyUserNoticeTask","minute":480,"type":0}
+================anyIndex-strRet=========2018-01-12 23:22:47==========
+{"errcode":1,"errmsg":"success"}
+================anyIndex-strData=========2018-01-12 23:22:47==========
+koDLjm5hik7zY7wSR1G6xOY7+r7KFYyUtYc0dphnepXVrvQyQM+UqhOg4lBpauS3
+================RunCmd-strData-解密=========2018-01-12 23:22:48==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:22:48==========
+{"errcode":1,"errmsg":"success","data":{"minute":479,"totalMinute":480}}
+================anyIndex-strData=========2018-01-12 23:22:55==========
+VI9tCJUVO+QnvDz4K9wWLGZAYbxZepLEJ3U77uiWNQW9cgIyrqwR7HTL/YEpO+gyo7yM+4BCmzJmzLNbC8jTGg==
+================RunCmd-strData-解密=========2018-01-12 23:22:55==========
+{"cmd":"modifyUserNoticeTask","minute":4320,"type":0}
+================anyIndex-strRet=========2018-01-12 23:22:56==========
+{"errcode":1,"errmsg":"success"}
+================anyIndex-strData=========2018-01-12 23:22:56==========
+koDLjm5hik7zY7wSR1G6xOY7+r7KFYyUtYc0dphnepXVrvQyQM+UqhOg4lBpauS3
+================RunCmd-strData-解密=========2018-01-12 23:22:56==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:22:56==========
+{"errcode":1,"errmsg":"success","data":{"minute":4319,"totalMinute":4320}}
+================anyIndex-strData=========2018-01-12 23:22:58==========
+VI9tCJUVO+QnvDz4K9wWLGZAYbxZepLEJ3U77uiWNQWOAZMmZAhDNee9kombihXd1a70MkDPlKoToOJQaWrktw==
+================RunCmd-strData-解密=========2018-01-12 23:22:58==========
+{"cmd":"modifyUserNoticeTask","minute":240,"type":0}
+================anyIndex-strRet=========2018-01-12 23:22:58==========
+{"errcode":1,"errmsg":"success"}
+================anyIndex-strData=========2018-01-12 23:22:58==========
+koDLjm5hik7zY7wSR1G6xOY7+r7KFYyUtYc0dphnepXVrvQyQM+UqhOg4lBpauS3
+================RunCmd-strData-解密=========2018-01-12 23:22:59==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:22:59==========
+{"errcode":1,"errmsg":"success","data":{"minute":239,"totalMinute":240}}
+================anyIndex-strData=========2018-01-12 23:23:01==========
+VI9tCJUVO+QnvDz4K9wWLGZAYbxZepLEJ3U77uiWNQXupvTP+XIGxBVLCJ1udvBZhzTm0f0nT83vfocAwwPb3w==
+================RunCmd-strData-解密=========2018-01-12 23:23:01==========
+{"cmd":"modifyUserNoticeTask","minute":10080,"type":0}
+================anyIndex-strRet=========2018-01-12 23:23:02==========
+{"errcode":1,"errmsg":"success"}
+================anyIndex-strData=========2018-01-12 23:23:02==========
+koDLjm5hik7zY7wSR1G6xOY7+r7KFYyUtYc0dphnepXVrvQyQM+UqhOg4lBpauS3
+================RunCmd-strData-解密=========2018-01-12 23:23:02==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:23:02==========
+{"errcode":1,"errmsg":"success","data":{"minute":10079,"totalMinute":10080}}
+================anyIndex-strData=========2018-01-12 23:23:12==========
+koDLjm5hik7zY7wSR1G6xOY7+r7KFYyUtYc0dphnepXVrvQyQM+UqhOg4lBpauS3
+================anyIndex-strData=========2018-01-12 23:23:12==========
+lgDIiYyWVvV1Gb0BzFlGGKpyYQVMGCE6o+qknSC6KS/NkKO0/aE1Nl58mp2tQ4qFEM5HcJgl01kMlKL6SxvXUFMoCHcTtDLBUfXj0wX/dBse9ar8eGml0Cubnso+lpfDZGwOL5lydukQSgF4EZvugFVlp1o7nIQ/8hOyPJWuYRnoq0PsUSsJg/TEuGDmCFmV58AxfahcXMFV+RkruDDKfikDclaZntDxJCoSQEWlrqlyqZEiEB8dvvP0KnNGZ9Cs8GQJx9A+JzZRp9EWB2JOk8HpUCQZB0U8hqq8moiL8WHnEOF0Q9IRg8Ah+HgY/6Ls0CtcD0BV3MjKyWeaaqLsy6m9CUYwAETqpFmkemG0aodp8EF+smSsk3zJzIVlPe01cCAjBbvciPmwr+tiT0+7hQN8buf7EecytqEns4uOzdiJiZiiBdsObpKxSkc5z2/sj1LJszh6hrH38zNIVvNoKnpJJ2JwmIXAJyxCySX+qYpKOtHQXc6SMTxDVDJAbCczLLyl/PahTnU5U+27V2NgAq9RgCmnBZumIJxM1fHaKjU/0AAxQttrzxMqO7bkybAgKhuRCtQLEV6Py5xOdZ8LA5okB7E2BqdSI0mhEOEtNE5wRabSFj+NOeDmWk1j3ByREosSNq7/yeMqZhrH+6W4wiC3AEtheUrxiZyHznkl1mM9A1T2I8U4JOpvTuzZsI+4kVmdGCNgWTOaqd+G7Y6wpLCYSADKIBwv/O8AvfrSLHmAxOrGmLpnYnAbzx19jj+h
+================RunCmd-strData-解密=========2018-01-12 23:23:12==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:23:13==========
+{"errcode":1,"errmsg":"success","data":{"minute":10079,"totalMinute":10080}}
+================RunCmd-strData-解密=========2018-01-12 23:23:13==========
+{"cmd":"login","encryptedData":"BLFkS2FPn+EqlbgwT5n6kVWuUnmaiZwOLe41lcpXbMQMp1NACNEbyTZnfMgl84yUCjAWnba3XOuZsNgMAMxBnJ4MwyxMsUeU45ye4Wt54YGJvc1jxg1Mk6h2HJKyoE9vvIbDjV8eOpZFYG4TC0ZSHx36eGHV7qSiPQy2Uk4MXvI+cH+nbHxYQEs+/Aaw0xZCJk+weW1Dt76dshBd9m0N4JmsQPqAb3hrf6QXCEyo5vXByfaGPMSgmlGjqkyHoxQzn4YXzlIbuEhPYz2hV8OvCS2hiNdYMFFQtybVRHxU+BpgCREKZqECxA/rqW1AcUHJWKKOOg54zrNeSPJJ4pZOTpskjqnRNsM0diFhySCKXjngwQZnCkMfACS1iwnhODtrQqZmAtKdFUVoOPkoKEFeEK9MYENWwO9F+CTIY2cXtzCBQU34rE9HPOLe8X2YfBk4V5asHJGOOQrMDrISJ+dHo91Yidd/5Z+7GMgc5Oa5SBI=","iv":"e6k5Pq6Sa8tsVTQPjeKTKw%3D%3D"}
+================anyIndex-strRet=========2018-01-12 23:23:13==========
+{"errcode":1,"errmsg":"success","data":{"isPhone":1,"userId":4,"account":"9864617","name":"BangBangBang","phone":"18668179721","email":"","imgUrl":""}}
+================anyIndex-strData=========2018-01-12 23:23:15==========
+VI9tCJUVO+QnvDz4K9wWLGZAYbxZepLEJ3U77uiWNQWOAZMmZAhDNee9kombihXd1a70MkDPlKoToOJQaWrktw==
+================RunCmd-strData-解密=========2018-01-12 23:23:15==========
+{"cmd":"modifyUserNoticeTask","minute":240,"type":0}
+================anyIndex-strRet=========2018-01-12 23:23:15==========
+{"errcode":1,"errmsg":"success"}
+================anyIndex-strData=========2018-01-12 23:23:15==========
+koDLjm5hik7zY7wSR1G6xOY7+r7KFYyUtYc0dphnepXVrvQyQM+UqhOg4lBpauS3
+================RunCmd-strData-解密=========2018-01-12 23:23:16==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:23:16==========
+{"errcode":1,"errmsg":"success","data":{"minute":239,"totalMinute":240}}
+================anyIndex-strData=========2018-01-12 23:23:16==========
+VI9tCJUVO+QnvDz4K9wWLGZAYbxZepLEJ3U77uiWNQW9cgIyrqwR7HTL/YEpO+gyo7yM+4BCmzJmzLNbC8jTGg==
+================RunCmd-strData-解密=========2018-01-12 23:23:16==========
+{"cmd":"modifyUserNoticeTask","minute":4320,"type":0}
+================anyIndex-strRet=========2018-01-12 23:23:17==========
+{"errcode":1,"errmsg":"success"}
+================anyIndex-strData=========2018-01-12 23:23:17==========
+koDLjm5hik7zY7wSR1G6xOY7+r7KFYyUtYc0dphnepXVrvQyQM+UqhOg4lBpauS3
+================RunCmd-strData-解密=========2018-01-12 23:23:17==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:23:17==========
+{"errcode":1,"errmsg":"success","data":{"minute":4319,"totalMinute":4320}}
+================anyIndex-strData=========2018-01-12 23:23:18==========
+VI9tCJUVO+QnvDz4K9wWLGZAYbxZepLEJ3U77uiWNQW9cgIyrqwR7HTL/YEpO+gyo7yM+4BCmzJmzLNbC8jTGg==
+================RunCmd-strData-解密=========2018-01-12 23:23:19==========
+{"cmd":"modifyUserNoticeTask","minute":4320,"type":0}
+================anyIndex-strRet=========2018-01-12 23:23:19==========
+{"errcode":1,"errmsg":"success"}
+================anyIndex-strData=========2018-01-12 23:23:19==========
+koDLjm5hik7zY7wSR1G6xOY7+r7KFYyUtYc0dphnepXVrvQyQM+UqhOg4lBpauS3
+================RunCmd-strData-解密=========2018-01-12 23:23:20==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:23:20==========
+{"errcode":1,"errmsg":"success","data":{"minute":4319,"totalMinute":4320}}
+================anyIndex-strData=========2018-01-12 23:23:20==========
+VI9tCJUVO+QnvDz4K9wWLGZAYbxZepLEJ3U77uiWNQW9cgIyrqwR7HTL/YEpO+gyo7yM+4BCmzJmzLNbC8jTGg==
+================RunCmd-strData-解密=========2018-01-12 23:23:20==========
+{"cmd":"modifyUserNoticeTask","minute":4320,"type":0}
+================anyIndex-strRet=========2018-01-12 23:23:21==========
+{"errcode":1,"errmsg":"success"}
+================anyIndex-strData=========2018-01-12 23:23:21==========
+VI9tCJUVO+QnvDz4K9wWLGZAYbxZepLEJ3U77uiWNQWOAZMmZAhDNee9kombihXd1a70MkDPlKoToOJQaWrktw==
+================anyIndex-strData=========2018-01-12 23:23:21==========
+koDLjm5hik7zY7wSR1G6xOY7+r7KFYyUtYc0dphnepXVrvQyQM+UqhOg4lBpauS3
+================RunCmd-strData-解密=========2018-01-12 23:23:21==========
+{"cmd":"getUserNoticeTask","type":0}
+================RunCmd-strData-解密=========2018-01-12 23:23:21==========
+{"cmd":"modifyUserNoticeTask","minute":240,"type":0}
+================anyIndex-strRet=========2018-01-12 23:23:21==========
+{"errcode":1,"errmsg":"success","data":{"minute":4319,"totalMinute":4320}}
+================anyIndex-strRet=========2018-01-12 23:23:21==========
+{"errcode":1,"errmsg":"success"}
+================anyIndex-strData=========2018-01-12 23:23:21==========
+koDLjm5hik7zY7wSR1G6xOY7+r7KFYyUtYc0dphnepXVrvQyQM+UqhOg4lBpauS3
+================RunCmd-strData-解密=========2018-01-12 23:23:22==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strData=========2018-01-12 23:23:22==========
+VI9tCJUVO+QnvDz4K9wWLGZAYbxZepLEJ3U77uiWNQXsoNjP6TM7th33FD4lzgQU1a70MkDPlKoToOJQaWrktw==
+================anyIndex-strRet=========2018-01-12 23:23:22==========
+{"errcode":1,"errmsg":"success","data":{"minute":239,"totalMinute":240}}
+================RunCmd-strData-解密=========2018-01-12 23:23:22==========
+{"cmd":"modifyUserNoticeTask","minute":480,"type":0}
+================anyIndex-strRet=========2018-01-12 23:23:23==========
+{"errcode":1,"errmsg":"success"}
+================anyIndex-strData=========2018-01-12 23:23:23==========
+koDLjm5hik7zY7wSR1G6xOY7+r7KFYyUtYc0dphnepXVrvQyQM+UqhOg4lBpauS3
+================RunCmd-strData-解密=========2018-01-12 23:23:23==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:23:24==========
+{"errcode":1,"errmsg":"success","data":{"minute":479,"totalMinute":480}}
+================anyIndex-strData=========2018-01-12 23:23:24==========
+VI9tCJUVO+QnvDz4K9wWLGZAYbxZepLEJ3U77uiWNQUhmdTHGqhXm3QIDAUWeg0uo7yM+4BCmzJmzLNbC8jTGg==
+================RunCmd-strData-解密=========2018-01-12 23:23:24==========
+{"cmd":"modifyUserNoticeTask","minute":1440,"type":0}
+================anyIndex-strRet=========2018-01-12 23:23:24==========
+{"errcode":1,"errmsg":"success"}
+================anyIndex-strData=========2018-01-12 23:23:25==========
+koDLjm5hik7zY7wSR1G6xOY7+r7KFYyUtYc0dphnepXVrvQyQM+UqhOg4lBpauS3
+================RunCmd-strData-解密=========2018-01-12 23:23:25==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:23:25==========
+{"errcode":1,"errmsg":"success","data":{"minute":1439,"totalMinute":1440}}
+================anyIndex-strData=========2018-01-12 23:23:25==========
+VI9tCJUVO+QnvDz4K9wWLGZAYbxZepLEJ3U77uiWNQWOAZMmZAhDNee9kombihXd1a70MkDPlKoToOJQaWrktw==
+================RunCmd-strData-解密=========2018-01-12 23:23:25==========
+{"cmd":"modifyUserNoticeTask","minute":240,"type":0}
+================anyIndex-strRet=========2018-01-12 23:23:26==========
+{"errcode":1,"errmsg":"success"}
+================anyIndex-strData=========2018-01-12 23:23:26==========
+koDLjm5hik7zY7wSR1G6xOY7+r7KFYyUtYc0dphnepXVrvQyQM+UqhOg4lBpauS3
+================RunCmd-strData-解密=========2018-01-12 23:23:26==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:23:26==========
+{"errcode":1,"errmsg":"success","data":{"minute":239,"totalMinute":240}}
+================anyIndex-strData=========2018-01-12 23:23:27==========
+VI9tCJUVO+QnvDz4K9wWLGZAYbxZepLEJ3U77uiWNQXsoNjP6TM7th33FD4lzgQU1a70MkDPlKoToOJQaWrktw==
+================RunCmd-strData-解密=========2018-01-12 23:23:27==========
+{"cmd":"modifyUserNoticeTask","minute":480,"type":0}
+================anyIndex-strRet=========2018-01-12 23:23:27==========
+{"errcode":1,"errmsg":"success"}
+================anyIndex-strData=========2018-01-12 23:23:28==========
+koDLjm5hik7zY7wSR1G6xOY7+r7KFYyUtYc0dphnepXVrvQyQM+UqhOg4lBpauS3
+================RunCmd-strData-解密=========2018-01-12 23:23:28==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:23:28==========
+{"errcode":1,"errmsg":"success","data":{"minute":479,"totalMinute":480}}
+================anyIndex-strData=========2018-01-12 23:23:31==========
+VI9tCJUVO+QnvDz4K9wWLGZAYbxZepLEJ3U77uiWNQUhmdTHGqhXm3QIDAUWeg0uo7yM+4BCmzJmzLNbC8jTGg==
+================RunCmd-strData-解密=========2018-01-12 23:23:31==========
+{"cmd":"modifyUserNoticeTask","minute":1440,"type":0}
+================anyIndex-strRet=========2018-01-12 23:23:32==========
+{"errcode":1,"errmsg":"success"}
+================anyIndex-strData=========2018-01-12 23:23:32==========
+koDLjm5hik7zY7wSR1G6xOY7+r7KFYyUtYc0dphnepXVrvQyQM+UqhOg4lBpauS3
+================RunCmd-strData-解密=========2018-01-12 23:23:32==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:23:32==========
+{"errcode":1,"errmsg":"success","data":{"minute":1439,"totalMinute":1440}}
+================anyIndex-strData=========2018-01-12 23:23:33==========
+VI9tCJUVO+QnvDz4K9wWLGZAYbxZepLEJ3U77uiWNQVHJoc2kI565TmRsHYGASVBhzTm0f0nT83vfocAwwPb3w==
+================RunCmd-strData-解密=========2018-01-12 23:23:34==========
+{"cmd":"modifyUserNoticeTask","minute":20160,"type":0}
+================anyIndex-strRet=========2018-01-12 23:23:34==========
+{"errcode":1,"errmsg":"success"}
+================anyIndex-strData=========2018-01-12 23:23:34==========
+koDLjm5hik7zY7wSR1G6xOY7+r7KFYyUtYc0dphnepXVrvQyQM+UqhOg4lBpauS3
+================RunCmd-strData-解密=========2018-01-12 23:23:34==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:23:35==========
+{"errcode":1,"errmsg":"success","data":{"minute":20159,"totalMinute":20160}}
+================anyIndex-strData=========2018-01-12 23:23:39==========
+VI9tCJUVO+QnvDz4K9wWLGZAYbxZepLEJ3U77uiWNQWOAZMmZAhDNee9kombihXd1a70MkDPlKoToOJQaWrktw==
+================RunCmd-strData-解密=========2018-01-12 23:23:39==========
+{"cmd":"modifyUserNoticeTask","minute":240,"type":0}
+================anyIndex-strRet=========2018-01-12 23:23:39==========
+{"errcode":1,"errmsg":"success"}
+================anyIndex-strData=========2018-01-12 23:23:40==========
+koDLjm5hik7zY7wSR1G6xOY7+r7KFYyUtYc0dphnepXVrvQyQM+UqhOg4lBpauS3
+================RunCmd-strData-解密=========2018-01-12 23:23:40==========
+{"cmd":"getUserNoticeTask","type":0}
+================anyIndex-strRet=========2018-01-12 23:23:40==========
+{"errcode":1,"errmsg":"success","data":{"minute":239,"totalMinute":240}}

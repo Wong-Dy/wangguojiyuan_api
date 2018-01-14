@@ -1,0 +1,29 @@
+================sendCmd=========2018-01-11 23:45:01==========
+account=&password=&mobile=18668179721&content=王国语音通知，您的保护盾马上到期。。
+================sendCmd=========2018-01-11 23:45:01==========
+<?xml version="1.0" encoding="utf-8"?>
+<SubmitResult xmlns="api.vm.ihuyi.com">
+<code>401</code>
+<msg>帐号不能为空.</msg>
+<voiceid>0</voiceid>
+</SubmitResult>
+================sendCmd=========2018-01-11 23:48:53==========
+account=VM44417016&password=VM44417016&mobile=18668179721&content=王国语音通知，您的保护盾马上到期。。
+================sendCmd=========2018-01-11 23:48:53==========
+<?xml version="1.0" encoding="utf-8"?>
+<SubmitResult xmlns="http://api.vm.ihuyi.com/">
+<code>405</code>
+<msg>用户名或密码不正确</msg>
+<voiceid>0</voiceid>
+</SubmitResult>
+
+================sendCmd=========2018-01-11 23:51:18==========
+account=VM44417016&password=df249d882329b48b255d4447eaf70618&mobile=18668179721&content=王国语音通知，您的保护盾马上到期。。
+================sendCmd=========2018-01-11 23:51:18==========
+<?xml version="1.0" encoding="utf-8"?>
+<SubmitResult xmlns="http://api.vm.ihuyi.com/">
+<code>4072</code>
+<msg>语音内容与模板不匹配</msg>
+<voiceid>0</voiceid>
+</SubmitResult>
+

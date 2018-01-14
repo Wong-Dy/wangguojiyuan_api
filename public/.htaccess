@@ -1,0 +1,26 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+	
+    RewriteEngine On
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+	
+	<Files *>	#对外不展示目录，apache配置里Options Indexes 中的 Indexes 去掉同样
+		Options -Indexes
+	</Files>
+	
+	#遇到http 403 异常时 跳转到/连接
+	ErrorDocument 403 /
+
+	
+
+</IfModule>
