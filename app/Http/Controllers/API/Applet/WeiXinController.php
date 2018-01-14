@@ -42,7 +42,7 @@ class WeiXinController extends Controller
         $code = request('code');
         $url = "https://api.weixin.qq.com/sns/jscode2session?appid={$this->appid}&secret={$this->secret}&js_code={$code}&grant_type=authorization_code";
         $result = HttpUtil::sendGet($url);
-        Tool::writeLog(json_encode($result));
+
         $result = json_decode($result);
         if (empty($result) || !isset($result->session_key)) {
             Tool::writeLog(json_encode($result), __FUNCTION__, $this->logPath);
