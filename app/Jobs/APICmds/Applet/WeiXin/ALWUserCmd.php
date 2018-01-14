@@ -76,6 +76,7 @@ class ALWUserCmd extends BaseCmd
             $this->result_param['isPhone'] = empty($user->mobile_phone) ? 0 : 1;
             $this->result_param['userId'] = $user->user_id;
             $this->result_param['account'] = $user->user_name;
+            $this->result_param['money'] = $user->user_money;
             $this->result_param['name'] = $user->alias;
             $this->result_param['phone'] = $user->mobile_phone;
             $this->result_param['email'] = $user->email;
