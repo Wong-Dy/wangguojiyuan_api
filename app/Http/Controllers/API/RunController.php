@@ -39,6 +39,7 @@ class RunController extends Controller
 
     public function getTest()
     {
+        return User::count();
         $time1 = TimeUtil::parseTimestamp('2017-1-1 10:10');
         $time2 = TimeUtil::parseTimestamp('2017-1-1 10:12');
 

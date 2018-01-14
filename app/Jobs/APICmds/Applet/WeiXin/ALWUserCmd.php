@@ -294,6 +294,9 @@ class ALWUserCmd extends BaseCmd
             if (empty($data->ddAheadNotice))
                 $data->ddAheadNotice = 10;
 
+            if ($data->ddAheadNotice > 30)
+                return $this->errori('最多提前30分钟！');
+
             $wxUser = WXUser::where('cl_OpenId', $data->m_openId)->first();
             if (empty($wxUser))
                 return $this->error(JErrorCode::WX_USER_INFO_NOT_FOUND_ERROR);

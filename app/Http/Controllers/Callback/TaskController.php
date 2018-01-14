@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Callback;
 use App\Http\Controllers\Controller;
 use App\Models\User;
 use App\Models\UserNoticeTask;
+use App\Models\UserSystem;
 use App\Service\IhuyiService;
 use App\Util\TimeUtil;
 use App\Util\Tool;
@@ -25,7 +26,7 @@ class TaskController extends Controller
             $msgList = configCustom('userNoticeMsgList');
             $msgPriceList = configCustom(CUSTOM_USER_NOTICE_MSG_PRICE_LIST_DEFINE);
 
-            $userNoticeTask = UserNoticeTask::where('cl_Status', 0)->where('cl_NoticeTime', '<', TimeUtil::getChinaTime())->get();
+            $userNoticeTask = UserNoticeTask::where('cl_Status', 0)->where('cl_NoticeTime', '<', TimeUtil::decreaseTime(TimeUtil::getChinaTime(), 30, 'minute'))->get();    //获取最大提前分钟
             foreach ($userNoticeTask as $item) {
                 switch ($item->cl_Type) {
                     case 0:
@@ -34,6 +35,14 @@ class TaskController extends Controller
                             $msgPrice = $msgPriceList[$item->cl_Type];
                             $user = User::find($item->cl_UserId);
                             if (empty($user) || $user->cl_Status != 1 || $user->user_money < $msgPrice)
+                                continue;
+
+                            $ddAheadNotice = UserSystem::select('cl_ddAheadNotice')->where('cl_UserId', $user->user_id)->pluck('cl_ddAheadNotice')->first();
+                            if (empty($ddAheadNotice))
+                                $ddAheadNotice = TimeUtil::decreaseTime(TimeUtil::getChinaTime(), 10, 'minute');   //默认提前十分钟
+
+                            //判断用户设置提前分钟数是否到提醒时间
+                            if($item->cl_NoticeTime > TimeUtil::decreaseTime(TimeUtil::getChinaTime(), $ddAheadNotice, 'minute'))
                                 continue;
 
                             //发送语音通知并扣用户余额
