@@ -26,7 +26,7 @@ class TaskController extends Controller
             $msgList = configCustom('userNoticeMsgList');
             $msgPriceList = configCustom(CUSTOM_USER_NOTICE_MSG_PRICE_LIST_DEFINE);
 
-            $userNoticeTask = UserNoticeTask::where('cl_Status', 0)->where('cl_NoticeTime', '<', TimeUtil::increaseTime(TimeUtil::getChinaTime(), 30, 'minute', 'H:i:s'))->get();    //获取最大提前分钟
+            $userNoticeTask = UserNoticeTask::where('cl_Status', 0)->where('cl_NoticeTime', '<', TimeUtil::increaseTime(TimeUtil::getChinaTime(), 30, 'minute', 'Y-m-d H:i:s'))->get();    //获取最大提前分钟
             foreach ($userNoticeTask as $item) {
                 switch ($item->cl_Type) {
                     case 0:
@@ -42,7 +42,7 @@ class TaskController extends Controller
                                 $ddAheadNotice = 10;   //默认提前十分钟
 
                             //判断用户设置提前分钟数是否到提醒时间
-                            if ($item->cl_NoticeTime > TimeUtil::increaseTime(TimeUtil::getChinaTime(), $ddAheadNotice, 'minute', 'H:i:s'))
+                            if ($item->cl_NoticeTime > TimeUtil::increaseTime(TimeUtil::getChinaTime(), $ddAheadNotice, 'minute', 'Y-m-d H:i:s'))
                                 continue;
 
                             Tool::writeLog(json_encode($item), __FUNCTION__, $this->logPath);
@@ -50,7 +50,7 @@ class TaskController extends Controller
                             //发送语音通知并扣用户余额
                             $ihuyiResult = IhuyiService::voice($item->cl_Phone, $msg);
                             if ($ihuyiResult['SubmitResult']['code'] == 2) {
-                                $item->update(['cl_Status' => 1]);
+                                $item->update(['cl_Status' => 1,'cl_Remark' => '已发送:' . TimeUtil::getChinaTime()]);
                                 $user->decrement('user_money', $msgPrice);
                             } else {
                                 $item->update(['cl_Remark' => $ihuyiResult['SubmitResult']['code'] . ':' . $ihuyiResult['SubmitResult']['msg']]);
