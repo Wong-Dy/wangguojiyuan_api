@@ -272,7 +272,7 @@ class ALWUserCmd extends BaseCmd
             if ($curTime > $noticeTime)
                 $this->result_param['minute'] = 0;
             else
-                $this->result_param['minute'] = floor(($noticeTime - $curTime) / 60);
+                $this->result_param['minute'] = round(($noticeTime - $curTime) / 60);
 
             $this->result_param['totalMinute'] = $userNoticeTask->cl_Minute;
 
