@@ -33,14 +33,14 @@ class WeiXinController extends Controller
     public function anyAuth()
     {
         $sessionId = request('sessionId');
-        Tool::writeLog('111111--'.$sessionId,__FUNCTION__);
+        Tool::writeLog('111111--' . $sessionId, __FUNCTION__);
 
         $redisCache = REDIS_WX_XCX_AUTH_CACHE . $sessionId;
         if (!empty($sessionId) && Cache::has($redisCache) && !empty($wxSession = Cache::get($redisCache))) {
             $param['sessionId'] = $sessionId;
             return JReturn::result(JErrorCode::SUCCESS, $param);
         }
-        Tool::writeLog('22222--'.$sessionId,__FUNCTION__);
+        Tool::writeLog('22222--' . $sessionId, __FUNCTION__);
 
         $code = request('code');
         $url = "https://api.weixin.qq.com/sns/jscode2session?appid={$this->appid}&secret={$this->secret}&js_code={$code}&grant_type=authorization_code";
@@ -57,6 +57,8 @@ class WeiXinController extends Controller
         Cache::put($redisCache, $result, 100);
 
         $param['sessionId'] = $guid;
+
+        Tool::writeLog('33333--' . json_encode($param), __FUNCTION__);
         return JReturn::result(JErrorCode::SUCCESS, $param);
     }
 
