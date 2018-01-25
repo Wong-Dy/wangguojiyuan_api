@@ -23,8 +23,8 @@ class WeiXinController extends Controller
 {
     protected $exceptionMsg = '服务器宝宝走神了';
     protected $logPath = '/logs/api/applet/weixin/';
-    protected $appid = 'wx0aab054a8ff292b0';
-    protected $secret = 'c93a01e7f010aba896ea31096e6daeab';
+    protected $appid = 'wxdb380edeef1d142a';
+    protected $secret = '5654b641e0a27461d8f8ff676c53c245';
 
     public function __construct()
     {
