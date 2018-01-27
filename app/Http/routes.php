@@ -12,9 +12,6 @@
 */
 
 //默认页面
-use App\Service\RunService;
-use App\Service\SubMailService;
-
 Route::get('/', function () {
     return 'wangguojiyuan_api';
 });
@@ -56,11 +53,4 @@ Route::group(['middleware' => ['web']], function () {
 });
 
 Route::get('/test', function () {
-//    $ret = SubMailService::message('18668179721', '【王国云助手】验证码：1111 ，为了保证安全，打死也不能告诉别人哦。');
-//    $ret = SubMailService::xmessage('18668179721', 'sadsadsadsadsad3rf32f');
-
-//    $resultMsg = '';
-//    $serviceResult = RunService::voice('18668179721', '王国语音通知，您的保护盾马上到期，请及时处理。', 1, $resultMsg);
-//    echo $resultMsg;
-//    return var_dump($serviceResult);
 });
