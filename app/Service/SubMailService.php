@@ -22,9 +22,6 @@ class SubMailService
 {
     protected static $logPath = '/logs/service/submail/';
 
-    protected static $APPID = '20617';
-    protected static $APPKEY = '880f57a8445f361d111a63d89ac2f19d';
-
     private static function send($sendData, $url = '')
     {
 
@@ -48,8 +45,9 @@ class SubMailService
      */
     public static function voice($mobile, $msg)
     {
+        $config = configCustom('service_config.submail');
         $target = "https://api.mysubmail.com/voice/send";
-        $post_data = "appid=" . self::$APPID . "&to=" . $mobile . "&content=" . $msg . "&signature=" . self::$APPKEY;
+        $post_data = "appid=" . $config['voice_appid'] . "&to=" . $mobile . "&content=" . $msg . "&signature=" . $config['voice_appkey'];
 
         return self::sendCmd($post_data, $target);
         //object(stdClass)#162 (3) { ["status"]=> string(7) "success" ["send_id"]=> string(32) "1db6b69d6d2c7cc7d894da3c7355954e" ["money_account"]=> string(5) "1.860" }
@@ -57,8 +55,9 @@ class SubMailService
 
     public static function message($mobile, $msg)
     {
+        $config = configCustom('service_config.submail');
         $target = "https://api.mysubmail.com/message/send.json";
-        $post_data = "appid=" . '19742' . "&to=" . $mobile . "&content=" . $msg . "&signature=" . '455379db2dcd089fe7a74f30ef346c0c';
+        $post_data = "appid=" . $config['message_appid'] . "&to=" . $mobile . "&content=" . $msg . "&signature=" . $config['message_appkey'];
 
         return self::sendCmd($post_data, $target);
         //object(stdClass)#162 (4) { ["status"]=> string(7) "success" ["send_id"]=> string(32) "453a9f4ddc147f290ff27aaa4913e409" ["fee"]=> int(1) ["sms_credits"]=> string(2) "48" }
@@ -66,8 +65,9 @@ class SubMailService
 
     public static function xmessage($mobile, $project, $vars)
     {
+        $config = configCustom('service_config.submail');
         $target = "https://api.mysubmail.com/message/xsend.json";
-        $post_data = "appid=" . '19742' . "&to=" . $mobile . "&project={$project}" . "&signature=" . '455379db2dcd089fe7a74f30ef346c0c' . '&vars=' . json_encode($vars);
+        $post_data = "appid=" . $config['message_appid'] . "&to=" . $mobile . "&project={$project}" . "&signature=" . $config['message_appkey'] . '&vars=' . json_encode($vars);
 
         return self::sendCmd($post_data, $target);
         //object(stdClass)#162 (4) { ["status"]=> string(7) "success" ["send_id"]=> string(32) "2edc8639544e6f2d786ef6c1011beb76" ["fee"]=> int(1) ["sms_credits"]=> string(2) "45" }
