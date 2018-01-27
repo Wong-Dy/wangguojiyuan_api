@@ -20,7 +20,6 @@ define('CUSTOM_API_APP_HOST', 'https://www.616app.net:9401');   //线上
 define('CUSTOM_SMS_URL', 'http://www.epiaogo.com/Sms/Sms.aspx');
 
 
-
 define('CUSTOM_USER_NOTICE_MSG_PRICE_LIST_DEFINE', 'userNoticeMsgPriceList');
 
 
@@ -36,6 +35,17 @@ return [
 
     'userNoticeMsgPriceList' => [
         0 => 0.2,
+    ],
+
+    'service_config' => [
+        'submail' => [
+            'voice_appid' => '',
+            'voice_appkey' => '',
+
+            'message_appid' => '',
+            'message_appkey' => '',
+
+        ]
     ]
 
 ];
