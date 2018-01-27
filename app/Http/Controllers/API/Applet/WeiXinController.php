@@ -6,7 +6,6 @@ namespace App\Http\Controllers\API\Applet;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Jobs\APICmds\Applet\WeiXin\ALWAdvertisementCmd;
-use App\Jobs\APICmds\Applet\WeiXin\ALWOrderCmd;
 use App\Jobs\APICmds\Applet\WeiXin\ALWSystemCmd;
 use App\Jobs\APICmds\Applet\WeiXin\ALWUserCmd;
 use App\JsonParse\JErrorCode;

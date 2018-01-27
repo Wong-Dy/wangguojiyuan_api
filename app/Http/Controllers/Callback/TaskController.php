@@ -6,6 +6,8 @@ use App\Models\User;
 use App\Models\UserNoticeTask;
 use App\Models\UserSystem;
 use App\Service\IhuyiService;
+use App\Service\RunService;
+use App\Service\SubMailService;
 use App\Util\TimeUtil;
 use App\Util\Tool;
 use Input, Notification, Session, Cache, Exception;
@@ -47,13 +49,14 @@ class TaskController extends Controller
 
                             Tool::writeLog(json_encode($item), __FUNCTION__, $this->logPath);
 
+                            $resultMsg = '';
                             //发送语音通知并扣用户余额
-                            $ihuyiResult = IhuyiService::voice($item->cl_Phone, $msg);
-                            if ($ihuyiResult['SubmitResult']['code'] == 2) {
-                                $item->update(['cl_Status' => 1,'cl_Remark' => '已发送:' . TimeUtil::getChinaTime()]);
+                            $serviceResult = RunService::voice($item->cl_Phone, $msg, $resultMsg);
+                            if ($serviceResult) {
+                                $item->update(['cl_Status' => 1, 'cl_Remark' => '已发送:' . $resultMsg]);
                                 $user->decrement('user_money', $msgPrice);
                             } else {
-                                $item->update(['cl_Remark' => $ihuyiResult['SubmitResult']['code'] . ':' . $ihuyiResult['SubmitResult']['msg']]);
+                                $item->update(['cl_Remark' => $resultMsg]);
                             }
                         }
                         break;

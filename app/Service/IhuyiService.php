@@ -47,6 +47,7 @@ class IhuyiService
         $post_data = "account=" . self::$voiceAccount . "&password=" . self::$voicePassword . "&mobile=" . $mobile . "&content={$msg}";
 
         return self::sendCmd($post_data, $target);
+//        $ihuyiResult['SubmitResult']['code'] == 2
     }
 
     private static function xml_to_array($xml)
