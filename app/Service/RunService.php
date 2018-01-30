@@ -27,7 +27,7 @@ class RunService
 
         $remark = '';
         $status = 1;
-        if (!$result->status == 'success') {
+        if ($result->status != 'success') {
             $resultMsg = 'error:' . $result->code . ',msg:' . $result->msg;
             $status = 0;
             $remark = '发送失败';
