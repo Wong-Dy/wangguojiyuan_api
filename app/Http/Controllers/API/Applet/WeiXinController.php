@@ -124,6 +124,14 @@ class WeiXinController extends Controller
                     $cmd = new ALWUserCmd($jsonData);
                     $strRet = $cmd->login();
                     break;
+                case 'wXbindPhone':// 微信授权手机号
+                    $cmd = new ALWUserCmd($jsonData);
+                    $strRet = $cmd->wXbindPhone();
+                    break;
+                case 'getUserMoney':// 获取用户余额
+                    $cmd = new ALWUserCmd($jsonData);
+                    $strRet = $cmd->getUserMoney();
+                    break;
                 case 'sendAuthCode':    //发送验证码
                     $cmd = new ALWUserCmd($jsonData);
                     $strRet = $cmd->sendAuthCode();
@@ -144,6 +152,10 @@ class WeiXinController extends Controller
                     $cmd = new ALWUserCmd($jsonData);
                     $strRet = $cmd->getUserNoticeTask();
                     break;
+                case 'getUserNoticeRecord':  //获取用户通知记录
+                    $cmd = new ALWUserCmd($jsonData);
+                    $strRet = $cmd->getUserNoticeRecord();
+                    break;
                 case 'cancelUserNoticeTask':  //取消用户通知任务
                     $cmd = new ALWUserCmd($jsonData);
                     $strRet = $cmd->cancelUserNoticeTask();
@@ -155,6 +167,10 @@ class WeiXinController extends Controller
                 case 'getUserSystem':  //获取用户设置
                     $cmd = new ALWUserCmd($jsonData);
                     $strRet = $cmd->getUserSystem();
+                    break;
+                case 'getRechargeRecords': // 充值明细
+                    $cmd = new ALWUserCmd($jsonData);
+                    $strRet = $cmd->getRechargeRecords();
                     break;
 
                 case 'getAdvertisement':    //广告

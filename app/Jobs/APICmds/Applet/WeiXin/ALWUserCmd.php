@@ -10,9 +10,12 @@ namespace App\Jobs\APICmds\Applet\WeiXin;
 
 use App\JsonParse\JErrorCode;
 use App\Models\User;
+use App\Models\UserAccount;
+use App\Models\UserNoticeRecord;
 use App\Models\UserNoticeTask;
 use App\Models\UserSystem;
 use App\Models\WXUser;
+use App\Util\CGlobal;
 use App\Util\Comm;
 use App\Util\Crypt\WeiXin\WXBizDataCrypt;
 use App\Util\HttpUtil;
@@ -162,17 +165,26 @@ class ALWUserCmd extends BaseCmd
                 return $this->error(JErrorCode::WX_USER_INFO_NOT_FOUND_ERROR);
 
             $phoneUser = User::where('mobile_phone', $data->phone)->first();
-            if (!empty($phoneUser)) {
+            if (!empty($phoneUser)) {   //手机号码用户已存在
+
+                $phoneWxUser = WXUser::where('ecuid', $phoneUser->user_id)->where('cl_Type', 2)->first();
+                if (!empty($phoneWxUser) && $phoneWxUser->uid == $wxUserInfo->uid)
+                    return $this->success();
+
+                //查询手机号码是否被使用
+                if (!empty($phoneWxUser) && $phoneWxUser->uid != $wxUserInfo->uid)
+                    return $this->error(JErrorCode::CUSTOM_USER_PHONE_IS_REGISTER);
+
                 $wxUserInfo->ecuid = $phoneUser->user_id;
                 if (!$wxUserInfo->save())
                     return $this->error(JErrorCode::OTHER_ERROR, '绑定手机失败，请重试');
+            } else {
+                $user = $wxUserInfo->user;
+                $user->user_name = $data->phone;
+                $user->mobile_phone = $data->phone;
+                if (!$user->save())
+                    return $this->error(JErrorCode::OTHER_ERROR, '绑定手机失败，请重试');
             }
-
-            $user = $wxUserInfo->user;
-            $user->user_name = $data->phone;
-            $user->mobile_phone = $data->phone;
-            if (!$user->save())
-                return $this->error(JErrorCode::OTHER_ERROR, '绑定手机失败，请重试');
 
             return $this->success();
         } catch (\Exception $e) {
@@ -180,6 +192,55 @@ class ALWUserCmd extends BaseCmd
         }
     }
 
+    public function wXbindPhone()
+    {
+        $data = $this->jsonData;
+        try {
+            if (!isset($data->encryptedData) || !isset($data->iv))
+                return $this->error(JErrorCode::LACK_PARAM_ERROR);
+
+            $wxCrypt = new WXBizDataCrypt($data->m_appid, $data->m_sessionKey);
+            $wxCrypt->decryptData($data->encryptedData, urldecode($data->iv), $resultData);
+            $wxUserData = json_decode($resultData);
+            unset($resultData);
+
+            if (empty($wxUserData))
+                return $this->error(JErrorCode::WX_SESSIONID_NOT_VALID_ERROR);
+
+            $wxUserInfo = WXUser::where('cl_OpenId', $data->m_openId)->first();
+            if (empty($wxUserInfo))
+                return $this->error(JErrorCode::CUSTOM_USER_NOT_FOUND);
+
+
+            $phoneUser = User::where('mobile_phone', $wxUserData->purePhoneNumber)->first();
+            if (!empty($phoneUser)) {
+
+                $phoneWxUser = WXUser::where('ecuid', $phoneUser->user_id)->where('cl_Type', 2)->first();
+                if (!empty($phoneWxUser) && $phoneWxUser->uid == $wxUserInfo->uid)
+                    return $this->success();
+
+                //查询手机号码是否被使用
+                if (!empty($phoneWxUser) && $phoneWxUser->uid != $wxUserInfo->uid)
+                    return $this->error(JErrorCode::CUSTOM_USER_PHONE_IS_REGISTER);
+
+                $wxUserInfo->ecuid = $phoneUser->user_id;
+                if (!$wxUserInfo->save())
+                    return $this->error(JErrorCode::OTHER_ERROR, '绑定手机失败，请重试');
+            } else {
+                $user = $wxUserInfo->user;
+                $user->user_name = $wxUserData->purePhoneNumber;
+                $user->mobile_phone = $wxUserData->purePhoneNumber;
+                if (!$user->save())
+                    return $this->error(JErrorCode::OTHER_ERROR, '绑定手机失败，请重试');
+            }
+
+
+            $this->result_param['phone'] = $wxUserData->purePhoneNumber;
+            return $this->result();
+        } catch (\Exception $e) {
+            return $this->exception($e);
+        }
+    }
 
     public function modifyUserNoticeTask()
     {
@@ -252,6 +313,41 @@ class ALWUserCmd extends BaseCmd
         }
     }
 
+    public function getUserNoticeRecord()
+    {
+        $data = $this->jsonData;
+        try {
+            if (!isset($data->m_openId))
+                return $this->error(JErrorCode::LACK_PARAM_ERROR);
+
+            $model = WXUser::where('cl_OpenId', $data->m_openId)->first();
+
+            $dataList = UserNoticeRecord::where(['cl_UserId' => $model->ecuid])
+                ->orderby('cl_NoticeTime', 'desc')
+                ->page(empty($data->pageIndex) ? 1 : $data->pageIndex)
+                ->paginate(empty($data->pageSize) ? CGlobal::PAGE_SIZE : $data->pageSize);
+
+            $msgList = configCustom('userNoticeMsgList');
+            $msgPriceList = configCustom(CUSTOM_USER_NOTICE_MSG_PRICE_LIST_DEFINE);
+            foreach ($dataList as $item) {
+                $result_item = $this->std();
+
+                $result_item->type = $item->cl_Type;
+                $result_item->typeDesc = $item->getTypeDesc();
+                $result_item->noticeTime = TimeUtil::parseTime($item->cl_NoticeTime);
+                $result_item->phone = $item->cl_Phone;
+                $result_item->remark = $item->cl_Remark;
+                $result_item->title = $item->cl_Title;
+                $result_item->price = $msgPriceList[$item->cl_Type];
+
+                $this->result_list[] = $result_item;
+            }
+            return $this->result();
+        } catch (\Exception $e) {
+            return $this->exception($e);
+        }
+    }
+
     public function getUserNoticeTask()
     {
         $data = $this->jsonData;
@@ -286,17 +382,16 @@ class ALWUserCmd extends BaseCmd
     {
         $data = $this->jsonData;
         try {
-            if (!isset($data->ddAheadNotice) || !isset($data->phone))
+            if (!isset($data->ddAheadNotice) || !isset($data->maintenanceAhead))
                 return $this->error(JErrorCode::LACK_PARAM_ERROR);
-
-            if (!ValidateUtil::phoneVerify($data->phone))
-                return $this->error(JErrorCode::CUSTOM_PHONE_FORMAT_ERROR);
 
             if (empty($data->ddAheadNotice))
                 $data->ddAheadNotice = 10;
+            if (empty($data->maintenanceAhead))
+                $data->maintenanceAhead = 10;
 
-            if ($data->ddAheadNotice > 30)
-                return $this->errori('最多提前30分钟！');
+            if ($data->ddAheadNotice > 30 || $data->maintenanceAhead > 30)
+                return $this->errori('最大提前30分钟');
 
             $wxUser = WXUser::where('cl_OpenId', $data->m_openId)->first();
             if (empty($wxUser))
@@ -304,24 +399,17 @@ class ALWUserCmd extends BaseCmd
 
             $user = $wxUser->user;
 
-            $phoneUser = User::where('mobile_phone', $data->phone)->first();
-            if (!empty($phoneUser) && $phoneUser->user_id != $user->user_id) {
-                return $this->errori('手机号码已有绑定');
-            }
-
-            $user->mobile_phone = $data->phone;
-            if (!$user->save())
-                return $this->error(JErrorCode::CUSTOM_UPDATE_ERROR);
-
             $userSystem = UserSystem::where('cl_UserId', $user->user_id)->first();
             if (empty($userSystem)) {
                 $userSystemData['cl_UserId'] = $user->user_id;
                 $userSystemData['cl_ddAheadNotice'] = $data->ddAheadNotice;
+                $userSystemData['cl_MaintenanceAhead'] = $data->maintenanceAhead;
                 $userSystemData['cl_CreateTime'] = TimeUtil::getChinaTime();
                 $userSystemData['cl_UpdateTime'] = $userSystemData['cl_CreateTime'];
                 $ret = UserSystem::create($userSystemData);
             } else {
                 $userSystem->cl_ddAheadNotice = $data->ddAheadNotice;
+                $userSystem->cl_MaintenanceAhead = $data->maintenanceAhead;
                 $userSystem->cl_UpdateTime = TimeUtil::getChinaTime();
                 $ret = $userSystem->save();
             }
@@ -350,6 +438,57 @@ class ALWUserCmd extends BaseCmd
 
             $this->result_param['phone'] = $user->mobile_phone;
             $this->result_param['ddAheadNotice'] = empty($userSystem) ? '' : $userSystem->cl_ddAheadNotice;
+            $this->result_param['maintenanceAhead'] = empty($userSystem) ? '' : $userSystem->cl_MaintenanceAhead;
+
+            return $this->result();
+        } catch (\Exception $e) {
+            return $this->exception($e);
+        }
+    }
+
+    public function getRechargeRecords()
+    {
+        $data = $this->jsonData;
+        try {
+            if (!isset($data->m_openId))
+                return $this->error(JErrorCode::LACK_PARAM_ERROR);
+
+            $model = WXUser::where('cl_OpenId', $data->m_openId)->first();
+
+            $dataList = UserAccount::where(['user_id' => $model->ecuid, 'process_type' => 0])
+                ->orderby('add_time', 'desc')
+                ->page(empty($data->pageIndex) ? 1 : $data->pageIndex)
+                ->paginate(empty($data->pageSize) ? CGlobal::PAGE_SIZE : $data->pageSize);
+
+            foreach ($dataList as $item) {
+                $result_item = $this->std();
+
+                $result_item->userNote = $item->user_note;
+                $result_item->addTime = TimeUtil::parseTimestampToDateTime($item->add_time, $format = 'Y-m-d H:i');
+                $result_item->amount = $item->amount;
+                $result_item->payMent = $item->cl_Payment;
+                $result_item->system = $item->cl_System;
+                $result_item->tradeNo = $item->cl_TradeNo;
+                $result_item->isPaid = $item->is_paid;
+
+                $this->result_list[] = $result_item;
+            }
+            return $this->result();
+        } catch (\Exception $e) {
+            return $this->exception($e);
+        }
+    }
+
+    public function getUserMoney()
+    {
+        $data = $this->jsonData;
+        try {
+            $wxUser = WXUser::where('cl_OpenId', $data->m_openId)->first();
+            if (empty($wxUser))
+                return $this->error(JErrorCode::CUSTOM_USER_NOT_FOUND);
+
+            $user = User::find($wxUser->ecuid);
+            $this->result_param['money'] = $user->user_money;
 
             return $this->result();
         } catch (\Exception $e) {

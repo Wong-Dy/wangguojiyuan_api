@@ -31,10 +31,14 @@ return [
 
     'userNoticeMsgList' => [
         0 => '王国语音通知，您的保护盾马上到期，请及时处理。',
+        1 => '王国语音通知，您正在遭遇集结，请火速上线处理。',
+        2 => '王国语音通知，官方维护即将结束，请注意上线处理。',
     ],
 
-    'userNoticeMsgPriceList' => [
+    'userNoticeMsgPriceList' => [   //语音通知类型价格配置
         0 => 0.2,
+        1 => 0.2,
+        2 => 0.2,
     ],
 
     'service_config' => [

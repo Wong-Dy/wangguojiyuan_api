@@ -3,6 +3,7 @@ namespace App\Http\Controllers\Callback;
 
 use App\Http\Controllers\Controller;
 use App\Models\User;
+use App\Models\UserNoticeRecord;
 use App\Models\UserNoticeTask;
 use App\Models\UserSystem;
 use App\Service\RunService;
@@ -53,11 +54,47 @@ class TaskController extends Controller
                             //发送语音通知并扣用户余额
                             $serviceResult = RunService::voice($item->cl_Phone, $msg, $user->user_id, $resultMsg);
                             if ($serviceResult) {
+                                UserNoticeRecord::add($user->user_id, '艾娜希之盾到期提醒', $item->cl_Phone);
+
                                 $item->update(['cl_Status' => 1, 'cl_Remark' => '最后发送时间=' . TimeUtil::getChinaTime() . '&resultMsg=' . $resultMsg]);
                                 $user->decrement('user_money', $msgPrice);
                             } else {
                                 $item->update(['cl_Remark' => $resultMsg]);
                             }
+                        }
+                        break;
+                    case 2:
+                        if (isset($msgList[$item->cl_Type]) && isset($msgPriceList[$item->cl_Type])) {
+                            $msg = $msgList[$item->cl_Type];
+                            $msgPrice = $msgPriceList[$item->cl_Type];
+
+
+                            $modelQ = UserSystem::whereRaw(" {$item->cl_NoticeTime} > DATE_ADD(now(),INTERVAL cl_MaintenanceAhead MINUTE) ");
+
+//                            $modelQ = User::where('cl_Status', 1)->where('user_money', '>=', $msgPrice);
+
+                            $modelQ->chunk(50, function ($datas) use ($item, $msg, $msgPrice) {
+                                foreach ($datas as $userSystemItem) {
+
+                                    $user = User::find($userSystemItem->cl_UserId);
+                                    if (empty($user) || $user->cl_Status != 1 || $user->user_money < $msgPrice)
+                                        continue;
+
+                                    $resultMsg = '';
+                                    //发送语音通知并扣用户余额
+                                    $serviceResult = RunService::voice($user->mobile_phone, $msg, $user->user_id, $resultMsg);
+                                    if ($serviceResult) {
+                                        UserNoticeRecord::add($user->user_id, '游戏维护结束提醒', $user->mobile_phone);
+
+                                        $item->update(['cl_Status' => 1, 'cl_Remark' => '最后发送时间=' . TimeUtil::getChinaTime() . '&resultMsg=' . $resultMsg]);
+                                        $user->decrement('user_money', $msgPrice);
+                                    } else {
+                                        $item->update(['cl_Remark' => $resultMsg]);
+                                    }
+                                }
+                            });
+
+
                         }
                         break;
                 }

@@ -28,15 +28,19 @@ class JErrorCode
     const CUSTOM_ILLEGAL_OPERATION_ERROR = 10114;  //非法操作
     const CUSTOM_SELECT_HAVE_EXISTED = 10115;//查询数据已经存在
     const CUSTOM_USER_PASSWORD_ERROR = 10116;//密码错误
-    const CUSTOM_VERIFY_ERROR = 10116;//验证失败
-    const CUSTOM_VERIFY_TIMEOUT_ERROR = 10116;//验证超时
-    const CUSTOM_PHONE_FORMAT_ERROR = 10117;//手机号码格式错误
+    const CUSTOM_VERIFY_ERROR = 10117;//验证失败
+    const CUSTOM_VERIFY_TIMEOUT_ERROR = 10118;//验证超时
+    const CUSTOM_PHONE_FORMAT_ERROR = 10119;//手机号码格式错误
+    const CUSTOM_USER_BALANCE_LACK = 10120;  //用户余额不足
+    const CUSTOM_USER_PHONE_IS_REGISTER = 10121; //用户手机号码被占用
+
 
     const SUPPLIER_ID_NOT_ERROR = 10200;//未找到supplierID
     const SUPPLIER_GOODS_NOT_ERROR = 10201;//未找到商品
     const SUPPLIER_GOODS_PERFECT_ERROR = 10202; //请完善盘点商品信息
     const SUPPLIER_GOODS_EDIT_ERROR = 10203; //请编辑要盘点的商品
     const SUPPLIER_NOT_FOUND_ERROR = 10204; //店铺不存在
+    const ORDER_NOT_FOUND_ERROR = 10205; //订单不存在
 
     const INTERFACE_REQUEST_ERROR = 20201; //接口请求失败
     const INTERFACE_REQUEST_PHONE_MSG_ERROR = 20202; //短信接口发送失败
@@ -58,6 +62,7 @@ class JErrorCode
         self::INVALID_PARAM_ERROR => 'invalid param',
 
         self::CUSTOM_USER_NOT_FOUND => '用户未找到',
+        self::CUSTOM_USER_BALANCE_LACK => '用户余额不足',
         self::CUSTOM_SELECT_NOT_FOUND => '查询为空',
         self::CUSTOM_ADD_ERROR => '添加失败',
         self::CUSTOM_UPDATE_ERROR => '更新失败',
@@ -67,12 +72,14 @@ class JErrorCode
         self::CUSTOM_VERIFY_ERROR => '校验失败',
         self::CUSTOM_VERIFY_TIMEOUT_ERROR => '校验超时',
         self::CUSTOM_PHONE_FORMAT_ERROR => '手机号码格式不正确',
+        self::CUSTOM_USER_PHONE_IS_REGISTER => '手机号已注册',
 
         self::SUPPLIER_ID_NOT_ERROR => '未找到supplierID',
         self::SUPPLIER_GOODS_NOT_ERROR => '未找到商品',
         self::SUPPLIER_GOODS_PERFECT_ERROR => '请完善盘点商品信息',
         self::SUPPLIER_GOODS_EDIT_ERROR => '请编辑要盘点的商品',
         self::SUPPLIER_NOT_FOUND_ERROR => '店铺不存在',
+        self::ORDER_NOT_FOUND_ERROR => '订单不存在',
 
 
         self::INTERFACE_REQUEST_ERROR => '接口请求失败',
