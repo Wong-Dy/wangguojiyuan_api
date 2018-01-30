@@ -5,9 +5,7 @@ use App\Http\Controllers\Controller;
 use App\Models\User;
 use App\Models\UserNoticeTask;
 use App\Models\UserSystem;
-use App\Service\IhuyiService;
 use App\Service\RunService;
-use App\Service\SubMailService;
 use App\Util\TimeUtil;
 use App\Util\Tool;
 use Input, Notification, Session, Cache, Exception;
@@ -29,6 +27,8 @@ class TaskController extends Controller
             $msgPriceList = configCustom(CUSTOM_USER_NOTICE_MSG_PRICE_LIST_DEFINE);
 
             $userNoticeTask = UserNoticeTask::where('cl_Status', 0)->where('cl_NoticeTime', '<', TimeUtil::increaseTime(TimeUtil::getChinaTime(), 30, 'minute', 'Y-m-d H:i:s'))->get();    //获取最大提前分钟
+            Tool::writeLog('userNoticeTask count--' . count($userNoticeTask), __FUNCTION__, $this->logPath);
+
             foreach ($userNoticeTask as $item) {
                 switch ($item->cl_Type) {
                     case 0:
@@ -51,9 +51,9 @@ class TaskController extends Controller
 
                             $resultMsg = '';
                             //发送语音通知并扣用户余额
-                            $serviceResult = RunService::voice($item->cl_Phone, $msg, $resultMsg);
+                            $serviceResult = RunService::voice($item->cl_Phone, $msg, $user->user_id, $resultMsg);
                             if ($serviceResult) {
-                                $item->update(['cl_Status' => 1, 'cl_Remark' => '已发送:' . $resultMsg]);
+                                $item->update(['cl_Status' => 1, 'cl_Remark' => '最后发送时间=' . TimeUtil::getChinaTime() . '&resultMsg=' . $resultMsg]);
                                 $user->decrement('user_money', $msgPrice);
                             } else {
                                 $item->update(['cl_Remark' => $resultMsg]);
