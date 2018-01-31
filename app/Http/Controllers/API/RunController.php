@@ -43,7 +43,7 @@ class RunController extends Controller
         $time1 = TimeUtil::parseTimestamp('2017-1-1 10:10');
         $time2 = TimeUtil::parseTimestamp('2017-1-1 10:12');
 
-        echo $time2-$time1;
+        echo $time2 - $time1;
     }
 
     public function anyMap()
