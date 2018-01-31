@@ -86,7 +86,7 @@ class TaskController extends Controller
                                     if ($serviceResult) {
                                         UserNoticeRecord::add($user->user_id, '游戏维护结束提醒', $user->mobile_phone);
 
-                                        $item->update(['cl_Status' => 1, 'cl_Remark' => '最后发送时间=' . TimeUtil::getChinaTime() . '&resultMsg=' . $resultMsg]);
+                                        $item->update(['cl_Status' => 1, 'cl_Time' => $item->cl_Time + 1, 'cl_Remark' => '最后发送时间=' . TimeUtil::getChinaTime() . '&resultMsg=' . $resultMsg]);
                                         $user->decrement('user_money', $msgPrice);
                                     } else {
                                         $item->update(['cl_Remark' => $resultMsg]);
