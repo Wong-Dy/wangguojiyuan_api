@@ -16,6 +16,7 @@ use App\Models\UserNoticeRecord;
 use App\Models\UserNoticeTask;
 use App\Models\UserSystem;
 use App\Models\WXUser;
+use App\Service\RunService;
 use App\Util\CGlobal;
 use App\Util\Comm;
 use App\Util\Crypt\WeiXin\WXBizDataCrypt;
@@ -69,7 +70,7 @@ class ALWUserCmd extends BaseCmd
                     $msgPriceList = configCustom(CUSTOM_USER_NOTICE_MSG_PRICE_LIST_DEFINE);
                     $amount = $msgPriceList[0] * 5;
                     User::find($userId)->increment('user_money', $amount); //赠送5条开盾通知
-                    UserAccount::recharge($userId, $amount, '首次登录赠送');
+                    UserAccount::recharge($userId, $amount, '首次登录赠送', 1);
                 }
 
             } else {
@@ -104,6 +105,12 @@ class ALWUserCmd extends BaseCmd
             if (!ValidateUtil::phoneVerify($data->phone))
                 return $this->error(JErrorCode::CUSTOM_PHONE_FORMAT_ERROR);
 
+            $wxUser = WXUser::where('cl_OpenId', $data->m_openId)->first();
+            if (empty($wxUser))
+                return $this->error(JErrorCode::WX_USER_INFO_NOT_FOUND_ERROR);
+
+            $user = $wxUser->user;
+
             $redisCache = REDIS_USER_AUTH_CODE_CACHE_WX_XCX . $data->phone;
             if (Cache::has($redisCache) && !empty($oldCode = Cache::get($redisCache))) {
                 $this->result_param['code'] = $oldCode;
@@ -113,13 +120,19 @@ class ALWUserCmd extends BaseCmd
             $code = rand(1111, 9999);
             $captcha = configCustom('captcha');
             $content = str_replace('@Code', $code, $captcha);
-            $url = CUSTOM_SMS_URL . "?Mobile=" . $data->phone . "&Content=" . urlencode($content);
+//            $url = CUSTOM_SMS_URL . "?Mobile=" . $data->phone . "&Content=" . urlencode($content);
 
-            $html = HttpUtil::sendGet($url);
-            if (empty($html))
+            $resultMsg = '';
+            $ret = RunService::message($data->phone, $content, $user->user_id, $resultMsg);
+
+//            $html = HttpUtil::sendGet($url);
+//            if (empty($html))
+//                return $this->error(JErrorCode::INTERFACE_REQUEST_PHONE_MSG_ERROR);
+
+            if (!$ret)
                 return $this->error(JErrorCode::INTERFACE_REQUEST_PHONE_MSG_ERROR);
 
-            Cache::put($redisCache, $code, 10);
+            Cache::put($redisCache, $code, 5);
 
             $this->result_param['code'] = $code;
             return $this->result();

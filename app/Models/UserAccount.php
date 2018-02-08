@@ -23,18 +23,18 @@ class UserAccount extends Base
         return getSelectList('payment')[$this->cl_Payment];
     }
 
-    public static function recharge($userId, $amount, $note = '', $payment = 0, $system = 0)
+    public static function recharge($userId, $amount, $note = '', $is_paid = 0, $payment = 0, $system = 0)
     {
-        $payment['user_id'] = $userId;
-        $payment['amount'] = $amount;
-        $payment['cl_System'] = $system;
-        $payment['add_time'] = time();
-        $payment['paid_time'] = time();
-        $payment['process_type'] = 0;
-        $payment['is_paid'] = 0;
-        $payment['cl_Payment'] = $payment;
-        $payment['user_note'] = $note;
-        $payment['cl_TradeNo'] = SeqNo::getOrderCode(CGlobal::SEQNO_USER_ACCOUNT_TRADE_NO, 're');
-        return UserAccount::create($payment);
+        $modelData['user_id'] = $userId;
+        $modelData['amount'] = $amount;
+        $modelData['cl_System'] = $system;
+        $modelData['add_time'] = time();
+        $modelData['paid_time'] = time();
+        $modelData['process_type'] = 0;
+        $modelData['is_paid'] = $is_paid;
+        $modelData['cl_Payment'] = $payment;
+        $modelData['user_note'] = $note;
+        $modelData['cl_TradeNo'] = SeqNo::getOrderCode(CGlobal::SEQNO_USER_ACCOUNT_TRADE_NO, 're');
+        return UserAccount::create($modelData);
     }
 }
