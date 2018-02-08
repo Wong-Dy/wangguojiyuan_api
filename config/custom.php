@@ -43,11 +43,11 @@ return [
 
     'service_config' => [
         'submail' => [
-            'voice_appid' => '',
-            'voice_appkey' => '',
+            'voice_appid' => '20617',
+            'voice_appkey' => '880f57a8445f361d111a63d89ac2f19d',
 
-            'message_appid' => '',
-            'message_appkey' => '',
+            'message_appid' => '19742',
+            'message_appkey' => '455379db2dcd089fe7a74f30ef346c0c',
 
         ]
     ]
