@@ -11,6 +11,7 @@ namespace App\Jobs\APICmds\Applet\WeiXin;
 use App\JsonParse\JErrorCode;
 use App\Models\User;
 use App\Models\UserAccount;
+use App\Models\UserGameInfo;
 use App\Models\UserNoticeRecord;
 use App\Models\UserNoticeTask;
 use App\Models\UserSystem;
@@ -66,7 +67,9 @@ class ALWUserCmd extends BaseCmd
                 $userId = $resultData['userId'];
                 if ($userId < 100) {
                     $msgPriceList = configCustom(CUSTOM_USER_NOTICE_MSG_PRICE_LIST_DEFINE);
-                    User::find($userId)->increment('user_money', $msgPriceList[0] * 5); //赠送5条开盾通知
+                    $amount = $msgPriceList[0] * 5;
+                    User::find($userId)->increment('user_money', $amount); //赠送5条开盾通知
+                    UserAccount::recharge($userId, $amount, '首次登录赠送');
                 }
 
             } else {
@@ -439,6 +442,139 @@ class ALWUserCmd extends BaseCmd
             $this->result_param['phone'] = $user->mobile_phone;
             $this->result_param['ddAheadNotice'] = empty($userSystem) ? '' : $userSystem->cl_ddAheadNotice;
             $this->result_param['maintenanceAhead'] = empty($userSystem) ? '' : $userSystem->cl_MaintenanceAhead;
+
+            return $this->result();
+        } catch (\Exception $e) {
+            return $this->exception($e);
+        }
+    }
+
+    public function modifySetting()
+    {
+        $data = $this->jsonData;
+        try {
+//            if (!isset($data->openWeihu) || !isset($data->openJijie))
+//                return $this->error(JErrorCode::LACK_PARAM_ERROR);
+
+            $wxUser = WXUser::where('cl_OpenId', $data->m_openId)->first();
+            if (empty($wxUser))
+                return $this->error(JErrorCode::WX_USER_INFO_NOT_FOUND_ERROR);
+
+            $user = $wxUser->user;
+
+            if (isset($data->openWeihu))
+                $userSystemData['cl_IsOpenWeihu'] = $data->openWeihu;
+            if (isset($data->openJijie))
+                $userSystemData['cl_IsOpenJijie'] = $data->openJijie;
+            if (isset($data->openJijie5))
+                $userSystemData['cl_IsOpenJijie5'] = $data->openJijie5;
+            if (isset($data->openJijie4))
+                $userSystemData['cl_IsOpenJijie4'] = $data->openJijie4;
+            if (isset($data->openJijie3))
+                $userSystemData['cl_IsOpenJijie3'] = $data->openJijie3;
+            if (isset($data->openJijie2))
+                $userSystemData['cl_IsOpenJijie2'] = $data->openJijie2;
+            if (isset($data->openJijie1))
+                $userSystemData['cl_IsOpenJijie1'] = $data->openJijie1;
+            $userSystemData['cl_UpdateTime'] = TimeUtil::getChinaTime();
+
+            $userSystem = UserSystem::where('cl_UserId', $user->user_id)->first();
+            if (empty($userSystem)) {
+                $userSystemData['cl_UserId'] = $user->user_id;
+                $userSystemData['cl_CreateTime'] = TimeUtil::getChinaTime();
+
+                $ret = UserSystem::create($userSystemData);
+            } else {
+                $ret = $userSystem->update($userSystemData);
+            }
+
+            if (!$ret)
+                return $this->error(JErrorCode::CUSTOM_UPDATE_ERROR);
+
+            return $this->success();
+        } catch (\Exception $e) {
+            return $this->exception($e);
+        }
+    }
+
+    public function getUserSetting()
+    {
+        $data = $this->jsonData;
+        try {
+
+            $wxUser = WXUser::where('cl_OpenId', $data->m_openId)->first();
+            if (empty($wxUser))
+                return $this->error(JErrorCode::WX_USER_INFO_NOT_FOUND_ERROR);
+
+            $user = $wxUser->user;
+
+            $userSystem = UserSystem::where('cl_UserId', $user->user_id)->first();
+
+            $this->result_param['openWeihu'] = empty($userSystem) ? 1 : $userSystem->cl_IsOpenWeihu;
+            $this->result_param['openJijie'] = empty($userSystem) ? 1 : $userSystem->cl_IsOpenJijie;
+            $this->result_param['openJijie5'] = empty($userSystem) ? 1 : $userSystem->cl_IsOpenJijie5;
+            $this->result_param['openJijie4'] = empty($userSystem) ? 1 : $userSystem->cl_IsOpenJijie4;
+            $this->result_param['openJijie3'] = empty($userSystem) ? 1 : $userSystem->cl_IsOpenJijie3;
+            $this->result_param['openJijie2'] = empty($userSystem) ? 1 : $userSystem->cl_IsOpenJijie2;
+            $this->result_param['openJijie1'] = empty($userSystem) ? 0 : $userSystem->cl_IsOpenJijie1;
+
+            return $this->result();
+        } catch (\Exception $e) {
+            return $this->exception($e);
+        }
+    }
+
+    public function modifyGameAccount()
+    {
+        $data = $this->jsonData;
+        try {
+//            if (!isset($data->openWeihu) || !isset($data->openJijie))
+//                return $this->error(JErrorCode::LACK_PARAM_ERROR);
+
+            $wxUser = WXUser::where('cl_OpenId', $data->m_openId)->first();
+            if (empty($wxUser))
+                return $this->error(JErrorCode::WX_USER_INFO_NOT_FOUND_ERROR);
+
+            $user = $wxUser->user;
+
+            if (isset($data->nickName))
+                $modelData['cl_NickName'] = $data->nickName;
+
+            $modelData['cl_UpdateTime'] = TimeUtil::getChinaTime();
+
+            $userGameInfo = UserGameInfo::where('cl_UserId', $user->user_id)->first();
+            if (empty($userGameInfo)) {
+                $modelData['cl_UserId'] = $user->user_id;
+                $modelData['cl_CreateTime'] = TimeUtil::getChinaTime();
+
+                $ret = UserGameInfo::create($modelData);
+            } else {
+                $ret = $userGameInfo->update($modelData);
+            }
+
+            if (!$ret)
+                return $this->error(JErrorCode::CUSTOM_UPDATE_ERROR);
+
+            return $this->success();
+        } catch (\Exception $e) {
+            return $this->exception($e);
+        }
+    }
+
+    public function getGameAccount()
+    {
+        $data = $this->jsonData;
+        try {
+
+            $wxUser = WXUser::where('cl_OpenId', $data->m_openId)->first();
+            if (empty($wxUser))
+                return $this->error(JErrorCode::WX_USER_INFO_NOT_FOUND_ERROR);
+
+            $user = $wxUser->user;
+
+            $model = UserGameInfo::where('cl_UserId', $user->user_id)->first();
+
+            $this->result_param['nickName'] = empty($model) ? 1 : $model->cl_NickName;
 
             return $this->result();
         } catch (\Exception $e) {

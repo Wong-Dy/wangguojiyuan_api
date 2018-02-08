@@ -164,13 +164,29 @@ class WeiXinController extends Controller
                     $cmd = new ALWUserCmd($jsonData);
                     $strRet = $cmd->modifySystem();
                     break;
-                case 'getUserSystem':  //获取用户设置
+                case 'getUserSystem':  //获取用户系统配置
                     $cmd = new ALWUserCmd($jsonData);
                     $strRet = $cmd->getUserSystem();
+                    break;
+                case 'getUserSetting':  //获取用户设置
+                    $cmd = new ALWUserCmd($jsonData);
+                    $strRet = $cmd->getUserSetting();
+                    break;
+                case 'modifySetting':  //更改用户设置
+                    $cmd = new ALWUserCmd($jsonData);
+                    $strRet = $cmd->modifySetting();
                     break;
                 case 'getRechargeRecords': // 充值明细
                     $cmd = new ALWUserCmd($jsonData);
                     $strRet = $cmd->getRechargeRecords();
+                    break;
+                case 'modifyGameAccount':  //更改用户游戏账户信息
+                    $cmd = new ALWUserCmd($jsonData);
+                    $strRet = $cmd->modifyGameAccount();
+                    break;
+                case 'getGameAccount':  //获取用户游戏账户信息
+                    $cmd = new ALWUserCmd($jsonData);
+                    $strRet = $cmd->getGameAccount();
                     break;
 
                 case 'getAdvertisement':    //广告
