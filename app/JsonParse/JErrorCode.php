@@ -16,7 +16,7 @@ class JErrorCode
     const INVALID_PARAM_ERROR = 10003; //无效参数
     const INVALID_CMD_ERROR = 10004; //无效指令
     const NOT_FOUND_ERROR = 10005;  //未找到
-    const INVALID_Aut_ERROR = 10006; //无权限
+    const INVALID_AUTH_ERROR = 10006; //无权限
     const OTHER_ERROR = 10090;  //其他错误
     const EXCEPTION_ERROR = 10099;  //异常错误
 
@@ -60,6 +60,7 @@ class JErrorCode
         self::INVALID_CMD_ERROR => 'invalid cmd',
         self::NOT_FOUND_ERROR => 'Not found',
         self::INVALID_PARAM_ERROR => 'invalid param',
+        self::INVALID_AUTH_ERROR => '无权限',
 
         self::CUSTOM_USER_NOT_FOUND => '用户未找到',
         self::CUSTOM_USER_BALANCE_LACK => '用户余额不足',

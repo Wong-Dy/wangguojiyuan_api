@@ -18,6 +18,16 @@ class User extends Base
     protected $table = 'wdy_users';
     protected $primaryKey = "user_id";
 
+    public function system()
+    {
+        return $this->hasOne('App\Models\UserSystem', 'cl_UserId', 'user_id');
+    }
+
+    public function gameinfo()
+    {
+        return $this->hasOne('App\Models\UserGameInfo', 'cl_UserId', 'user_id');
+    }
+
     public function getHeadImg()
     {
         return empty($this->headimg) ? '' : CUSTOM_API_APP_HOST . $this->headimg;

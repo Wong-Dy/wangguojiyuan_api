@@ -134,4 +134,22 @@ class TimeUtil
         return $time;
     }
 
+    /**
+     * 计算两个日期之差
+     * @param $time1
+     * @param $time2
+     * @return float
+     */
+    public static function dateSubtract($time1, $time2)
+    {
+        $Date_1 = self::ParseTime($time1, 'Y-m-d');
+        $Date_2 = self::ParseTime($time2, 'Y-m-d');
+        $Date_List_a1 = explode("-", $Date_1);
+        $Date_List_a2 = explode("-", $Date_2);
+        $d1 = mktime(0, 0, 0, $Date_List_a1[1], $Date_List_a1[2], $Date_List_a1[0]);
+        $d2 = mktime(0, 0, 0, $Date_List_a2[1], $Date_List_a2[2], $Date_List_a2[0]);
+        $Days = round(($d1 - $d2) / 3600 / 24);
+        return $Days;
+    }
+
 }
