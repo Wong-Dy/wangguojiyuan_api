@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Http\Controllers\Callback;
 
 use App\Http\Controllers\Controller;
@@ -64,6 +65,11 @@ class TaskController extends Controller
                         }
                         break;
                     case 2:
+                        if($item->cl_Time > 3){ //失败超过3次则停止通知
+                            $item->update(['cl_Status' => 1]);
+                            continue;
+                        }
+                        set_time_limit(0);
                         if (isset($msgList[$item->cl_Type]) && isset($msgPriceList[$item->cl_Type])) {
                             $msg = $msgList[$item->cl_Type];
                             $msgPrice = $msgPriceList[$item->cl_Type];
@@ -89,7 +95,7 @@ class TaskController extends Controller
                                         $item->update(['cl_Status' => 1, 'cl_Time' => $item->cl_Time + 1, 'cl_Remark' => '最后发送时间=' . TimeUtil::getChinaTime() . '&resultMsg=' . $resultMsg]);
                                         $user->decrement('user_money', $msgPrice);
                                     } else {
-                                        $item->update(['cl_Remark' => $resultMsg]);
+                                        $item->update(['cl_Time' => $item->cl_Time + 1, 'cl_Remark' => $item->cl_Remark . '---' .$resultMsg]);
                                     }
                                 }
                             });

@@ -74,7 +74,7 @@ class WXUser extends Base
                     $UserInfo['sex'] = $userThirdpartyArr['gender'];
                     $UserInfo['country'] = $userThirdpartyArr['country'];
                     $UserInfo['createtime'] = strtotime(TimeUtil::getChinaTime());
-                    $UserInfo['Province'] = $userThirdpartyArr['province'];
+                    $UserInfo['province'] = $userThirdpartyArr['province'];
                     $UserInfo['city'] = $userThirdpartyArr['city'];
                     $UserInfo['headimgurl'] = $userThirdpartyArr['avatar'];
                     $UserInfo['cl_UnionId'] = $userThirdpartyArr['unionId'];

@@ -12,6 +12,11 @@ class GameGroupMember extends Base
 {
     protected $table = 'tab_game_group_member';
 
+    public function scopeValid($q)
+    {
+        $q->where('cl_Status', 1);
+    }
+
     public function group()
     {
         return $this->hasOne('App\Models\GameGroup', 'cl_Id', 'cl_GroupId');

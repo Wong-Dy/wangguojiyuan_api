@@ -75,6 +75,21 @@ class ALWUserCmd extends BaseCmd
 
             } else {
                 $userId = $wxUserInfo->ecuid;
+
+                $userThirdpartyArr['avatar'] = $wxUserData->avatarUrl;
+                $userThirdpartyArr['province'] = $wxUserData->province;
+                $userThirdpartyArr['city'] = $wxUserData->city;
+                $userThirdpartyArr['gender'] = $wxUserData->gender == '1' ? '1' : $wxUserData->gender == '2' ? '0' : "0";
+                $userThirdpartyArr['nick_name'] = $wxUserData->nickName;
+                $userThirdpartyArr['country'] = $wxUserData->country;
+
+                $wxUserInfoData['nickname'] = $userThirdpartyArr['nick_name'];
+                $wxUserInfoData['sex'] = $userThirdpartyArr['gender'];
+                $wxUserInfoData['country'] = $userThirdpartyArr['country'];
+                $wxUserInfoData['province'] = $userThirdpartyArr['province'];
+                $wxUserInfoData['city'] = $userThirdpartyArr['city'];
+                $wxUserInfoData['headimgurl'] = $userThirdpartyArr['avatar'];
+                $wxUserInfo->update($wxUserInfoData);
             }
             $user = User::find($userId);
             if (empty($user))
@@ -196,7 +211,7 @@ class ALWUserCmd extends BaseCmd
                     return $this->error(JErrorCode::OTHER_ERROR, '绑定手机失败，请重试');
             } else {
                 $user = $wxUserInfo->user;
-                $user->user_name = $data->phone;
+//                $user->user_name = $data->phone;
                 $user->mobile_phone = $data->phone;
                 if (!$user->save())
                     return $this->error(JErrorCode::OTHER_ERROR, '绑定手机失败，请重试');
@@ -244,7 +259,7 @@ class ALWUserCmd extends BaseCmd
                     return $this->error(JErrorCode::OTHER_ERROR, '绑定手机失败，请重试');
             } else {
                 $user = $wxUserInfo->user;
-                $user->user_name = $wxUserData->purePhoneNumber;
+//                $user->user_name = $wxUserData->purePhoneNumber;
                 $user->mobile_phone = $wxUserData->purePhoneNumber;
                 if (!$user->save())
                     return $this->error(JErrorCode::OTHER_ERROR, '绑定手机失败，请重试');

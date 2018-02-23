@@ -28,6 +28,11 @@ class User extends Base
         return $this->hasOne('App\Models\UserGameInfo', 'cl_UserId', 'user_id');
     }
 
+    public function wxuser()
+    {
+        return $this->hasOne('App\Models\WXUser', 'ecuid', 'user_id');
+    }
+
     public function getHeadImg()
     {
         return empty($this->headimg) ? '' : CUSTOM_API_APP_HOST . $this->headimg;

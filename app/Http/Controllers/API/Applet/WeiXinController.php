@@ -6,6 +6,7 @@ namespace App\Http\Controllers\API\Applet;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Jobs\APICmds\Applet\WeiXin\ALWAdvertisementCmd;
+use App\Jobs\APICmds\Applet\WeiXin\ALWGameCmd;
 use App\Jobs\APICmds\Applet\WeiXin\ALWSystemCmd;
 use App\Jobs\APICmds\Applet\WeiXin\ALWUserCmd;
 use App\JsonParse\JErrorCode;
@@ -198,6 +199,40 @@ class WeiXinController extends Controller
                     $cmd = new ALWSystemCmd($jsonData);
                     $strRet = $cmd->addFeedBack();
                     break;
+
+                case 'createGroup': //创建游戏联盟
+                    $cmd = new ALWGameCmd($jsonData);
+                    $strRet = $cmd->createGroup();
+                    break;
+                case 'updateGroup': //更新游戏联盟
+                    $cmd = new ALWGameCmd($jsonData);
+                    $strRet = $cmd->updateGroup();
+                    break;
+                case 'getUserGroup': //获取用户游戏联盟
+                    $cmd = new ALWGameCmd($jsonData);
+                    $strRet = $cmd->getUserGroup();
+                    break;
+                case 'getUserGroupList': //获取用户游戏联盟成员列表
+                    $cmd = new ALWGameCmd($jsonData);
+                    $strRet = $cmd->getUserGroupList();
+                    break;
+                case 'getGroupInviteCode': //获取游戏联盟邀请码
+                    $cmd = new ALWGameCmd($jsonData);
+                    $strRet = $cmd->getGroupInviteCode();
+                    break;
+                case 'joinGroup': //加入游戏联盟
+                    $cmd = new ALWGameCmd($jsonData);
+                    $strRet = $cmd->joinGroup();
+                    break;
+                case 'shareJoinGroup': //加入分享渠道游戏联盟
+                    $cmd = new ALWGameCmd($jsonData);
+                    $strRet = $cmd->shareJoinGroup();
+                    break;
+                case 'sendJiJieNotice': //发送遭受集结通知
+                    $cmd = new ALWGameCmd($jsonData);
+                    $strRet = $cmd->sendJiJieNotice();
+                    break;
+
 
                 default:
                     return JReturn::error(JErrorCode::INVALID_CMD_ERROR, "无效指令");
