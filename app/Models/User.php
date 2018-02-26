@@ -38,7 +38,7 @@ class User extends Base
         return empty($this->headimg) ? '' : CUSTOM_API_APP_HOST . $this->headimg;
     }
 
-//创建新帐号
+    //创建新帐号
     public static function createAccount()
     {
         $account = self::getAutoAccount();

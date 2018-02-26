@@ -321,6 +321,58 @@ class ALWUserCmd extends BaseCmd
         }
     }
 
+    public function updateUserNoticeTaskTime()
+    {
+        $data = $this->jsonData;
+        try {
+            if (!isset($data->minute) || !isset($data->type) || !isset($data->timeType))
+                return $this->error(JErrorCode::LACK_PARAM_ERROR);
+
+            $wxUser = WXUser::where('cl_OpenId', $data->m_openId)->first();
+            if (empty($wxUser))
+                return $this->error(JErrorCode::WX_USER_INFO_NOT_FOUND_ERROR);
+
+            $user = $wxUser->user;
+            if (empty($user->mobile_phone))
+                return $this->errori('请先绑定通知手机号');
+
+            $userNoticeTask = UserNoticeTask::where('cl_UserId', $user->user_id)->where('cl_Type', $data->type)->where('cl_Status', 0)->first();
+            if (empty($userNoticeTask)) {
+                return $this->errori('请先设置通知时间');
+            } else {
+
+
+                if ($data->timeType == 2)
+                    $newNoticeTime = TimeUtil::increaseTime($userNoticeTask->cl_NoticeTime, $data->minute, 'minute');
+                if ($data->timeType == 3)
+                    $newNoticeTime = TimeUtil::decreaseTime($userNoticeTask->cl_NoticeTime, $data->minute, 'minute');
+
+                if (!isset($newNoticeTime))
+                    return $this->errori('无效操作！');
+
+                $noticeTime = TimeUtil::parseTimestamp($newNoticeTime);
+                $curTime = TimeUtil::parseTimestamp(TimeUtil::getChinaTime());
+                if ($curTime > $noticeTime)
+                    $countDownMinute = 0;
+                else
+                    $countDownMinute = round(($noticeTime - $curTime) / 60);
+
+                if ($countDownMinute < 1)
+                    return $this->errori('更改后倒计时时间不能小于0！');
+
+                $userNoticeTask->cl_NoticeTime = $newNoticeTime;
+                $ret = $userNoticeTask->save();
+
+                if (!$ret)
+                    return $this->error(JErrorCode::CUSTOM_UPDATE_ERROR);
+            }
+
+            return $this->success();
+        } catch (\Exception $e) {
+            return $this->exception($e);
+        }
+    }
+
     public function cancelUserNoticeTask()
     {
         $data = $this->jsonData;

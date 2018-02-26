@@ -149,6 +149,10 @@ class WeiXinController extends Controller
                     $cmd = new ALWUserCmd($jsonData);
                     $strRet = $cmd->modifyUserNoticeTask();
                     break;
+                case 'updateUserNoticeTaskTime':  //更改用户通知任务时间
+                    $cmd = new ALWUserCmd($jsonData);
+                    $strRet = $cmd->updateUserNoticeTaskTime();
+                    break;
                 case 'getUserNoticeTask':  //获取用户通知任务
                     $cmd = new ALWUserCmd($jsonData);
                     $strRet = $cmd->getUserNoticeTask();
@@ -208,6 +212,10 @@ class WeiXinController extends Controller
                     $cmd = new ALWGameCmd($jsonData);
                     $strRet = $cmd->updateGroup();
                     break;
+                case 'updateGroupSetting': //更新游戏联盟配置
+                    $cmd = new ALWGameCmd($jsonData);
+                    $strRet = $cmd->updateGroupSetting();
+                    break;
                 case 'getUserGroup': //获取用户游戏联盟
                     $cmd = new ALWGameCmd($jsonData);
                     $strRet = $cmd->getUserGroup();
@@ -231,6 +239,22 @@ class WeiXinController extends Controller
                 case 'sendJiJieNotice': //发送遭受集结通知
                     $cmd = new ALWGameCmd($jsonData);
                     $strRet = $cmd->sendJiJieNotice();
+                    break;
+                case 'updateGroupLevel': //修改成员阶级
+                    $cmd = new ALWGameCmd($jsonData);
+                    $strRet = $cmd->updateGroupLevel();
+                    break;
+                case 'deleteGroupMember': //删除联盟成员
+                    $cmd = new ALWGameCmd($jsonData);
+                    $strRet = $cmd->deleteGroupMember();
+                    break;
+                case 'abdicateGroupMaster': //让出盟主位置
+                    $cmd = new ALWGameCmd($jsonData);
+                    $strRet = $cmd->abdicateGroupMaster();
+                    break;
+                case 'leaveGroup': //离开联盟
+                    $cmd = new ALWGameCmd($jsonData);
+                    $strRet = $cmd->leaveGroup();
                     break;
 
 

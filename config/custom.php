@@ -50,6 +50,9 @@ return [
             'message_appkey' => '455379db2dcd089fe7a74f30ef346c0c',
 
         ]
-    ]
+    ],
+
+    'group_member_limit' => 200,
+    'group_invite_time_limit' => 5 * 60,   //联盟邀请码时间限制(分钟)
 
 ];

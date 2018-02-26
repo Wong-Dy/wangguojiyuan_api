@@ -13,10 +13,12 @@ use App\Models\GameGroup;
 use App\Models\GameGroupMember;
 use App\Models\User;
 use App\Models\UserNoticeRecord;
+use App\Models\UserSystem;
 use App\Models\WXUser;
 use App\Service\RunService;
 use App\Util\Comm;
 use App\Util\TimeUtil;
+use App\Util\Tool;
 use Cache;
 
 class ALWGameCmd extends BaseCmd
@@ -73,22 +75,28 @@ class ALWGameCmd extends BaseCmd
     {
         $data = $this->jsonData;
         try {
-            if (!isset($data->groupId))
-                return $this->error(JErrorCode::LACK_PARAM_ERROR);
-
             $wxUser = WXUser::where('cl_OpenId', $data->m_openId)->first();
             if (empty($wxUser))
                 return $this->error(JErrorCode::WX_USER_INFO_NOT_FOUND_ERROR);
 
             $user = $wxUser->user;
 
-            $model = GameGroup::find($data->groupId);
+            $groupMember = GameGroupMember::valid()->where('cl_UserId', $user->user_id)->first();
+            if (empty($groupMember))
+                return $this->error(JErrorCode::CUSTOM_SELECT_NOT_FOUND);
+
+            if ($groupMember->cl_Level < 5) {
+                return $this->errori('无权限！');
+            }
+
+            $model = $groupMember->group;
             if (empty($model))
                 return $this->error(JErrorCode::CUSTOM_SELECT_NOT_FOUND);
 
             if ($user->user_id != $model->cl_Master)
                 return $this->error(JErrorCode::INVALID_AUTH_ERROR);
 
+            $modelData = [];
             if (isset($data->name) && !empty($data->name))
                 $modelData['cl_Name'] = $data->name;
             if (isset($data->district) && !empty($data->district))
@@ -100,9 +108,43 @@ class ALWGameCmd extends BaseCmd
             if (isset($data->notice) && !empty($data->notice))
                 $modelData['cl_Notice'] = $data->notice;
 
-            $ret = GameGroup::update($modelData);
+            $ret = $model->update($modelData);
             if (!$ret)
                 return $this->error(JErrorCode::CUSTOM_UPDATE_ERROR);
+
+            return $this->success();
+        } catch (\Exception $e) {
+            return $this->exception($e);
+        }
+    }
+
+    public function updateGroupSetting()
+    {
+        $data = $this->jsonData;
+        try {
+
+            $wxUser = WXUser::where('cl_OpenId', $data->m_openId)->first();
+            if (empty($wxUser))
+                return $this->error(JErrorCode::WX_USER_INFO_NOT_FOUND_ERROR);
+
+            $user = $wxUser->user;
+
+            $groupMember = GameGroupMember::valid()->where('cl_UserId', $user->user_id)->first();
+            if (empty($groupMember))
+                return $this->error(JErrorCode::CUSTOM_SELECT_NOT_FOUND);
+
+            if ($groupMember->cl_Level < 5) {
+                return $this->errori('无权限！');
+            }
+
+            $group = $groupMember->group;
+
+            if (isset($data->isShareJoin))
+                $group->cl_IsShareJoin = $data->isShareJoin;
+            if (isset($data->isInviteCodeJoin))
+                $group->cl_IsInviteCodeJoin = $data->isInviteCodeJoin;
+
+            $ret = $group->save();
 
             return $this->success();
         } catch (\Exception $e) {
@@ -132,6 +174,8 @@ class ALWGameCmd extends BaseCmd
             $this->result_param['locationX'] = $group->cl_LocationX;
             $this->result_param['locationY'] = $group->cl_LocationY;
             $this->result_param['master'] = $group->cl_Master;
+            $this->result_param['isShareJoin'] = $group->cl_IsShareJoin;
+            $this->result_param['isInviteCodeJoin'] = $group->cl_IsInviteCodeJoin;
 
             $this->result_param['level'] = $groupMember->cl_Level;
 
@@ -165,7 +209,7 @@ class ALWGameCmd extends BaseCmd
             $this->result_param['userId'] = $groupMember->cl_UserId;
             $this->result_param['level'] = $groupMember->cl_Level;
 
-            foreach ($group->members()->orderby('cl_Level', 'desc')->get() as $item) {
+            foreach ($group->members()->valid()->orderby('cl_Level', 'desc')->get() as $item) {
                 $result_item = $this->std();
 
                 $gameinfo = $item->user->gameinfo;
@@ -229,13 +273,25 @@ class ALWGameCmd extends BaseCmd
 
             $user = $wxUser->user;
 
+            $groupMember = GameGroupMember::valid()->where('cl_UserId', $user->user_id)->first();
+            if (!empty($groupMember))
+                return $this->errori('已加入联盟');
+
             $group = GameGroup::where('cl_InviteCode', $data->inviteCode)->first();
             if (empty($group))
-                return $this->error(JErrorCode::CUSTOM_SELECT_NOT_FOUND);
+                return $this->errori('邀请码无效');
 
-            if ((time() - TimeUtil::parseTimestamp($group->cl_InviteTime)) > 60 * 60) {
-                return $this->error(JErrorCode::ERROR, '邀请码失效');
+            if (!$group->cl_IsInviteCodeJoin)
+                return $this->errori('联盟已关闭邀请码加入');
+
+            $retMsg = '';
+            if (!$group->validInviteTime($retMsg)) {   //邀请码时间校验
+                return $this->error(JErrorCode::ERROR, $retMsg);
             }
+
+            $retMsg = '';
+            if ($group->isMemberLimit($retMsg))
+                return $this->error(JErrorCode::ERROR, $retMsg);
 
             $memberData['cl_GroupId'] = $group->cl_Id;
             $memberData['cl_UserId'] = $user->user_id;
@@ -269,11 +325,16 @@ class ALWGameCmd extends BaseCmd
             if (empty($group))
                 return $this->error(JErrorCode::CUSTOM_SELECT_NOT_FOUND);
 
+            if (!$group->cl_IsShareJoin)
+                return $this->errori('联盟已关闭分享加入');
+
+            $retMsg = '';
+            if ($group->isMemberLimit($retMsg))
+                return $this->error(JErrorCode::ERROR, $retMsg);
 
             $groupMember = GameGroupMember::valid()->where('cl_UserId', $user->user_id)->first();
             if (!empty($groupMember))
                 return $this->errori('已加入联盟');
-
 
             $memberData['cl_GroupId'] = $group->cl_Id;
             $memberData['cl_UserId'] = $user->user_id;
@@ -316,6 +377,19 @@ class ALWGameCmd extends BaseCmd
 
             if ($groupMember->cl_GroupId != $toUserGroupMember->cl_GroupId)
                 return $this->errori('非正常操作，同一个联盟下才可以通知');
+
+            $toUserSystem = UserSystem::where('cl_UserId', $data->toUserId)->first();
+            if (!empty($toUserSystem)) {
+                if (!$toUserSystem->cl_IsOpenJijie)
+                    return $this->errori('该成员已关闭接收通知');
+
+                $ziduan = 'cl_IsOpenJijie' . $groupMember->cl_Level;
+                if (!$toUserSystem->$ziduan)
+                    return $this->errori('该成员限制通知阶级');
+            } else {
+                if ($groupMember->cl_Level == 1)
+                    return $this->errori('暂无权限发送通知');
+            }
 
             $msgList = configCustom('userNoticeMsgList');
             $msgPriceList = configCustom(CUSTOM_USER_NOTICE_MSG_PRICE_LIST_DEFINE);
@@ -380,13 +454,106 @@ class ALWGameCmd extends BaseCmd
                 return $this->error(JErrorCode::CUSTOM_SELECT_NOT_FOUND);
 
             $curGroupMember = GameGroupMember::valid()->where('cl_UserId', $user->user_id)->first();
-            if (empty($curGroupMember) || $curGroupMember->cl_GroupId != $groupMember->cl_GroupId || $curGroupMember->cl_Level < 5)
+            if (empty($curGroupMember) || $curGroupMember->cl_GroupId != $groupMember->cl_GroupId || $curGroupMember->cl_Level < 4) //允许4 5 级修改成员阶级
                 return $this->errori('无权限！');
 
+            if (!in_array($data->level, [1, 2, 3, 4, 5]))
+                return $this->errori('无效阶级！');
 
             $groupMember->cl_Level = $data->level;
             $groupMember->save();
 
+            return $this->success();
+        } catch (\Exception $e) {
+            return $this->exception($e);
+        }
+    }
+
+    public function deleteGroupMember()
+    {
+        $data = $this->jsonData;
+        try {
+            if (!isset($data->memberUserId))
+                return $this->error(JErrorCode::LACK_PARAM_ERROR);
+
+            $wxUser = WXUser::where('cl_OpenId', $data->m_openId)->first();
+            if (empty($wxUser))
+                return $this->error(JErrorCode::WX_USER_INFO_NOT_FOUND_ERROR);
+
+            $user = $wxUser->user;
+
+            $groupMember = GameGroupMember::valid()->where('cl_UserId', $data->memberUserId)->first();
+            if (empty($groupMember))
+                return $this->error(JErrorCode::CUSTOM_SELECT_NOT_FOUND);
+
+            $curGroupMember = GameGroupMember::valid()->where('cl_UserId', $user->user_id)->first();
+            if (empty($curGroupMember) || $curGroupMember->cl_GroupId != $groupMember->cl_GroupId || $curGroupMember->cl_Level < 4) //允许4 5 级操作
+                return $this->errori('无权限！');
+
+            $groupMember->cl_Status = 0;
+            $groupMember->save();
+
+            return $this->success();
+        } catch (\Exception $e) {
+            return $this->exception($e);
+        }
+    }
+
+    public function abdicateGroupMaster()
+    {
+        $data = $this->jsonData;
+        try {
+            if (!isset($data->memberUserId))
+                return $this->error(JErrorCode::LACK_PARAM_ERROR);
+
+            $wxUser = WXUser::where('cl_OpenId', $data->m_openId)->first();
+            if (empty($wxUser))
+                return $this->error(JErrorCode::WX_USER_INFO_NOT_FOUND_ERROR);
+
+            $user = $wxUser->user;
+
+            $groupMember = GameGroupMember::valid()->where('cl_UserId', $data->memberUserId)->first();
+            if (empty($groupMember))
+                return $this->error(JErrorCode::CUSTOM_SELECT_NOT_FOUND);
+
+            $curGroupMember = GameGroupMember::valid()->where('cl_UserId', $user->user_id)->first();
+            Tool::writeLog(json_encode($groupMember));
+            Tool::writeLog(json_encode($curGroupMember));
+            if (empty($curGroupMember) || $curGroupMember->cl_GroupId != $groupMember->cl_GroupId || $curGroupMember->cl_Level != 5) //允许5级操作
+                return $this->errori('无权限！');
+
+            $group = $groupMember->group;
+            $group->cl_Master = $data->memberUserId;
+            $group->save();
+
+            $groupMember->cl_Level = 5;
+            $groupMember->save();
+
+            $curGroupMember->cl_Level = 4;
+            $curGroupMember->save();
+
+            return $this->success();
+        } catch (\Exception $e) {
+            return $this->exception($e);
+        }
+    }
+
+    public function leaveGroup()
+    {
+        $data = $this->jsonData;
+        try {
+            $wxUser = WXUser::where('cl_OpenId', $data->m_openId)->first();
+            if (empty($wxUser))
+                return $this->error(JErrorCode::WX_USER_INFO_NOT_FOUND_ERROR);
+
+            $user = $wxUser->user;
+
+            $curGroupMember = GameGroupMember::valid()->where('cl_UserId', $user->user_id)->first();
+            if (empty($curGroupMember) || $curGroupMember->cl_Level == 5)
+                return $this->errori('请先让位给其他成员！');
+
+            $curGroupMember->cl_Status = 0;
+            $curGroupMember->save();
 
             return $this->success();
         } catch (\Exception $e) {
