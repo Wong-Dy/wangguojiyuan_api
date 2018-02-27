@@ -8,9 +8,7 @@
 
 namespace App\Models;
 
-use App\JsonParse\JErrorCode;
-use App\Util\ConfigUtil;
-use App\Util\TimeUtil;
+use App\Util\Comm;
 use DB, Exception;
 
 class User extends Base
