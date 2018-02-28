@@ -66,10 +66,15 @@ class ALWUserCmd extends BaseCmd
                 }
                 $ret = WXUser::bindWxXcxUser($wxUserData->openId, $wxUserInfoArr, $resultData);
                 $userId = $resultData['userId'];
+				
+				$msgPriceList = configCustom(CUSTOM_USER_NOTICE_MSG_PRICE_LIST_DEFINE);
                 if ($userId < 100) {
-                    $msgPriceList = configCustom(CUSTOM_USER_NOTICE_MSG_PRICE_LIST_DEFINE);
                     $amount = $msgPriceList[0] * 5;
                     User::find($userId)->increment('user_money', $amount); //赠送5条开盾通知
+                    UserAccount::recharge($userId, $amount, '首次登录赠送', 1);
+                }else if ($userId > 100 && $userId < 1000) {
+                    $amount = $msgPriceList[0] * 1;
+                    User::find($userId)->increment('user_money', $amount); //赠送1条开盾通知
                     UserAccount::recharge($userId, $amount, '首次登录赠送', 1);
                 }
 
