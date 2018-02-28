@@ -36,6 +36,11 @@ class User extends Base
         return empty($this->headimg) ? '' : CUSTOM_API_APP_HOST . $this->headimg;
     }
 
+    public function getGameName(){
+        $gameinfo = $this->gameinfo;
+        return null == $gameinfo ? '' : $gameinfo->cl_NickName;
+    }
+
     //创建新帐号
     public static function createAccount()
     {

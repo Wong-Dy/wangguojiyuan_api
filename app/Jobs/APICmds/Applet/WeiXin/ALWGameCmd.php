@@ -49,6 +49,7 @@ class ALWGameCmd extends BaseCmd
             }
 
             $modelData['cl_CreateTime'] = TimeUtil::getChinaTime();
+            $modelData['cl_UpdateTime'] = TimeUtil::getChinaTime();
             $modelData['cl_Creator'] = $user->user_id;
             $modelData['cl_Master'] = $user->user_id;
             $modelData['cl_Name'] = $data->name;
@@ -62,7 +63,7 @@ class ALWGameCmd extends BaseCmd
             $groupMemberData['cl_UserId'] = $user->user_id;
             $groupMemberData['cl_GroupId'] = $retId;
             $groupMemberData['cl_Level'] = 5;
-            $groupMemberData['cl_CreateTime'] = $user->user_id;
+            $groupMemberData['cl_CreateTime'] = TimeUtil::getChinaTime();
             GameGroupMember::create($groupMemberData);
 
             return $this->success();
@@ -107,6 +108,8 @@ class ALWGameCmd extends BaseCmd
                 $modelData['cl_LocationY'] = $data->locationY;
             if (isset($data->notice) && !empty($data->notice))
                 $modelData['cl_Notice'] = $data->notice;
+
+            $modelData['cl_UpdateTime'] = TimeUtil::getChinaTime();
 
             $ret = $model->update($modelData);
             if (!$ret)
@@ -174,8 +177,11 @@ class ALWGameCmd extends BaseCmd
             $this->result_param['locationX'] = $group->cl_LocationX;
             $this->result_param['locationY'] = $group->cl_LocationY;
             $this->result_param['master'] = $group->cl_Master;
+            $this->result_param['masterName'] = $group->master->getGameName();
+            $this->result_param['masterWxHeadUrl'] = $group->master->wxuser->headimgurl;
             $this->result_param['isShareJoin'] = $group->cl_IsShareJoin;
             $this->result_param['isInviteCodeJoin'] = $group->cl_IsInviteCodeJoin;
+            $this->result_param['updateTime'] = TimeUtil::parseTime($group->cl_UpdateTime);
 
             $this->result_param['level'] = $groupMember->cl_Level;
 
@@ -246,10 +252,10 @@ class ALWGameCmd extends BaseCmd
 
             $group = $groupMember->group;
 
-
-            if (empty($group->cl_InviteTime) || (time() - TimeUtil::parseTimestamp($group->cl_InviteTime)) > 60 * 60) {
+            if (empty($group->cl_InviteTime) || !$group->validInviteTime()) {
                 $group->cl_InviteTime = TimeUtil::getChinaTime();
                 $group->cl_InviteCode = $group->cl_Id . Comm::make_rand(3);
+                $group->save();
             }
 
             $this->result_param['code'] = $group->cl_InviteCode;
@@ -549,7 +555,7 @@ class ALWGameCmd extends BaseCmd
             $user = $wxUser->user;
 
             $curGroupMember = GameGroupMember::valid()->where('cl_UserId', $user->user_id)->first();
-            if (empty($curGroupMember) || $curGroupMember->cl_Level == 5)
+            if ((empty($curGroupMember) || $curGroupMember->cl_Level == 5) && $curGroupMember->group->members()->valid()->count() > 1)
                 return $this->errori('请先让位给其他成员！');
 
             $curGroupMember->cl_Status = 0;

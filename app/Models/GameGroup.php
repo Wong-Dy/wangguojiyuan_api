@@ -15,6 +15,11 @@ class GameGroup extends Base
 {
     protected $table = 'tab_game_group';
 
+    public function master()
+    {
+        return $this->hasOne('App\Models\User', 'user_id', 'cl_Master');
+    }
+
     public function members()
     {
         return $this->hasMany('App\Models\GameGroupMember', 'cl_GroupId', 'cl_Id');
@@ -29,7 +34,7 @@ class GameGroup extends Base
         return false;
     }
 
-    public function validInviteTime(&$retMsg)
+    public function validInviteTime(&$retMsg = '')
     {
         if ((time() - TimeUtil::parseTimestamp($this->cl_InviteTime)) > configCustom('group_invite_time_limit') * 60) { // 限制时间期限
             $retMsg = '邀请码失效！';
