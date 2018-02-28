@@ -75,7 +75,7 @@ class TaskController extends Controller
                             $msgPrice = $msgPriceList[$item->cl_Type];
 
 
-                            $modelQ = UserSystem::whereRaw(" {$item->cl_NoticeTime} > DATE_ADD(now(),INTERVAL cl_MaintenanceAhead MINUTE) ");
+                            $modelQ = UserSystem::whereRaw(" '{$item->cl_NoticeTime}' < DATE_ADD(now(),INTERVAL cl_MaintenanceAhead MINUTE) ");
 
 //                            $modelQ = User::where('cl_Status', 1)->where('user_money', '>=', $msgPrice);
 
