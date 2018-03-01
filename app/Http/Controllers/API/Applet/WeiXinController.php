@@ -228,6 +228,11 @@ class WeiXinController extends Controller
                     $cmd = new ALWGameCmd($jsonData);
                     $strRet = $cmd->getGroupInviteCode();
                     break;
+                case 'getGroupQrCode': //获取游戏联盟二维码内容
+                    $cmd = new ALWGameCmd($jsonData);
+                    $strRet = $cmd->getGroupQrCode();
+                    break;
+
                 case 'joinGroup': //加入游戏联盟
                     $cmd = new ALWGameCmd($jsonData);
                     $strRet = $cmd->joinGroup();

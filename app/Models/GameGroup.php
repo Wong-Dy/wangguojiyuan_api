@@ -25,6 +25,11 @@ class GameGroup extends Base
         return $this->hasMany('App\Models\GameGroupMember', 'cl_GroupId', 'cl_Id');
     }
 
+    public function memberSum()
+    {
+        return $this->members()->valid()->count();
+    }
+
     public function isMemberLimit(&$retMsg)
     {
         if ($this->members()->valid()->count() >= configCustom('group_member_limit')) {

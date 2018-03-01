@@ -11,6 +11,7 @@ namespace App\Jobs\APICmds\Applet\WeiXin;
 use App\JsonParse\JErrorCode;
 use App\Models\GameGroup;
 use App\Models\GameGroupMember;
+use App\Models\ScanCode;
 use App\Models\User;
 use App\Models\UserNoticeRecord;
 use App\Models\UserSystem;
@@ -184,6 +185,7 @@ class ALWGameCmd extends BaseCmd
             $this->result_param['updateTime'] = TimeUtil::parseTime($group->cl_UpdateTime);
 
             $this->result_param['level'] = $groupMember->cl_Level;
+            $this->result_param['memberSum'] = $group->memberSum();
 
 
             return $this->result();
@@ -259,6 +261,57 @@ class ALWGameCmd extends BaseCmd
             }
 
             $this->result_param['code'] = $group->cl_InviteCode;
+
+            return $this->result();
+        } catch (\Exception $e) {
+            return $this->exception($e);
+        }
+    }
+
+    public function getGroupQrCode()
+    {
+        $data = $this->jsonData;
+        try {
+            $wxUser = WXUser::where('cl_OpenId', $data->m_openId)->first();
+            if (empty($wxUser))
+                return $this->error(JErrorCode::WX_USER_INFO_NOT_FOUND_ERROR);
+
+            $user = $wxUser->user;
+
+            $groupMember = GameGroupMember::valid()->where('cl_UserId', $user->user_id)->first();
+            if (empty($groupMember))
+                return $this->error(JErrorCode::CUSTOM_SELECT_NOT_FOUND);
+
+            $group = $groupMember->group;
+
+            $scanCode = ScanCode::valid()->where('cl_Action', ScanCode::SCAN_CODE_ACTION_AGC)->where('cl_Flag', $group->cl_Id)->first();
+
+            if (empty($group->cl_InviteTime) || !$group->validInviteTime()) {
+                $group->cl_InviteTime = TimeUtil::getChinaTime();
+                $group->cl_InviteCode = $group->cl_Id . Comm::make_rand(3);
+                $group->save();
+            }
+
+            $codeData = ['inviteCode' => $group->cl_InviteCode];
+
+            if (!empty($scanCode)) {
+                $scanCode->cl_Data = json_encode($codeData);
+                $scanCode->save();
+                $codeStr = ScanCode::SCAN_CODE_ACTION_AGC . '@:sn=' . $scanCode->cl_Code;
+            } else {
+                $code = Comm::getGuid();
+                $codeStr = ScanCode::SCAN_CODE_ACTION_AGC . '@:sn=' . $code;
+
+                $scanCodeData['cl_Flag'] = $group->cl_Id;
+                $scanCodeData['cl_Code'] = $code;
+                $scanCodeData['cl_Action'] = ScanCode::SCAN_CODE_ACTION_AGC;
+                $scanCodeData['cl_Data'] = json_encode($codeData);
+                $scanCodeData['cl_CreateTime'] = TimeUtil::getChinaTime();
+                $scanCodeData['cl_ValidTime'] = TimeUtil::increaseTime($scanCodeData['cl_CreateTime'], 10, 'minute');//有效期 分钟
+                ScanCode::create($scanCodeData);
+            }
+
+            $this->result_param['qrcode'] = $codeStr;
 
             return $this->result();
         } catch (\Exception $e) {
