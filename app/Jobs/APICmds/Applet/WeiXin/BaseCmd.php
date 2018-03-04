@@ -86,7 +86,7 @@ class BaseCmd
 
     /**
      * 解析赛狐定义二维码
-     * @param $data 格式示例(SHI@:sid=105;mid=001)
+     * @param $data 格式示例(sid=105;mid=001)
      * @return array
      */
     public function parseDataStyle1($data)

@@ -6,6 +6,7 @@ namespace App\Http\Controllers\API\Applet;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Jobs\APICmds\Applet\WeiXin\ALWAdvertisementCmd;
+use App\Jobs\APICmds\Applet\WeiXin\ALWGameBbsCmd;
 use App\Jobs\APICmds\Applet\WeiXin\ALWGameCmd;
 use App\Jobs\APICmds\Applet\WeiXin\ALWSystemCmd;
 use App\Jobs\APICmds\Applet\WeiXin\ALWUserCmd;
@@ -203,6 +204,10 @@ class WeiXinController extends Controller
                     $cmd = new ALWSystemCmd($jsonData);
                     $strRet = $cmd->addFeedBack();
                     break;
+                case 'scanCode': //扫码
+                    $cmd = new ALWSystemCmd($jsonData);
+                    $strRet = $cmd->scanCode();
+                    break;
 
                 case 'createGroup': //创建游戏联盟
                     $cmd = new ALWGameCmd($jsonData);
@@ -260,6 +265,11 @@ class WeiXinController extends Controller
                 case 'leaveGroup': //离开联盟
                     $cmd = new ALWGameCmd($jsonData);
                     $strRet = $cmd->leaveGroup();
+                    break;
+
+                case 'addGameBbs': //离开联盟
+                    $cmd = new ALWGameBbsCmd($jsonData);
+                    $strRet = $cmd->addGameBbs();
                     break;
 
 

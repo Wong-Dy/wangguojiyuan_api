@@ -19,6 +19,11 @@ class Base extends Eloquent
     protected $primaryKey = "cl_Id";
     protected $guarded = [];
 
+//    public function scopeValid($query)
+//    {
+//        return $query->where('cl_Status', 1);
+//    }
+
     public function scopePage($query,$index)
     {
         \Input::offsetSet('page',$index);

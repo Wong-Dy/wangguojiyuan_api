@@ -1,7 +1,7 @@
 <?php
 /**
  * 广告位表，操作模型
- * User: jiangchuanyi
+ * User: wdy
  * Date: 2016/03/24
  * Time: 11:25
  */

@@ -22,7 +22,7 @@ use App\Util\TimeUtil;
 use App\Util\Tool;
 use Cache;
 
-class ALWGameCmd extends BaseCmd
+class ALWGameBbsCmd extends BaseCmd
 {
     public function __construct($jsonData)
     {
@@ -30,11 +30,11 @@ class ALWGameCmd extends BaseCmd
         $this->logPath .= 'user/';
     }
 
-    public function createGroup()
+    public function addGameBbs()
     {
         $data = $this->jsonData;
         try {
-            if (!isset($data->name))
+            if (!isset($data->content) || !isset($data->photoList))
                 return $this->error(JErrorCode::LACK_PARAM_ERROR);
 
             $wxUser = WXUser::where('cl_OpenId', $data->m_openId)->first();
@@ -168,7 +168,7 @@ class ALWGameCmd extends BaseCmd
 
             if (isset($data->groupId) && !empty($data->groupId))
                 $group = GameGroup::find($data->groupId);
-            else{
+            else {
                 $groupMember = GameGroupMember::valid()->where('cl_UserId', $user->user_id)->first();
                 if (empty($groupMember))
                     return $this->error(JErrorCode::CUSTOM_SELECT_NOT_FOUND);
@@ -191,7 +191,7 @@ class ALWGameCmd extends BaseCmd
             $this->result_param['isInviteCodeJoin'] = $group->cl_IsInviteCodeJoin;
             $this->result_param['updateTime'] = TimeUtil::parseTime($group->cl_UpdateTime);
 
-            if(isset($groupMember) && !empty($groupMember)){
+            if (isset($groupMember) && !empty($groupMember)) {
                 $this->result_param['level'] = $groupMember->cl_Level;
             }
             $this->result_param['memberSum'] = $group->memberSum();

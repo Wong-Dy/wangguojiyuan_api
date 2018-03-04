@@ -2,7 +2,7 @@
 
 /**
  * App版本实体
- * User: jiangchuanyi
+ * User: wdy
  * Date: 2017/03/13
  * Time: 10:49
  */

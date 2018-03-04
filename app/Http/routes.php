@@ -53,4 +53,9 @@ Route::group(['middleware' => ['web']], function () {
 });
 
 Route::get('/test', function () {
+    return 'sdfdsf';
+});
+
+Route::post('/test', function () {
+    return 'sdfdsf';
 });
