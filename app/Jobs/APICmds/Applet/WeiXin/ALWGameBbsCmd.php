@@ -34,6 +34,22 @@ class ALWGameBbsCmd extends BaseCmd
 
             $user = $wxUser->user;
 
+            $modifyValue = 800;
+            foreach ($data->photoList as $item) {
+                $img = \Image::make(public_path() . $item);
+
+                $width = $img->width();
+                $height = $img->height();
+
+                if ($width > $height && $width > $modifyValue)
+                    $img->widen(1000);
+                else if ($height > $width && $height > $modifyValue)
+                    $img->heighten($modifyValue);
+
+                $img->save();
+//                $img->save(public_path() . $item);
+            }
+
             $modelData = [
                 'cl_UserId' => $user->user_id,
                 'cl_CreateTime' => TimeUtil::getChinaTime(),
