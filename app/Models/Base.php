@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * 基础实体类
  * User: Administrator
@@ -18,11 +18,6 @@ class Base extends Eloquent
     public $incrementing = false;
     protected $primaryKey = "cl_Id";
     protected $guarded = [];
-
-//    public function scopeValid($query)
-//    {
-//        return $query->where('cl_Status', 1);
-//    }
 
     public function scopePage($query,$index)
     {

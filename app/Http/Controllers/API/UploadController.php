@@ -98,7 +98,8 @@ class UploadController extends Controller {
             Tool::writeLog($e, __FUNCTION__, $this->logPath);
             $this->result = JReturn::error(JErrorCode::EXCEPTION_ERROR, $this->exError);
         }
+
+        Tool::writeLog($this->result);
         return $this->result;
     }
-
 }
