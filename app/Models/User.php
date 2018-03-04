@@ -33,10 +33,14 @@ class User extends Base
 
     public function getHeadImg()
     {
-        return empty($this->headimg) ? '' : CUSTOM_API_APP_HOST . $this->headimg;
+        $ret = empty($this->headimg) ? '' : CUSTOM_API_HTTPS_HOST . $this->headimg;
+        if (empty($ret))
+            $ret = $this->wxuser->headimgurl;
+        return $ret;
     }
 
-    public function getGameName(){
+    public function getGameName()
+    {
         $gameinfo = $this->gameinfo;
         return null == $gameinfo ? '' : $gameinfo->cl_NickName;
     }

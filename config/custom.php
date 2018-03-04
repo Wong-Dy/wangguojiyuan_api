@@ -15,7 +15,8 @@ define('CUSTOM_SITE_HOST', CUSTOM_HTTPS_SITE_HOST);    //线上
 
 //接口地址
 define('CUSTOM_API_HOST', 'https://ww1.isaihu.com'); //线上
-define('CUSTOM_API_APP_HOST', 'https://ww1.isaihu.com');   //线上
+//define('CUSTOM_API_HTTPS_HOST', 'https://ww1.isaihu.com');   //线上
+define('CUSTOM_API_HTTPS_HOST', 'http://192.168.2.102:8301');   //线下
 
 
 define('CUSTOM_USER_NOTICE_MSG_PRICE_LIST_DEFINE', 'userNoticeMsgPriceList');

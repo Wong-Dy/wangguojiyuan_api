@@ -66,13 +66,12 @@ class UploadController extends Controller {
 
     public function postWxGamebbsImg()
     {
-        $this->size = 10485760;
+        $this->size = 5485760;  //5M
         $field = $this->field;
-        $path = "/uploads/wx/goods/" . TimeUtil::getChinaTime('Ymd') . '/';
+        $path = "/uploads/wx/game/bbs/" . TimeUtil::getChinaTime('Ymd') . '/';
         $absolutePath = public_path() . $path;
 
         $request = $this->request;
-
         try {
             if ($request::hasFile($field)) {
                 $pic = $request::file($field);
@@ -87,7 +86,7 @@ class UploadController extends Controller {
 
                     $param['Path'] = $path . $newName;
                     $param['Url'] = CUSTOM_API_HOST . $path . $newName;
-                    $param['Size'] = sprintf('%.2f', $pic->getClientSize() / 1024 / 1024);
+                    $param['Size'] = sprintf('%.2f', $pic->getClientSize() / 1024 / 1024);  //MB
                     $this->result = JReturn::result(JErrorCode::SUCCESS, $param);
 
                 } else {
@@ -98,8 +97,6 @@ class UploadController extends Controller {
             Tool::writeLog($e, __FUNCTION__, $this->logPath);
             $this->result = JReturn::error(JErrorCode::EXCEPTION_ERROR, $this->exError);
         }
-
-        Tool::writeLog($this->result);
         return $this->result;
     }
 }

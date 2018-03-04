@@ -13,3 +13,4 @@ yarn-error.log
 .env.online
 /public/logs
 /public/uploads
+/storage

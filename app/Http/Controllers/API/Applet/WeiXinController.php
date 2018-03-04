@@ -267,9 +267,13 @@ class WeiXinController extends Controller
                     $strRet = $cmd->leaveGroup();
                     break;
 
-                case 'addGameBbs': //离开联盟
+                case 'addGameBbs': //发布游戏圈
                     $cmd = new ALWGameBbsCmd($jsonData);
                     $strRet = $cmd->addGameBbs();
+                    break;
+                case 'getGameBbs': //获取游戏圈
+                    $cmd = new ALWGameBbsCmd($jsonData);
+                    $strRet = $cmd->getGameBbs();
                     break;
 
 

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * 基础实体类
  * User: Administrator
