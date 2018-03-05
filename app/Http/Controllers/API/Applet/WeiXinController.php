@@ -275,6 +275,14 @@ class WeiXinController extends Controller
                     $cmd = new ALWGameBbsCmd($jsonData);
                     $strRet = $cmd->getGameBbs();
                     break;
+                case 'getGameBbsDetail': //获取游戏圈详情
+                    $cmd = new ALWGameBbsCmd($jsonData);
+                    $strRet = $cmd->getGameBbsDetail();
+                    break;
+                case 'likeGameBbs': //游戏圈点赞
+                    $cmd = new ALWGameBbsCmd($jsonData);
+                    $strRet = $cmd->likeGameBbs();
+                    break;
 
 
                 default:

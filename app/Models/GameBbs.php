@@ -28,6 +28,16 @@ class GameBbs extends Base
         return $this->hasMany('App\Models\GameBbsComment', 'cl_BbsId', 'cl_Id');
     }
 
+    public function like()
+    {
+        return $this->hasMany('App\Models\GameBbsLike', 'cl_BbsId', 'cl_Id');
+    }
+
+    public function isLike($userId)
+    {
+        return $this->like()->where('cl_UserId', $userId)->count() > 0 ? 1 : 0;
+    }
+
     public function scopeOrderType($q, $orderType = 0)
     {
         if ($orderType == 1) //热度排序
@@ -51,4 +61,16 @@ class GameBbs extends Base
         return $list;
     }
 
+    public function getThumbArr($isUrl = 1)
+    {
+        $list = explode(',', $this->cl_Thumbs);
+        if ($isUrl) {
+            $urlList = [];
+            foreach ($list as $item) {
+                $urlList [] = CUSTOM_API_HTTPS_HOST . $item;
+            }
+            return $urlList;
+        }
+        return $list;
+    }
 }
