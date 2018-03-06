@@ -10,9 +10,11 @@ namespace App\Jobs\APICmds\Applet\WeiXin;
 
 use App\JsonParse\JErrorCode;
 use App\Models\GameBbs;
+use App\Models\GameBbsComment;
 use App\Models\GameBbsLike;
 use App\Models\WXUser;
 use App\Util\TimeUtil;
+use App\Util\Tool;
 
 class ALWGameBbsCmd extends BaseCmd
 {
@@ -145,6 +147,79 @@ class ALWGameBbsCmd extends BaseCmd
             ];
 
             GameBbsLike::create($modelData);
+
+            return $this->success();
+        } catch (\Exception $e) {
+            return $this->exception($e);
+        }
+    }
+
+    public function getGameBbsComment()
+    {
+        $data = $this->jsonData;
+        try {
+            if (!isset($data->pageIndex) || !isset($data->pageSize) || !isset($data->bbsId))
+                return $this->error(JErrorCode::LACK_PARAM_ERROR);
+
+            $wxUser = WXUser::where('cl_OpenId', $data->m_openId)->first();
+            if (empty($wxUser))
+                return $this->error(JErrorCode::WX_USER_INFO_NOT_FOUND_ERROR);
+
+            $user = $wxUser->user;
+
+            $dataList = GameBbsComment::with('user')->valid()->where('cl_BbsId', $data->bbsId)->orderby('cl_CreateTime', 'desc')->page($data->pageIndex)->paginate($data->pageSize);
+            foreach ($dataList as $item) {
+                $touser = $item->touser;
+                $this->result_list[] = [
+                    'content' => $item->cl_Content,
+                    'bbsId' => $item->cl_BbsId,
+                    'userId' => $item->cl_UserId,
+                    'userName' => $item->user->alias,
+                    'userHead' => $item->user->getHeadImg(),
+                    'toUserId' => $item->cl_ToUserId,
+                    'toUserName' => null == $touser ? '' : $touser->alias,
+                    'type' => $item->cl_Type,
+                    'time' => $item->cl_CreateTime,
+                ];
+
+            }
+            $this->result_param['total'] = $dataList->total();
+            return $this->result();
+        } catch (\Exception $e) {
+            return $this->exception($e);
+        }
+    }
+
+    public function commentGameBbs()
+    {
+        $data = $this->jsonData;
+        try {
+            if (!isset($data->bbsId) || !isset($data->content) || !isset($data->type))
+                return $this->error(JErrorCode::LACK_PARAM_ERROR);
+
+            if ($data->type == 1 && (!isset($data->pid) || !isset($data->toUserId)))
+                return $this->error(JErrorCode::LACK_PARAM_ERROR);
+
+            $wxUser = WXUser::where('cl_OpenId', $data->m_openId)->first();
+            if (empty($wxUser))
+                return $this->error(JErrorCode::WX_USER_INFO_NOT_FOUND_ERROR);
+
+            $user = $wxUser->user;
+
+            $bbs = GameBbs::find($data->bbsId);
+            $bbs->increment('cl_Comment');
+
+            $modelData = [
+                'cl_BbsId' => $bbs->cl_Id,
+                'cl_UserId' => $user->user_id,
+                'cl_PId' => isset($data->pid) ? $data->pid : 0,
+                'cl_Content' => $user->user_id,
+                'cl_ToUserId' => isset($data->toUserId) ? $data->toUserId : 0,
+                'cl_Type' => $data->type,    //0发表,1回复
+                'cl_CreateTime' => TimeUtil::getChinaTime()
+            ];
+
+            GameBbsComment::create($modelData);
 
             return $this->success();
         } catch (\Exception $e) {

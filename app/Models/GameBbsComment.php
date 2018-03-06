@@ -23,4 +23,14 @@ class GameBbsComment extends Base
         return $this->hasOne('App\Models\GameBbs', 'cl_Id', 'cl_BbsId');
     }
 
+    public function user()
+    {
+        return $this->hasOne('App\Models\User', 'user_id', 'cl_UserId');
+    }
+
+    public function touser()
+    {
+        return $this->hasOne('App\Models\User', 'user_id', 'cl_ToUserId');
+    }
+
 }
