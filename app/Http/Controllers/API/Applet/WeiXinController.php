@@ -291,6 +291,10 @@ class WeiXinController extends Controller
                     $cmd = new ALWGameBbsCmd($jsonData);
                     $strRet = $cmd->getGameBbsComment();
                     break;
+                case 'deleteGameBbsComment': //删除游戏圈评论
+                    $cmd = new ALWGameBbsCmd($jsonData);
+                    $strRet = $cmd->deleteGameBbsComment();
+                    break;
 
 
                 default:

@@ -167,20 +167,9 @@ class ALWGameBbsCmd extends BaseCmd
 
             $user = $wxUser->user;
 
-            $dataList = GameBbsComment::with('user')->valid()->where('cl_BbsId', $data->bbsId)->orderby('cl_CreateTime', 'desc')->page($data->pageIndex)->paginate($data->pageSize);
+            $dataList = GameBbsComment::with('user')->valid()->where('cl_BbsId', $data->bbsId)->orderby('cl_CreateTime', 'asc')->page($data->pageIndex)->paginate($data->pageSize);
             foreach ($dataList as $item) {
-                $touser = $item->touser;
-                $this->result_list[] = [
-                    'content' => $item->cl_Content,
-                    'bbsId' => $item->cl_BbsId,
-                    'userId' => $item->cl_UserId,
-                    'userName' => $item->user->alias,
-                    'userHead' => $item->user->getHeadImg(),
-                    'toUserId' => $item->cl_ToUserId,
-                    'toUserName' => null == $touser ? '' : $touser->alias,
-                    'type' => $item->cl_Type,
-                    'time' => $item->cl_CreateTime,
-                ];
+                $this->result_list[] = $this->setGameBbsCommentInfo($item);
 
             }
             $this->result_param['total'] = $dataList->total();
@@ -190,6 +179,7 @@ class ALWGameBbsCmd extends BaseCmd
         }
     }
 
+
     public function commentGameBbs()
     {
         $data = $this->jsonData;
@@ -197,7 +187,7 @@ class ALWGameBbsCmd extends BaseCmd
             if (!isset($data->bbsId) || !isset($data->content) || !isset($data->type))
                 return $this->error(JErrorCode::LACK_PARAM_ERROR);
 
-            if ($data->type == 1 && (!isset($data->pid) || !isset($data->toUserId)))
+            if ($data->type == 1 && (!isset($data->pid)))
                 return $this->error(JErrorCode::LACK_PARAM_ERROR);
 
             $wxUser = WXUser::where('cl_OpenId', $data->m_openId)->first();
@@ -209,23 +199,67 @@ class ALWGameBbsCmd extends BaseCmd
             $bbs = GameBbs::find($data->bbsId);
             $bbs->increment('cl_Comment');
 
+            if (isset($data->pid) && $data->type == 1) {
+                $parentComment = GameBbsComment::find($data->pid);
+            }
+
             $modelData = [
                 'cl_BbsId' => $bbs->cl_Id,
                 'cl_UserId' => $user->user_id,
-                'cl_PId' => isset($data->pid) ? $data->pid : 0,
-                'cl_Content' => $user->user_id,
-                'cl_ToUserId' => isset($data->toUserId) ? $data->toUserId : 0,
+                'cl_PId' => isset($parentComment) ? $parentComment->cl_Id : 0,
+                'cl_Content' => $data->content,
+                'cl_ToUserId' => isset($parentComment) ? $parentComment->cl_UserId : 0,
                 'cl_Type' => $data->type,    //0发表,1回复
                 'cl_CreateTime' => TimeUtil::getChinaTime()
             ];
 
-            GameBbsComment::create($modelData);
+            $retId = GameBbsComment::insertGetId($modelData);
+            if (empty($retId))
+                return $this->errori('评论失败，请稍候重试');
 
-            return $this->success();
+            $this->result_param['commentSum'] = GameBbsComment::valid()->where('cl_BbsId', $bbs->cl_Id)->count();
+            $this->result_param['commentItem'] = $this->setGameBbsCommentInfo(GameBbsComment::find($retId));
+
+
+            return $this->result();
         } catch (\Exception $e) {
             return $this->exception($e);
         }
     }
+
+    public function deleteGameBbsComment()
+    {
+        $data = $this->jsonData;
+        try {
+            if (!isset($data->commentId))
+                return $this->error(JErrorCode::LACK_PARAM_ERROR);
+
+            $wxUser = WXUser::where('cl_OpenId', $data->m_openId)->first();
+            if (empty($wxUser))
+                return $this->error(JErrorCode::WX_USER_INFO_NOT_FOUND_ERROR);
+
+            $user = $wxUser->user;
+
+
+            $comment = GameBbsComment::find($data->commentId);
+            if (empty($comment))
+                return $this->error(JErrorCode::CUSTOM_SELECT_NOT_FOUND);
+
+            if ($comment->cl_UserId != $user->user_id)
+                return $this->errori('只能删除自己的评论');
+
+            $bbs = GameBbs::find($comment->cl_BbsId);
+
+            $bbs->decrement('cl_Comment');
+            $comment->delete();
+
+            $this->result_param['commentSum'] = GameBbsComment::valid()->where('cl_BbsId', $bbs->cl_Id)->count();
+            return $this->result();
+        } catch (\Exception $e) {
+            return $this->exception($e);
+        }
+    }
+
 
     private function setGameBbsInfo($item, $iUserId, $type = 1)
     {
@@ -241,6 +275,27 @@ class ALWGameBbsCmd extends BaseCmd
         $result_param['photos'] = $item->getPhotoArr();
         $result_param['thumbs'] = $item->getThumbArr();
         $result_param['isLike'] = $item->isLike($iUserId);
+
+        if ($type == 1)
+            return json_decode(json_encode($result_param));
+        return $result_param;
+    }
+
+    private function setGameBbsCommentInfo($item, $type = 0)
+    {
+        $touser = $item->touser;
+        $result_param = [
+            'id' => $item->cl_Id,
+            'content' => $item->cl_Content,
+            'bbsId' => $item->cl_BbsId,
+            'userId' => $item->cl_UserId,
+            'userName' => $item->user->alias,
+            'userHead' => $item->user->getHeadImg(),
+            'toUserId' => $item->cl_ToUserId,
+            'toUserName' => null == $touser ? '' : $touser->alias,
+            'type' => $item->cl_Type,
+            'time' => $item->cl_CreateTime,
+        ];
 
         if ($type == 1)
             return json_decode(json_encode($result_param));
