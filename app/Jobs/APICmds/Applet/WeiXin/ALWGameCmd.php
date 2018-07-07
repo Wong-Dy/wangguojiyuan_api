@@ -437,11 +437,11 @@ class ALWGameCmd extends BaseCmd
 
             $groupMember = GameGroupMember::valid()->where('cl_UserId', $user->user_id)->first();
             if (empty($groupMember))
-                return $this->error(JErrorCode::CUSTOM_SELECT_NOT_FOUND);
+                return $this->errori('您已不是当前联盟成员');
 
             $toUserGroupMember = GameGroupMember::valid()->where('cl_UserId', $data->toUserId)->first();
             if (empty($toUserGroupMember))
-                return $this->error(JErrorCode::CUSTOM_SELECT_NOT_FOUND);
+                return $this->errori('该用户已不是当前联盟成员');
 
             if ($groupMember->cl_GroupId != $toUserGroupMember->cl_GroupId)
                 return $this->errori('非正常操作，同一个联盟下才可以通知');
@@ -464,7 +464,10 @@ class ALWGameCmd extends BaseCmd
             $msgPrice = $msgPriceList[1];
             $toUser = User::find($data->toUserId);
             if (empty($toUser))
-                return $this->error(JErrorCode::CUSTOM_SELECT_NOT_FOUND);
+                return $this->errori('未找到通知用户');
+
+            if(empty($toUser->mobile_phone))
+                return $this->errori('盟友手机号码未设置');
 
             $extCode = 0;
             if ($toUser->user_money < $msgPrice && $user->user_money < $msgPrice)

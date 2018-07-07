@@ -63,7 +63,8 @@ class WXUser extends Base
                     $userData['real_name'] = $userThirdpartyArr['nick_name'];
                     $userData['mobile_phone'] = '';
                     $userData['headimg'] = "";
-                    $userData['reg_time'] = strtotime(TimeUtil::getChinaTime());
+                    $userData['reg_time'] = time();
+                    $userData['last_time'] = TimeUtil::getChinaTime();
                     $userData['froms'] = 'wxin_xcx';
                     $userId = User::insertGetId($userData);
 
@@ -73,7 +74,8 @@ class WXUser extends Base
                     $UserInfo['nickname'] = $userThirdpartyArr['nick_name'];
                     $UserInfo['sex'] = $userThirdpartyArr['gender'];
                     $UserInfo['country'] = $userThirdpartyArr['country'];
-                    $UserInfo['createtime'] = strtotime(TimeUtil::getChinaTime());
+                    $UserInfo['createtime'] = time();
+                    $UserInfo['createymd'] = TimeUtil::getChinaTime('Y-m-d');
                     $UserInfo['province'] = $userThirdpartyArr['province'];
                     $UserInfo['city'] = $userThirdpartyArr['city'];
                     $UserInfo['headimgurl'] = $userThirdpartyArr['avatar'];
