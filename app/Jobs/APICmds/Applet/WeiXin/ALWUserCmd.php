@@ -66,13 +66,13 @@ class ALWUserCmd extends BaseCmd
                 }
                 $ret = WXUser::bindWxXcxUser($wxUserData->openId, $wxUserInfoArr, $resultData);
                 $userId = $resultData['userId'];
-				
-				$msgPriceList = configCustom(CUSTOM_USER_NOTICE_MSG_PRICE_LIST_DEFINE);
+
+                $msgPriceList = configCustom(CUSTOM_USER_NOTICE_MSG_PRICE_LIST_DEFINE);
                 if ($userId < 100) {
                     $amount = $msgPriceList[0] * 5;
                     User::find($userId)->increment('user_money', $amount); //赠送5条开盾通知
                     UserAccount::recharge($userId, $amount, '首次登录赠送', 1);
-                }else if ($userId > 100 && $userId < 1000) {
+                } else if ($userId > 100 && $userId < 1000) {
                     $amount = $msgPriceList[0] * 1;
                     User::find($userId)->increment('user_money', $amount); //赠送1条开盾通知
                     UserAccount::recharge($userId, $amount, '首次登录赠送', 1);
@@ -207,10 +207,23 @@ class ALWUserCmd extends BaseCmd
                 if (!empty($phoneWxUser) && $phoneWxUser->uid == $wxUserInfo->uid)
                     return $this->success();
 
-                //查询手机号码是否被使用
-                if (!empty($phoneWxUser) && $phoneWxUser->uid != $wxUserInfo->uid)
-                    return $this->error(JErrorCode::CUSTOM_USER_PHONE_IS_REGISTER);
 
+                //查询手机号码是否被使用
+                if (!empty($phoneWxUser) && $phoneWxUser->uid != $wxUserInfo->uid){
+                    //切换绑定手机号
+                    $phoneUser->mobile_phone = '';
+                    $phoneUser->save();
+
+                    $user = $wxUserInfo->user;
+                    $user->mobile_phone = $data->phone;
+                    if (!$user->save())
+                        return $this->error(JErrorCode::OTHER_ERROR, '绑定手机失败，请重试');
+
+                    return $this->success();
+                }
+//                    return $this->error(JErrorCode::CUSTOM_USER_PHONE_IS_REGISTER);
+
+                //切换微信绑定
                 $wxUserInfo->ecuid = $phoneUser->user_id;
                 if (!$wxUserInfo->save())
                     return $this->error(JErrorCode::OTHER_ERROR, '绑定手机失败，请重试');
